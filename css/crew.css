@@ -1,0 +1,90 @@
+/* ---------------------------------------------
+GENERAL
+--------------------------------------------- */
+
+@import "general.css";
+@import "profiles.css";
+
+/* * { border: 1px solid #f00; } */
+
+
+
+/* ---------------------------------------------
+PAGE: PORTFOLIOS
+--------------------------------------------- */
+
+#raffle img {
+	position: absolute;
+	top: 55%;
+	left: 12%;
+	width: 17%;
+}
+
+#TOPICS {
+	text-align: center;
+}
+
+	.teamRow {
+		margin: 0 auto;
+		overflow: auto;
+		width: 74%;
+	}
+
+.profileName2 {
+	color: #c5c5c5;
+	float: right;
+	font-family: "profileName", sans-serif;
+	font-size: 1em;
+	padding-right: 0.5em;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+	.profileName2:hover {
+		color: #ff3399;
+		font-weight: bold;
+	}
+
+.blurb {
+	clear: right;
+	float: right;
+	font-size: 0.825em;
+	margin-top: -0.5em;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 60%;
+}
+
+#CONTACT {
+	box-shadow: 0px -20px 3px -20px #595959;
+	min-height: 15em;
+}
+
+	/* Styling the "Book an Appointment" Button */
+	.btn-appt {
+		background-color: #e40074;
+		border: 0.1em solid #c5c5c5;
+		border-radius: 50%;
+		color: #ddd;
+		font-family: "Dancing Script", serif;
+		font-size: 1.2em;
+		height: 2.5em;
+		width: 9.25em;
+	}
+
+		.btn-appt:hover {
+			background-color: #67ccea;
+			border-color: #fffe9c;
+			color: #1a1a1a;
+			font-weight: bold;
+		}
+
+#INFO {
+	box-shadow: 0px -20px 3px -20px #595959;
+}
+
+#TOPICS, #PROFILES, #CONTACT, #INFO {
+		color: #fff;
+		font-size: 1.2em;
+		padding: 0.1em 0.6em;
+	}

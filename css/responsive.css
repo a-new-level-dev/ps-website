@@ -1,0 +1,78 @@
+/* ---------------------------------------------
+RESPONSIVE: GENERAL
+--------------------------------------------- */
+
+/* Breakpoint for Smart Phones */
+@media screen and (max-width: 1000px) {
+	/* GENERAL (general.css) ADJUSTMENTS */
+	#container {width: 100%;}
+	#logo img {
+		margin-left: -7em;
+		margin-top: 0;
+		width: 250%;
+	}
+	#marquee p {font-size: 1.55em;}
+	#socialBadges {display: none;}
+	#topNav {
+		font-size: 1.25em;
+		transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,1.5); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+		letter-spacing: 0.05em;
+	}
+	#stickerTop {margin-top: -8.15em;}
+	#stickerBtm {margin-top: -12.8em;}
+	#content-L {
+		clear: right;
+		width: 100%;
+			max-width: 100%;
+	}
+	#content-R {
+		float: left;
+		width: 100%;
+			max-width: 100%;
+	}
+	#content h1 {font-size: 2.75em;}
+	#Setmore_button_iframe img {display: none;}
+	address, .phone, #INFO p {font-size: 1.5em;}
+	#btmNav {font-size: 1.5em;}
+	#legal {
+		font-size: 1.6em;
+		padding-bottom: 0.5em;
+	}
+	
+	/* HOME PAGE (home.css) ADJUSTMENTS */
+	#TOPICS p {font-size: 1.5em;}
+	#PROFILES {text-align: center;}
+		#heather {
+			height: 350px;
+			width: 350px;
+		}
+		.profileName {
+			font-size: 2.3em;
+			right: 24.5%;
+			margin-top: 6.3em;
+		}
+	#raffle img {
+		display: initial;
+		left: 0;
+		position: relative;
+		width: 50%;
+	}
+
+	/* BOOKING PAGE (booking.css) ADJUSTMENTS */	
+	#COLUMN div:first-of-type {text-align: center;}
+	
+	#COLUMN div iframe {
+		width: 88%;
+	}
+	
+	#COLUMN div {font-size: 1.4em;}
+}
+
+/* Breakpoint for Tablets */
+@media screen and (min-width: 660px) {
+	/* HOME PAGE ADJUSTMENTS */
+}
