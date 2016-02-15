@@ -2,6 +2,7 @@
 GENERAL
 --------------------------------------------- */
 
+/* This outlines everyting to see where the pieces are at */
 /* * { border: 1px solid #f00; } */
 
 
@@ -15,7 +16,7 @@ ALL PROFILES ACROSS THE SITE
 	font-size: 1.2em;
 }
 
-	#heather, #heather2, #shane, #britney, #mark, #crayone, #sean {
+	#heather, #heather2, #gabriel, #britney, #mark, #crayone, #sean {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -40,8 +41,8 @@ ALL PROFILES ACROSS THE SITE
 			background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-heather.jpg");
 		}
 
-	#shane {
-		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-shane.jpg");
+	#gabriel {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-gabe.jpg");
 		display: inline-block;
 		margin: 0.36em 0 0.36em 0.38em;
 	}
@@ -63,7 +64,7 @@ ALL PROFILES ACROSS THE SITE
 		background-position: top;
 	}
 
-		#heather:hover, #heather2:hover, #shane:hover, #britney:hover, #mark:hover, #crayone:hover, #sean:hover {
+		#heather:hover, #heather2:hover, #gabriel:hover, #britney:hover, #mark:hover, #crayone:hover, #sean:hover {
 			border-color: #ff3399;
 		}
 
@@ -99,7 +100,7 @@ ALL PROFILES ACROSS THE SITE
 	.title {
 		color: #c5c5c5;
 		font-family: "script", serif;
-		font-size: 1.1em;
+		font-size: 1.25em;
 	}
 
 #EVENTS {

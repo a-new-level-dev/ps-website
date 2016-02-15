@@ -33,23 +33,19 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<!-- CSS Links -->
+	<!-- STYLE LINKS -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/booking.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-	<!-- JavaScript Links -->
-	<script src="js/general.js" charset=""></script>
-
 </HEAD>
 
 <!-- ********************************************* BODY: START ********************************************** -->
-
 <BODY>
 
-	<!-- ********************************************* SECTION: HEADER ********************************************** -->
 	<section id="marquee" class="stroke-pnk"><a href=""><p>THE PAINTED SIREN</p> </a> </section>
 	<section id="container" class="center">
+		<!-- ********************************************* SECTION: HEADER ********************************************** -->
 		<header>
 			<div id="logo"><img src="media-pix/logos/logo-siren-solidLines-traced3.png" alt="The Painted Siren Logo" /> </div>
 			<section id="banner">
@@ -65,13 +61,13 @@
 			</section>
 			<section id="topNav-wrapper">
 				<nav id="topNav">
-					<div id="topNav-portfolios"><a href="crew/heather.html" class="ctrVert">portfolios</a> </div>
+					<div id="topNav-portfolios"><a href="crew/heather.html" class="ctrVert">portfolio</a> </div>
 					<div id="topNav-flash"><a href="flash.html" class="ctrVert">flash</a> </div>
-					<div id="topNav-booking" class="SELECTED"><section class="ctrVert">booking</section> </div>
+					<div id="topNav-booking" class="SELECTED"><a href="booking.html" class="ctrVert">booking</a> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna"><a href="henna.html" class="ctrVert">henna</a> </div>
-					<div id="topNav-healing"><a href="healing.html" class="ctrVert">healing</a> </div>
-					<div id="topNav-buyStuff"><a href="buyStuff.html" class="ctrVert">buy stuff</a> </div> </nav>
+					<div id="topNav-jewelry"><a href="jewelry.html" class="ctrVert">jewelry</a> </div>
+					<div id="topNav-healing"><a href="healing.html" class="ctrVert">healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href=""><img src="media-pix/backgrounds/sticker/sticker-v3.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -100,6 +96,14 @@
 						<p class="announcement">It is illegal in the state of California to tattoo anyone under the age of 18</p>
 						<p class="announcement">No Exceptions!!!!!!!!</p>
 						<p>For the safety of you and your artist, please answer the following questions honestly and to the best of your knowledge.</p>
+							<ul class="release">
+								<li>Have you tested positive for HIV/AIDS?</li>
+								<li>Have you tested positive for Hepatitis?</li>
+								<li>Have you ever had heart problems?</li>
+								<li>Do you have diabetes?</li>
+								<li>Are you pregnant or nursing?</li>
+								<li>Do you have any other pre-existing medical conditions?</li>
+							</ul>
 					</div>
 				</article>
 			</section>
@@ -112,10 +116,12 @@
 					<p>stuff and things</p> </aside>
 			</section> -->
 			<!-- Book Now sidebar tab -->
-			<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+			<div id="sidebar">
+				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
-					<img border="none" src="media-pix/icons/Setmore-Book-Now-Pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
+					<img border="none" src="media-pix/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
 				</a>
+			</div>
 		</section>
 		
 		<!-- ********************************************* SECTION: FOOTER ********************************************** -->
@@ -126,21 +132,25 @@
 						<li>|</li>
 					<!-- <li id="btmNav-about" class="btmNavLink"><a href="events.html">Events</a> </li>
 						<li>|</li> -->
-					<!-- <li id="btmNav-news" class="btmNavLink">news</li>
-						<li>|</li> -->
 					<li id="btmNav-booking" class="btmNavLink"><a href="booking.html">Booking</a> </li>
-						<!-- <li>|</li>
-					<li id="btmNav-contact" class="btmNavLink">contact</li>
 						<li>|</li>
-					<li id="btmNav-legal" class="btmNavLink">legal</li> -->
+					<li id="btmNav-store"><a href="store.html" class="btmNavLink">Store</a> </li>
+						<!-- <li>|</li>
+					<li id="btmNav-contact" class="btmNavLink">Contact</li> -->
+						<!-- <li>|</li>
+					<li id="btmNav-legal" class="btmNavLink">Legal</li> -->
 				</ul>
 			</nav>
 			<section id="legal">
-				<span>The Painted Siren &copy; 2015</span> <br/>
+				<span>The Painted Siren &copy; <span id="copyright"></span> </span> <br/>
 				<span id="ANL">Web Design by <a href="http://anewlevelmedia.com/" alt="A New Level Media">A New Level Media</a> </span>
 			</section>
 		</footer>
 	</section>
+
+	<!-- SCRIPT LINKS -->
+	<script src="js/general.js" charset=""></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 </BODY>
 

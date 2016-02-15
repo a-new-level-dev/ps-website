@@ -36,20 +36,24 @@
 	<!-- CSS Links -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/henna.css">
+		<link rel="stylesheet" href="css/lightbox.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-	<!-- JavaScript Links -->
-	<script src="js/general.js" charset=""></script>
+	<!-- This needs to go into the FAQ page & CSS file -->
+	<!-- <style>
+		#faq ol { list-style: none; }
+		#faq li:nth-child(2n+1):before { content: "Q: "; }
+		#faq li:nth-child(2n+2):before { content: "A: "; }
+	</style> -->
 
 </HEAD>
 
 <!-- ********************************************* BODY: START ********************************************** -->
-
 <BODY>
 
-	<!-- ********************************************* SECTION: HEADER ********************************************** -->
 	<section id="marquee" class="stroke-pnk"><a href=""><p>THE PAINTED SIREN</p> </a> </section>
 	<section id="container" class="center">
+		<!-- ********************************************* SECTION: HEADER ********************************************** -->
 		<header>
 			<div id="logo"><img src="media-pix/logos/logo-siren-solidLines-traced3.png" alt="The Painted Siren Logo" /> </div>
 			<section id="banner">
@@ -65,13 +69,13 @@
 			</section>
 			<section id="topNav-wrapper">
 				<nav id="topNav">
-					<div id="topNav-portfolios"><a href="crew/heather.html" class="ctrVert">portfolios</a> </div>
+					<div id="topNav-portfolios"><a href="crew/heather.html" class="ctrVert">portfolio</a> </div>
 					<div id="topNav-flash"><a href="flash.html" class="ctrVert">flash</a> </div>
 					<div id="topNav-booking"><a href="booking.html" class="ctrVert">booking</a> </div>
 						<div id="ghost"></div>
-					<div id="topNav-henna" class="SELECTED"><section class="ctrVert">henna</section> </div>
-					<div id="topNav-healing"><a href="healing.html" class="ctrVert">healing</a> </div>
-					<div id="topNav-buyStuff"><a href="buyStuff.html" class="ctrVert">buy stuff</a> </div> </nav>
+					<div id="topNav-henna" class="SELECTED"><a href="henna.html" class="ctrVert">henna</a> </div>
+					<div id="topNav-jewelry"><a href="jewelry.html" class="ctrVert">jewelry</a> </div>
+					<div id="topNav-healing"><a href="healing.html" class="ctrVert">healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href=""><img src="media-pix/backgrounds/sticker/sticker-v3.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -82,28 +86,48 @@
 		<!-- ********************************************* SECTION: CONTENT ********************************************** -->
 		<section id="content">
 			<section id="content-L">
-				<div id="raffle">
+				<!-- <div id="raffle">
 					<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 					<a id="Setmore_button_iframe" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a"><img src="media-pix/raffle/raffle-ticket.png" title="Painted Siren Raffle" alt="Painted Siren Raffle"></a>
-				</div>
+				</div> -->
 				<article id="TOPICS">
 					<h1>Get Your Henna On</h1>
-						<p>The Painted Siren is excited to announce that we will soon be offering Henna Tattoos!!</p>
-						<p>Pricing &amp; booking availability to come!</p> </article>
+					<ul id="gallery">
+						<!-- Group #1 -->
+						<li><a href="media-pix/henna/henna-01.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
+						<li><a href="media-pix/henna/henna-02.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
+						<li><a href="media-pix/henna/henna-03.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
+						<li><a href="media-pix/henna/henna-04.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
+						<li><a href="media-pix/henna/henna-05.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
+
+						<!-- Group #2 -->
+						<li><a href="media-pix/henna/henna-06.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
+						<li><a href="media-pix/henna/henna-07.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
+						<li><a href="media-pix/henna/henna-08.jpg" class="lightboxTrigger"><img src="media-pix/henna/henna-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
+					</ul>
+				</article>
 			</section>
 			<section id="content-R">
 				<section id="PROFILES">
-					<h1>Helpful Items</h1>
-						<p>Coming Soon</p> </section>
+					<h1>About Henna</h1>
+						<p>"Henna (<a href="https://en.wikipedia.org/wiki/Henna">Lawsonia Inermis</a>) is a woody shrub that thrives in hot and arid climates. The henna plant produces extremely fragrant and delicate flowers, which have been used in perfumes since ancient times. The leaves of the henna plant are harvested, dried, and then ground into a fine powder. This lovely silken green powder is made into a paste using safe and natural ingredients. The paste is applied to the skin using a fine tipped applicator, and produces the familiar burgundy stains that have adorned the hands and feet of women for thousands of years." (source: <a href="http://heartfirehenna.com/about/what-is-henna.html">HeartfireHenna.com</a>)</p> </section>
 				<aside id="CONTACT">
-					<h1>Learn More</h1>
-						<p>Coming Soon</p> </aside>
+					<h1>Helpful Info</h1>
+						<ul id="henna-links">
+						 	<li><a href="http://www.fda.gov/cosmetics/productsingredients/products/ucm108569.htm">FDA Fact Sheet</a> </li>
+						 	<li><a href="http://www.britannica.com/plant/henna">Encyclop&aelig;dia Brittanica</a> </li>
+						 	<li><a href="http://www.tattooideashub.com/henna-tattoos/">"What You Need to Know About Henna Tattoos"</a> </li>
+						 	<li><a href="http://hairandskincaretips.blogspot.com/2013/01/all-you-need-to-know-about-henna.html">Hair &amp; Skin Care Tips: Henna</a> </li>
+						 </ul>
+					<!-- <p class="note">For more information visit our <a href="faq.html#henna">FAQ section</a> </p> --> </aside>
 			</section>
 			<!-- Book Now sidebar tab -->
-			<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
-				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
-					<img border="none" src="media-pix/icons/Setmore-Book-Now-Pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
+			<div id="sidebar">
+				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
+					<img border="none" src="media-pix/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
 				</a>
+			</div>
 		</section>
 		
 		<!-- ********************************************* SECTION: FOOTER ********************************************** -->
@@ -114,21 +138,28 @@
 						<li>|</li>
 					<!-- <li id="btmNav-about" class="btmNavLink"><a href="events.html">Events</a> </li>
 						<li>|</li> -->
-					<!-- <li id="btmNav-news" class="btmNavLink">news</li>
-						<li>|</li> -->
 					<li id="btmNav-booking" class="btmNavLink"><a href="booking.html">Booking</a> </li>
-						<!-- <li>|</li>
-					<li id="btmNav-contact" class="btmNavLink">contact</li>
 						<li>|</li>
-					<li id="btmNav-legal" class="btmNavLink">legal</li> -->
+					<li id="btmNav-store"><a href="store.html" class="btmNavLink">Store</a> </li>
+						<!-- <li>|</li>
+					<li id="btmNav-contact" class="btmNavLink">Contact</li> -->
+						<!-- <li>|</li>
+					<li id="btmNav-legal" class="btmNavLink">Legal</li> -->
 				</ul>
 			</nav>
 			<section id="legal">
-				<span>The Painted Siren &copy; 2015</span> <br/>
+				<span>The Painted Siren &copy; <span id="copyright"></span> </span> <br/>
 				<span id="ANL">Web Design by <a href="http://anewlevelmedia.com/" alt="A New Level Media">A New Level Media</a> </span>
 			</section>
 		</footer>
 	</section>
+
+	<!-- SCRIPT LINKS -->
+	<script src="js/general.js" charset=""></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+		<!-- Lightbox Script -->
+		<script src="js/lightbox.js"></script>
 
 </BODY>
 

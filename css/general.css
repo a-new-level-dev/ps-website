@@ -163,11 +163,11 @@ MAIN CONTAINER
 			topNav Individual Links
 			------------------------- */
 	
-			#topNav-portfolios {}
+			/*#topNav-portfolios {}*/ /* just in case */
 
-			#topNav-flash {}
+			/*#topNav-flash {}*/ /* just in case */
 
-			#topNav-henna {}
+			/*#topNav-henna {}*/ /* just in case */
 	
 			#ghost {
 				border-bottom: 0.1em solid #ccc;
@@ -177,11 +177,11 @@ MAIN CONTAINER
 				min-width: 15.5%;
 			}
 
-			#topNav-booking {}
+			/*#topNav-booking {}*/ /* just in case */
 
-			#topNav-healing {}
+			/*#topNav-jewelry {}*/ /* just in case */
 
-			#topNav-buyStuff {}
+			/*#topNav-healing {}*/ /* just in case */
 	
 		#stickerTop {
 			border-radius: 50%;
@@ -218,17 +218,48 @@ MAIN CONTAINER
 		width: 100%;
 	}
 		#content-L {
-			box-shadow: 20px 0px 3px -20px #595959;
 			float: left;
 			min-height: 1230px;
-			width: 64%;
-				max-width: 64%;
+			width: 64.8%;
+				max-width: 65%;
+			box-shadow: 20px 0px 2px -20px #595959;
 		}
+
+			#gallery li {
+				list-style: none;
+				float: left;
+				display: inline;
+				width: 31%;
+				margin-bottom: 0.5em;
+				padding: 0;
+/* 				border: 1px solid yellow; */
+			}
+
+				#gallery li img {
+					height: 7em;
+					width: 7em;
+				}
+
+				/* Aligning the Left column */
+				#gallery li:nth-child(3n+1) {
+					text-align: right;
+				}
+
+				/* Aligning the Middle column */
+				#gallery li:nth-child(3n+2) {
+					text-align: center;
+				}
+
+				/* Aligning the Right column */
+				#gallery li:nth-child(3n) {
+					text-align: left;
+				}
 	
 		#content-R {
 			float: right;
 			width: 35%;
 				max-width: 35%;
+			box-shadow: -20px 0px 1px -20px #595959;
 		}
 
 		#content h1 {
@@ -263,15 +294,17 @@ MAIN CONTAINER
 		btmNav Individual Links
 		--------------------------------------------- */
 
-		#btmNav-home {}
+		/*#btmNav-home {}*/ /* just in case */
 	
-		#btmNav-about {}
-	
-		#btmNav-contact {}
+		/*#btmNav-about {}*/ /* just in case */
 
-		#btmNav-legal {}
+		/*#btmNav-booking {}*/ /* just in case */
+
+		/*#btmNav-store {}*/ /* just in case */
 	
-		#btmNav-booking {}
+		/*#btmNav-contact {}*/ /* just in case */
+
+		/*#btmNav-legal {}*/ /* just in case */
 
 	#legal {
 		background-color: #595959;
@@ -288,7 +321,7 @@ MAIN CONTAINER
 
 
 /* ---------------------------------------------
-SOCIAL BADGES
+BADGES, BUTTONS & STICKERS
 --------------------------------------------- */
 
 #socialBadges {
@@ -327,6 +360,12 @@ SOCIAL BADGES
 		background-image: url("http://www.paintedsiren.com/media-pix/socialBadges/PNGs/socialBadge-yelp.png");
 	}
 
+	#sidebar #Setmore_button_iframe img {
+		-webkit-transform: scale(0.5) translateX(38px);
+		-moz-transform: scale(0.5) translateX(38px);
+		transform: scale(0.5) translateX(38px);
+	}
+
 
 
 /* ---------------------------------------------
@@ -336,6 +375,10 @@ DEFINE GENERAL {classes} HERE
 .btmNavLink {
 	font-style: italic;
 	text-transform: capitalize;
+}
+
+.btn {
+	color: #000;
 }
 
 .center {
@@ -353,12 +396,12 @@ DEFINE GENERAL {classes} HERE
 
 .ctrVert {
 	height: 100%;
-	display: -webkit-flex;
-		display: flex;
-	-webkit-align-items: center;
-		align-items: center;
-	-webkit-justify-content: center;
-		justify-content: center;
+	display: flex;
+		display: -webkit-flex;
+	align-items: center;
+		-webkit-align-items: center;
+	justify-content: center;
+		-webkit-justify-content: center;
 }
 
 .date {

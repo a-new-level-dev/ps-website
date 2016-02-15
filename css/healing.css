@@ -15,7 +15,7 @@ PAGE: HEALING
 
 #raffle img {
 	position: absolute;
-	top: 55%;
+	top: 51%;
 	left: 12%;
 	width: 17%;
 }
@@ -23,6 +23,12 @@ PAGE: HEALING
 #TOPICS {
 	padding: 0 1.2em;
 }
+
+	#TOPICS p strong {
+		font-size: 1.1em;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
 
 #CONTACT {
 	box-shadow: 0px -20px 3px -20px #595959;

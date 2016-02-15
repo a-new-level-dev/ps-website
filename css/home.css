@@ -17,15 +17,13 @@ PAGE: HOME
 	padding: 0 1.2em;
 }
 
-	.newsEntry {
-		padding: 1em;
-	}
+	.news-entry {}
 	
-	.newsImg {
-		border: 1px solid #595959;
-		border-radius: 10%;
-		width: 30%;
-	}
+		.news-img {
+			border: 1px solid #595959;
+			border-radius: 10%;
+			width: 50%;
+		}
 
 	#raffle img {
 		position: absolute;
@@ -33,10 +31,14 @@ PAGE: HOME
 		width: 17%;
 	}
 
-	#socialFeeds {
+	#social-feeds {
 		text-align: center;
 		width: 100%;
 	}
+
+#PROFILES, #CONTACT, #INFO, #GUESTBOOK {
+	padding: 0.1em 0.6em;
+}
 
 #CONTACT {
 	box-shadow: 0px -20px 3px -20px #595959;
@@ -61,6 +63,11 @@ PAGE: HOME
 			max-height: 400px;
 	}
 
-#PROFILES, #CONTACT, #INFO, #GUESTBOOK {
-	padding: 0.1em 0.6em;
+#GUESTBOOK div {
+	padding-left: 1em;
 }
+
+	#GUESTBOOK form input, #GUESTBOOK form textarea {
+		width: 80%;
+		color: #000;
+	}

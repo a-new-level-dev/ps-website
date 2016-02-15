@@ -25,7 +25,7 @@ PAGE: HEALING
 }
 
 	#setmore {
-		height: 810px;
+		height: 800px;
 		width: 100%;
 	}
 
@@ -46,3 +46,9 @@ PAGE: HEALING
 		text-align: center;
 		text-transform: uppercase;
 	}
+
+/* Setmore Sidebar Tab */
+
+#sidebar #Setmore_button_iframe img {
+	display: none;
+}
