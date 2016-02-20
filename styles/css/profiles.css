@@ -1,0 +1,127 @@
+/* ---------------------------------------------
+GENERAL
+--------------------------------------------- */
+
+/* This outlines everyting to see where the pieces are at */
+/* * { border: 1px solid #f00; } */
+
+
+
+/* ---------------------------------------------
+ALL PROFILES ACROSS THE SITE
+--------------------------------------------- */
+
+#PROFILES {
+	color: #c5c5c5;
+	font-size: 1.2em;
+}
+
+	#heather, #heather2, #gabriel, #britney, #mark, #crayone, #sean {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 3px solid #595959;
+		border-radius: 100%;
+		height: 175px;
+		width: 175px;
+	}
+
+		#heather2, #britney, #mark, #crayone, #sean {
+			float: left;
+			margin-bottom: 1em;
+		}
+	
+	#heather {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-heather.jpg");
+		display: inline-block;
+		margin: 0 0 0.75em 0.38em;
+	}
+
+		#heather2 {
+			background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-heather.jpg");
+		}
+
+	#gabriel {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-gabe.jpg");
+		display: inline-block;
+		margin: 0.36em 0 0.36em 0.38em;
+	}
+
+	#britney {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-britney.jpg");
+	}
+
+	#mark {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-mark.jpg");
+	}
+
+	#crayone {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-crayone.jpg");
+	}
+
+	#sean {
+		background-image: url("http://www.paintedsiren.com/media-pix/shop/ppl/bioPic-sean2.jpg");
+		background-position: top;
+	}
+
+		#heather:hover, #heather2:hover, #gabriel:hover, #britney:hover, #mark:hover, #crayone:hover, #sean:hover {
+			border-color: #ff3399;
+		}
+
+		.bioPic {
+		text-align: center;
+	}
+
+		.bioPic > img {
+			border-radius: 10px;
+			width: 80%;
+			-webkit-box-shadow: 4px 4px 15px 0px rgba(89, 89, 89, 0.6);
+			-moz-box-shadow:    4px 4px 15px 0px rgba(89, 89, 89, 0.6);
+			box-shadow:         4px 4px 15px 0px rgba(89, 89, 89, 0.6);
+		}
+		
+	.profileName {
+		color: #c5c5c5;
+		float: right;
+		font-family: "profileName", sans-serif;
+		font-size: 1.4em;
+		margin-top: 5.25em;
+		position: relative;
+			right: 17%;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+		.profileName:hover {
+			color: #ff3399;
+			font-weight: bold;
+		}
+
+	.title {
+		color: #c5c5c5;
+		font-family: "script", serif;
+		font-size: 1.25em;
+	}
+
+#EVENTS {
+	box-shadow: 0px -20px 3px -20px #595959;
+	min-height: 650px;
+}
+
+	#NEWS, #PROFILES, #EVENTS, #INFO {
+		color: #c5c5c5;
+		font-size: 1.2em;
+	}
+
+#INFO {
+	box-shadow: 0px -20px 3px -20px #595959;
+}
+
+	#googleMap {
+		min-height: 300px;
+			max-height: 400px;
+	}
+
+#PROFILES, #EVENTS, #INFO {
+	padding: 0.1em 0.6em;
+}

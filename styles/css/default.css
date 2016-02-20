@@ -1,0 +1,35 @@
+body {
+	background-color: #1a1a1a;
+	text-align: center;
+}
+
+h1 {
+	color: #e40074;
+	font-family: Garamond, Verdana, sans-serif;
+	font-size: 2.5em;
+}
+
+ul {
+	margin-left: -2em;
+}
+
+li {
+	color: #c5c5c5;
+	display: inline-block;
+	list-style-type: none;
+}
+
+	li img {
+		border-radius: 5px;
+		width: 75%;
+	}
+
+#holder {
+	margin: 0 auto;
+	text-align: center;
+	width: 64%;
+}
+
+	#holder > img {
+		width: 60%;
+	}
