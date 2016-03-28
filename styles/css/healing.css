@@ -5,7 +5,12 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
+
+#wrapper {
+	float: left;
+	width: 100%;
+}
 
 
 
@@ -13,18 +18,14 @@ GENERAL
 PAGE: HEALING
 --------------------------------------------- */
 
-#raffle img {
-	position: absolute;
-	top: 51%;
-	left: 12%;
-	width: 17%;
+#COLUMN { 
+	padding: 0 1.2em; 
+	text-align: justify; 
+	letter-spacing: 0.05em;
+	line-height: 160%;
 }
 
-#TOPICS {
-	padding: 0 1.2em;
-}
-
-	#TOPICS p strong {
+	#COLUMN p strong {
 		font-size: 1.1em;
 		text-decoration: underline;
 		text-transform: uppercase;
@@ -35,11 +36,9 @@ PAGE: HEALING
 	min-height: 15em;
 }
 
-	#TOPICS, #PROFILES, #CONTACT {
+	#COLUMN, #PROFILES, #CONTACT {
 		color: #c5c5c5;
 		font-size: 1.2em;
 	}
 
-#PROFILES, #CONTACT {
-	padding: 0.1em 0.6em;
-}
+#PROFILES, #CONTACT { padding: 0.1em 0.6em; }

@@ -1,0 +1,28 @@
+/* ---------------------------------------------
+GENERAL
+--------------------------------------------- */
+
+@import "general.css";
+@import "profiles.css";
+
+/* * { outline: 1px dashed #f00; } */
+
+
+
+/* ---------------------------------------------
+PAGE: ERRORS
+--------------------------------------------- */
+
+#TOPICS { 
+	min-height: 25em; 
+	padding: 0 1.2em; 
+	color: #c5c5c5; 
+	font-size: 1.2em; 
+}
+
+	#content-L { 
+		width: 100%; 
+			max-width: 100%; 
+		box-shadow: none; 
+		text-align: center; 
+	}

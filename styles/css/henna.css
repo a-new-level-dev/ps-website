@@ -5,24 +5,15 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-PAGE: HEALING
+PAGE: HENNA
 --------------------------------------------- */
 
-#raffle img {
-	position: absolute;
-	top: 51%;
-	left: 12%;
-	width: 17%;
-}
-
-#TOPICS {
-	padding: 0 1.2em;
-}
+#TOPICS { padding: 0 1.2em; }
 
 	#pricing { 
 		clear: left; 
@@ -34,29 +25,22 @@ PAGE: HEALING
 			text-decoration: underline; 
 		}
 
-			#pricing h2 {
-				text-align: center;
+			#pricing h2 { text-align: center; }
+		
+		#pricing p { clear: both; }
+		
+		#pricing p.price { text-align: right; }
+
+			#pricing .introductory { color: #ff61b3; }
+		
+			#pricing p.introductory { 
+				font-size: 1.1em; 
+				letter-spacing: 0.1em;
 			}
 		
-		#pricing p {
-			clear: both;
-		}
+		#shop-visits p span:nth-child(2) { float: right; }
 		
-		#pricing p.price {
-			text-align: right;
-		}
-		
-			#pricing .introductory {
-				color: #ff61b3;
-			}
-		
-		#shop-visits p span:nth-child(2) {
-			float: right;
-		}
-		
-		#onsite-visits p span:nth-child(2) {
-			float: right;
-		}
+		#onsite-visits p span:nth-child(2) { float: right; }
 		
 #CONTACT {
 	box-shadow: 0px -20px 3px -20px #595959;
@@ -68,6 +52,4 @@ PAGE: HEALING
 		font-size: 1.2em;
 	}
 
-#PROFILES, #CONTACT {
-	padding: 0.1em 0.6em;
-}
+#PROFILES, #CONTACT { padding: 0.1em 0.6em; }

@@ -41,10 +41,6 @@
 				-webkit-justify-content: center;*/
 		}
 
-			.lightboxPrev {
-				margin-right: 1em;
-			}
+			.lightboxPrev { margin-right: 1em; }
 
-			.lightboxNext {
-				margin-left: 1em;
-			}
+			.lightboxNext { margin-left: 1em; }

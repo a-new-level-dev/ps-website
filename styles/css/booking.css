@@ -5,7 +5,7 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
 
 #wrapper {
 	float: left;
@@ -15,7 +15,7 @@ GENERAL
 
 
 /* ---------------------------------------------
-PAGE: HEALING
+PAGE: BOOKING
 --------------------------------------------- */
 
 #COLUMN {
@@ -29,16 +29,12 @@ PAGE: HEALING
 		width: 100%;
 	}
 
-	.disclaimer {
-		text-transform: uppercase;
-	}
+	.disclaimer { text-transform: uppercase; }
 
-	.justify {
-		text-align: justify;
-	}
+	.justify { text-align: justify; }
 
 	.release {
-		list-style-image: url("http://www.paintedsiren.com/media-pix/icons/ps-list-icon.png");
+		list-style-image: url(../img/icons/icon-ps-list.png);
 	}
 
 	.announcement {
@@ -49,6 +45,4 @@ PAGE: HEALING
 
 /* Setmore Sidebar Tab */
 
-#sidebar #Setmore_button_iframe img {
-	display: none;
-}
+#sidebar #Setmore_button_iframe img { display: none; }

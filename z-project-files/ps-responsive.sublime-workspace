@@ -1,0 +1,363 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"myData",
+				"myData5"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"myd",
+				"myData"
+			],
+			[
+				"myD",
+				"myData4"
+			],
+			[
+				"my",
+				"myData4"
+			],
+			[
+				"tday",
+				"Today"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 30.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"Format CSS: Compressed"
+			],
+			[
+				"CSS",
+				"Format CSS: Compact (No Spaces)"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/painted-siren/styles/css/responsive"
+	],
+	"file_history":
+	[
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/scripts/js/portfolios.js",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/scripts/js/lightbox.js",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/scripts/js/general.js",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/scripts/vendor/modernizr-custom.js",
+		"/Users/fr3ak/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/500.shtml",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/500.php",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/404.shtml",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/crew/gabriel.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/faq.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/healing.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/jewelry.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/henna.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/booking.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/flash.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/crew.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/crew/gabriel.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/crew/heather.html",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/responsive.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/profiles.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/lightbox.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/jewelry.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/home.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/henna.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/healing.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/general.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/flash.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/faq.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/crew.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/styles/css/booking.css",
+		"/Users/fr3ak/Cloud/Dropbox/Clients-Prospects/Web Design/ps-staging/z-project-files/home.php",
+		"/C/Users/fr3ak/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/ps-staging/contact.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/ps-staging/store.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/ps-staging/styles/css/store.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/ps-staging/styles/css/contact.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/styles/css/normalize.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/styles/css/booking.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren-staging/painted-siren-staging.sublime-project",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/js/general.js",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/store.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/healing.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/jewelry.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/henna.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/booking.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/flash.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/crew.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/home.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/profiles.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/responsive.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/lightbox.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/general.css",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/buyStuff.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/buyStuff.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/.htaccess",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/Gambit/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/home.php",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/team.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/crayone.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/shane.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios/heather.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/home.html",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/css/portfolios.css",
+		"/Users/Gambit/Cloud/Dropbox/Jobs-Projects/Web Design/painted-siren/portfolios.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/home.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/portfolios.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/portfolio.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/css/portfolio.css",
+		"/C/Users/fr3ak/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/script/constantine-webfontkit/constantine-demo.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/marquee/rioGrande-webfontkit/riogrande-demo.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/profiles/euphorigenic-webfontkit/euphorigenic-demo.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/script/constantine-webfontkit/stylesheet.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/marquee/rioGrande-webfontkit/stylesheet.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/profiles/euphorigenic-webfontkit/stylesheet.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/fonts/script/reklameScript-webfontkit/reklameScript.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/default.html",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/css/general.css",
+		"/C/Users/fr3ak/Cloud/Dropbox/Jobs-Projects/Web Design/Painted Siren/js/general.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".html\">",
+			"a href=\"jewelry",
+			"media-pix",
+			".btn",
+			"center",
+			"pics/jewelry/jewelry-0015-plugs.jpg",
+			"gallery",
+			"title",
+			"emmet",
+			"bioPic",
+			"indent",
+			"clear",
+			"marquee",
+			"stroke",
+			"marquee",
+			"nav",
+			"text-align",
+			"underline"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "ps-responsive.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

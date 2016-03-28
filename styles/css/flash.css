@@ -5,24 +5,15 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-PAGE: HEALING
+PAGE: FLASH
 --------------------------------------------- */
 
-#raffle img {
-	position: absolute;
-	top: 51%;
-	left: 12%;
-	width: 17%;
-}
-
-#TOPICS {
-	padding: 0 1.2em;
-}
+#TOPICS { padding: 0 1.2em; }
 
 #CONTACT {
 	box-shadow: 0px -20px 3px -20px #595959;
@@ -34,6 +25,4 @@ PAGE: HEALING
 		font-size: 1.2em;
 	}
 
-#PROFILES, #CONTACT {
-	padding: 0.1em 0.6em;
-}
+#PROFILES, #CONTACT { padding: 0.1em 0.6em; }

@@ -5,26 +5,16 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-PAGE: HEALING
+PAGE: FAQ
 --------------------------------------------- */
 
-#raffle img {
-	position: absolute;
-	top: 51%;
-	left: 12%;
-	width: 17%;
-}
+#TOPICS { padding: 0 1.2em; }
 
-#TOPICS {
-	padding: 0 1.2em;
-}
-
-	/* This needs to go into the FAQ page & CSS file */
 	#faq ol { list-style: none; }
 	#faq li:nth-child(2n+1):before { content: "Q: "; }
 	#faq li:nth-child(2n+2):before { content: "A: "; } 
@@ -39,6 +29,4 @@ PAGE: HEALING
 		font-size: 1.2em;
 	}
 
-#PROFILES, #CONTACT {
-	padding: 0.1em 0.6em;
-}
+#PROFILES, #CONTACT { padding: 0.1em 0.6em; }

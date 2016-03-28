@@ -5,7 +5,7 @@ GENERAL
 @import "general.css";
 @import "profiles.css";
 
-/* * { border: 1px solid #f00; } */
+/* * { outline: 1px dashed #f00; } */
 
 
 
@@ -13,61 +13,56 @@ GENERAL
 PAGE: HOME
 --------------------------------------------- */
 
-#TOPICS {
-	padding: 0 1.2em;
-}
+#TOPICS { padding: 0 1.2em; }
 
 	.news-entry {}
 	
 		.news-img {
-			border: 1px solid #595959;
-			border-radius: 10%;
-			width: 50%;
+			border: 1px solid #595959; 
+			border-radius: 10%; 
+			width: 50%; 
+			float: left; 
 		}
 
-	#raffle img {
-		position: absolute;
-		left: 12%;
-		width: 17%;
-	}
+		.news-entry p {
+			width: 48%; 
+			float: right; 
+		}
 
 	#social-feeds {
-		text-align: center;
-		width: 100%;
+		text-align: center; 
+		width: 100%; 
+		clear: both; 
+		padding-top: 1em; 
 	}
 
-#PROFILES, #CONTACT, #INFO, #GUESTBOOK {
-	padding: 0.1em 0.6em;
-}
+#PROFILES, #CONTACT, #INFO, #GUESTBOOK { padding: 0.1em 0.6em; }
 
 #CONTACT {
-	box-shadow: 0px -20px 3px -20px #595959;
-	min-height: 15em;
+	box-shadow: 0px -20px 3px -20px #595959; 
+	min-height: 15em; 
 }
 
-	#CONTACT img {
-		width: 100%;
-	}
+	#CONTACT img { width: 100%; }
 
 	#TOPICS, #PROFILES, #CONTACT, #INFO {
-		color: #c5c5c5;
-		font-size: 1.2em;
+		color: #c5c5c5; 
+		font-size: 1.2em; 
 	}
 
-#INFO, #GUESTBOOK {
-	box-shadow: 0px -20px 3px -20px #595959;
-}
+#INFO, #GUESTBOOK { box-shadow: 0px -20px 3px -20px #595959; }
 
 	#googleMap {
-		min-height: 300px;
-			max-height: 400px;
+		min-height: 300px; 
+			max-height: 400px; 
 	}
 
-#GUESTBOOK div {
-	padding-left: 1em;
+#GUESTBOOK div { 
+	text-align: center; 
+	padding: 1em; 
 }
 
-	#GUESTBOOK form input, #GUESTBOOK form textarea {
-		width: 80%;
-		color: #000;
+	#GUESTBOOK form label input, #GUESTBOOK form label textarea {
+		width: 100%; 
+		color: #000; 
 	}

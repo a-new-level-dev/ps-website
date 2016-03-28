@@ -1,3 +1,7 @@
 # Use PHP5.4 as default
 AddHandler application/x-httpd-php54 .php
-DirectoryIndex home.php
+DirectoryIndex default.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
