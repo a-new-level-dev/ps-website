@@ -193,9 +193,12 @@ MAIN CONTAINER
 	
 			#ghost { 
 				border-bottom: 0.1em solid #ccc; 
-				border-top: 0.1em solid #ccc; 
-				-webkit-flex: initial; 
-					flex: initial; 
+				border-top: 0.1em solid #ccc;  
+				flex: initial; 
+					-webkit-flex: initial; 
+					-moz-flex: initial; 
+					-ms-flex: initial; 
+					-o-flex: initial; 
 				min-width: 15.5%; 
 			}
 
@@ -206,20 +209,16 @@ MAIN CONTAINER
 			/*#topNav-healing {}*/ /*just in case*/
 	
 		#stickerTop { 
-			border-radius: 50%; 
 			margin: 0 auto; 
-			margin-top: -9.625em; 
-			overflow: hidden; 
+				margin-top: -9.5em; 
 			position: relative; 
 			width: 19%; 
 			z-index: 3; 
 		}
 
 		#stickerBtm { 
-			border-radius: 50%; 
 			margin: 0 auto; 
-			margin-top: -15.9em; 
-			overflow: hidden; 
+				margin-top: -15.5em; 
 			position: relative; 
 			width: 22%; 
 			z-index: 2; 

@@ -1,19 +1,19 @@
-<?php include('scripts/php/base-url.php'); ?>
+<?php include('../scripts/php/base-url.php'); ?>
 
 <!DOCTYPE html>
 <HTML lang="en">
 
 
-<!-- Pg. 03, Painted Siren: Orignal Flash -->
+<!-- Pg. 06r, Painted Siren: Piercings & Jewelry - Intimate Body Jewelry -->
 <!-- ********************************************* HEAD: START ********************************************** -->
 <HEAD>
 
 	<meta charset="UTF-8">
-	<meta name="author" content="Gabriel F. Lujan @ A New Level Media">
+	<meta name="author" content="Gabriel F. Lujan @ ANewLevelMedia.com">
 	<meta name="description" content="">
 	<meta name="keywords" content="painted, siren, tattoo, shop, artist, art, graffiti, ink">
 	
-	<title>PS.com: Original Flash</title>
+	<title>PS.com: Intimate Body Jewelry</title>
 
 	<!-- WEBSITE FAVICON CODE -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/pics/icons/logo-tooth-favicon.ico/apple-icon-57x57.png">
@@ -36,11 +36,11 @@
 
 	<!-- VENDOR STYLES -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+	
 	<!-- CUSTOM STYLES -->
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/flash.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/lightbox.css">
-			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/styles/css/jewelry.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/styles/css/lightbox.css">
+			<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
 
@@ -71,7 +71,7 @@
 						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash" class="SELECTED"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -85,12 +85,12 @@
 						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-jewelry" class="SELECTED"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
 					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
-					<a href="<?php echo BASE_URL; ?>/"><img src="pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
+					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
-					<img src="pics/backgrounds/sticker/sticker-btm.png"> </div>
+					<img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-btm.png"> </div>
 			</section>
 		</header>
 		
@@ -98,38 +98,47 @@
 		<section id="content">
 			<section id="content-L">
 				<article id="TOPICS">
-					<h1>Original Flash &amp; Ideas</h1>
-					<ul id="gallery">
-						<!-- Group #1 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-03.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-04.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
-
-						<!-- Group #2 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-05.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-06.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-07.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-08.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-09.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-09.jpg" title="Painted Siren Gallery Picture #9" alt="Painted Siren Gallery Picture #9"></a> </li>
-
-						<!-- Group #3 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-10.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-10.jpg" title="Painted Siren Gallery Picture #10" alt="Painted Siren Gallery Picture #10"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" title="Painted Siren Gallery Picture #11" alt="Painted Siren Gallery Picture #11"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" title="Painted Siren Gallery Picture #12" alt="Painted Siren Gallery Picture #12"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" title="Painted Siren Gallery Picture #13" alt="Painted Siren Gallery Picture #13"></a> </li>
-					</ul>
+					<section id="gallery">
+						<h1>Intimate Body Jewelry</h1>
+						<ul>
+							<!-- Group #1 --> <!-- REPLACE "gallery-thumb.png" WITH THE CORRECT PICTURE WHEN AVAILABLE" -->
+							<li class="jewelry-preview"><!-- <a class="lightboxTrigger" href="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png"> --><img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Intimate Body Jewelry" alt="Painted Siren Jewelry - Intimate Body Jewelry"><!-- </a> --> </li>
+						</ul>
+						<div class="jewelry-prev cols3"><a href="<?php echo BASE_URL; ?>/jewelry/sports#gallery"> <span class="arrow-left"></span>Sports</a> </div>
+						<div class="jewelry-home cols3"><a href="<?php echo BASE_URL; ?>/jewelry#gallery">Back to Jewelry</a> <br>
+							<br>
+							<div id="jewelry-list" class="dropup">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select a Category <span class="caret"></span> </button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/belly#gallery">Belly Button</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/plugs#gallery">Plugs &amp; Tunnels</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tapers#gallery">Tapers &amp; Stretching Kits</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/spirals#gallery">Spirals &amp; Pinchers</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/fakebody#gallery">Fake Body Jewelry</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/nose#gallery">Nose Rings &amp; Studs</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tongue#gallery">Barbells &amp; Tongue</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/lip#gallery">Labret &amp; Lip</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/bead#gallery">Captive Bead</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/horseshoe#gallery">Circular Horseshoe</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tragus#gallery">Cartilage &amp; Tragus</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/nipple#gallery">Nipple</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/eyebrow#gallery">Eyebrow</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/septum#gallery">Septum</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/retainers#gallery">Retainers</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/organics#gallery">Organics</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/sports#gallery">Sports</a> </li>
+								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/aftercare#gallery">Piercing Aftercare</a></li> </ul> </div> </div>
+						<div class="jewelry-next cols3"><a href="<?php echo BASE_URL; ?>/jewelry/aftercare#gallery">Aftercare<span class="arrow-right"></span> </a> </div> </section>
 				</article>
 			</section>
 			<section id="content-R">
 				<section id="PROFILES">
-					<h1>Info</h1>
-					<p class="disclaimer">All flash is hand drawn, original art. Please do not use without our knowledge or consent.</p>
-					<p class="disclaimer">All original flash ideas are for sale. Please <a class="email" href="mailto:htarkman@paintedsiren.com">inquire</a> about specific pricing.</p> </section>
-				<!-- <aside id="CONTACT">
-					<h1>Learn More</h1>
-					<p>This could be used for events &amp; promo ads.</p> </aside> -->
+					<h1>Details</h1>
+					<p>Price: TBD</p>
+					<p>Size: TBD</p>
+					<p>Colors: TBD</p>
+					<!-- <p>Made from Stainless Steel</p> -->
+					<!-- <a href="tel:1-650-219-7343"><div class="btn-cta"><span>Call to Order</span> </div> </a> --> </section>
 			</section>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
@@ -148,7 +157,7 @@
 						<li>|</li>
 					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a> </li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a></li> -->
 				</ul>
 			</nav>
 			<section id="legal">
@@ -162,17 +171,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>/scripts/vendor/modernizr-custom.js"></script>
-
-		<!-- Google Analytics Tracking ID/code -->
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-74943527-1', 'auto');
-			ga('send', 'pageview');
-		</script>
 
 	<!-- CUSTOM SCRIPTS -->
 	<script src="<?php echo BASE_URL; ?>/scripts/js/general.js"></script>

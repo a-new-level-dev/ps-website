@@ -1,6 +1,5 @@
-<?php
-    include('scripts/php/base-url.php');
-?>
+<?php include('scripts/php/base-url.php'); ?>
+
 <!DOCTYPE html>
 <HTML lang="en">
 
@@ -110,11 +109,11 @@
 	<div id="social">
 		<ul>
 			<li>
-				<a href="https://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/"><img src="<?php echo BASE_URL; ?>/pics/social-badges/sb-face.png" title="Follow Us on Facebook" alt="Follow Us on Facebook"></a> </li>
+				<a href="https://facebook.com/thepaintedsiren"><img src="<?php echo BASE_URL; ?>/styles/img/social-badges/sb-face.png" title="Follow Us on Facebook" alt="Follow Us on Facebook"></a> </li>
 			<li>
-				<a href="https://instagram.com/thepaintedsiren"><img src="<?php echo BASE_URL; ?>/pics/social-badges/sb-inst.png" title="Follow Us on Instagram" alt="Follow Us on Instagram"></a> </li>
+				<a href="https://instagram.com/thepaintedsiren"><img src="<?php echo BASE_URL; ?>/styles/img/social-badges/sb-inst.png" title="Follow Us on Instagram" alt="Follow Us on Instagram"></a> </li>
 			<li>
-				<a href="https://twitter.com/thepaintedsiren"><img src="<?php echo BASE_URL; ?>/pics/social-badges/sb-twit.png" title="Follow Us on Twitter" alt="Follow Us on Twitter"></a> </li>
+				<a href="https://twitter.com/thepaintedsiren"><img src="<?php echo BASE_URL; ?>/styles/img/social-badges/sb-twit.png" title="Follow Us on Twitter" alt="Follow Us on Twitter"></a> </li>
 		</ul>
 	</div>
 

@@ -1,6 +1,5 @@
-<?php
-    include('../scripts/php/base-url.php');
-?>
+<?php include('../scripts/php/base-url.php'); ?>
+
 <!DOCTYPE html>
 <HTML lang="en">
 
@@ -56,7 +55,7 @@
 			<section id="banner">
 				<img src="<?php echo BASE_URL; ?>/pics/shop/shop-banner.jpg" />
 				<div id="social-badges">
-					<a href="http://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
+					<a href="https://facebook.com/thepaintedsiren" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
 					<a href="https://instagram.com/thepaintedsiren" title="Follow us on Instagram"><div id="sb-inst" class="social-badge"></div> </a>
 					<a href="http://yelp.com/biz/the-painted-siren-tattoo-co-pacifica" title="Follow us on Yelp"><div id="sb-yelp" class="social-badge"></div> </a>
 					<!-- <a href="" title="Follow us on LinkedIn"><div id="sb-lnkd" class="social-badge"></div> </a> -->

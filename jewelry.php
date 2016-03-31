@@ -1,6 +1,5 @@
-<?php
-    include('scripts/php/base-url.php');
-?>
+<?php include('scripts/php/base-url.php'); ?>
+
 <!DOCTYPE html>
 <HTML lang="en">
 
@@ -55,7 +54,7 @@
 			<section id="banner">
 				<img src="<?php echo BASE_URL; ?>/pics/shop/shop-banner.jpg" />
 				<div id="social-badges">
-					<a href="http://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
+					<a href="https://facebook.com/thepaintedsiren" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
 					<a href="https://instagram.com/thepaintedsiren" title="Follow us on Instagram"><div id="sb-inst" class="social-badge"></div> </a>
 					<a href="http://yelp.com/biz/the-painted-siren-tattoo-co-pacifica" title="Follow us on Yelp"><div id="sb-yelp" class="social-badge"></div> </a>
 					<!-- <a href="" title="Follow us on LinkedIn"><div id="sb-lnkd" class="social-badge"></div> </a> -->
@@ -102,13 +101,13 @@
 						<h1>Body Jewelry</h1>
 						<ul>
 							<!-- Group #1 -->
-							<a href="<?php echo BASE_URL; ?>/jewelry/belly.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/belly#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0008-bellyButton.jpg" title="Painted Siren Jewelry - Belly Button" alt="Painted Siren Jewelry - Belly Button">
 								<p>Belly Button</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/plugs.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/plugs#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0015-plugs.jpg" title="Painted Siren Jewelry - Plugs &amp; Tunnels" alt="Painted Siren Jewelry - Plugs &amp; Tunnels">
 								<p>Plugs &amp; Tunnels</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/tapers.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/tapers#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0091-tapers-large.jpg" title="Painted Siren Jewelry - Tapers &amp; Stretching Kits" alt="Painted Siren Jewelry - Tapers &amp; Stretching Kits">
 								<p>Tapers &amp; <br>Stretching Kits</p> </li> </a>
 							<li>
@@ -119,16 +118,16 @@
 								<p>Fake Body Jewelry</p> </li>
 
 							<!-- Group #2 -->
-							<a href="<?php echo BASE_URL; ?>/jewelry/nose.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/nose#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0109-nose-studs.jpg" title="Painted Siren Jewelry - Nose Rings &amp; Studs" alt="Painted Siren Jewelry - Nose Rings &amp; Studs">
 								<p>Nose Rings &amp; Studs</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/tongue.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/tongue#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0029-barbell.jpg" title="Painted Siren Jewelry - Barbells &amp; Tongue" alt="Painted Siren Jewelry - Barbells &amp; Tongue">
 								<p>Barbells &amp; Tongue</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/lip.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/lip#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0022-labret.jpg" title="Painted Siren Jewelry - Labret &amp; Lip" alt="Painted Siren Jewelry - Labret &amp; Lip">
 								<p>Labret &amp; Lip</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/bead.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/bead#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0043-hoop-sm.jpg" title="Painted Siren Jewelry - Captive Bead" alt="Painted Siren Jewelry - Captive Bead">
 								<p>Captive Bead</p> </li> </a>
 							<li>
@@ -142,13 +141,13 @@
 							<li>
 								<img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Nipple" alt="Painted Siren Jewelry - Nipple">
 								<p>Nipple</p> </li>
-							<a href="<?php echo BASE_URL; ?>/jewelry/eyebrow.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/eyebrow#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0030-eyebrow.jpg" title="Painted Siren Jewelry - Eyebrow" alt="Painted Siren Jewelry - Eyebrow">
 								<p>Eyebrow</p> </li> </a>
 							<li>
 								<img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Septum" alt="Painted Siren Jewelry - Septum">
 								<p>Septum</p> </li>
-							<a href="<?php echo BASE_URL; ?>/jewelry/retainers.html#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/retainers#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0057-retainer.jpg" title="Painted Siren Jewelry - Retainers" alt="Painted Siren Jewelry - Retainers">
 								<p>Retainers</p> </li> </a>
 

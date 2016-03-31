@@ -1,6 +1,5 @@
-<?php
-    include('scripts/php/base-url.php');
-?>
+<?php include('scripts/php/base-url.php'); ?>
+
 <!DOCTYPE html>
 <HTML lang="en">
 
@@ -65,7 +64,7 @@
 			<section id="banner">
 				<img src="<?php echo BASE_URL; ?>/pics/shop/shop-banner.jpg" />
 				<div id="social-badges">
-					<a href="https://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
+					<a href="https://facebook.com/thepaintedsiren" title="Follow us on Facebook"><div id="sb-face" class="social-badge"></div> </a>
 					<a href="https://instagram.com/thepaintedsiren" title="Follow us on Instagram"><div id="sb-inst" class="social-badge"></div> </a>
 					<a href="http://yelp.com/biz/the-painted-siren-tattoo-co-pacifica" title="Follow us on Yelp"><div id="sb-yelp" class="social-badge"></div> </a>
 					<!-- <a href="" title="Follow us on LinkedIn"><div id="sb-lnkd" class="social-badge"></div> </a> -->
@@ -131,7 +130,7 @@
 			<div id="content-R">
 				<section id="PROFILES">
 					<h1>Meet The Owner</h1>
-						<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather.html">
+						<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather">
 							<div id="heather"></div>
 							<div class="profileName stroke-black">Heather Tarkman</div> </a>
 				</section>
@@ -150,7 +149,7 @@
 					<p>Shop Hours: Tues - Sun, 11am to 8pm <br> (subject to change) <br>
 						<span class="note">* Hours can also be accommodated to fit client's schedule</span> </p>
 				</section>
-				<section id="GUESTBOOK">
+				<!-- <section id="GUESTBOOK">
 					<h1>Guestbook</h1>
 					<div>
 						<p>Please sign our guestbook and leave a message!</p>
@@ -163,7 +162,7 @@
 								<textarea required name="guestMessage" id="guestMessage" rows="5"></textarea> </label> <br> <br>
 							<button class="btn-cta">Get Some!</button>
 						</form> </div>
-				</section>
+				</section> -->
 			</div>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
