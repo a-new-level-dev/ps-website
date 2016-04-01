@@ -104,13 +104,10 @@
 			}
 		},
 		{
-			"contents": "<?php\n	// Setting the PRODUCTION base URL for all pages on the site - Toggle comment to make active/inactive\n	define('BASE_URL', 'http://paintedsiren.com');\n\n	// Setting the STAGING base URL for all pages on the site - Toggle comment to make active/inactive\n	// define('BASE_URL', 'http://staging.gflujan.com/painted-siren');\n?>",
 			"file": "/Users/Gambit/Cloud/Dropbox/Clients-Prospects/Web Design/painted-siren/scripts/php/base-url.php",
-			"file_size": 107,
-			"file_write_time": 131035500010000000,
 			"settings":
 			{
-				"buffer_size": 328,
+				"buffer_size": 107,
 				"line_ending": "Unix"
 			}
 		}
@@ -306,7 +303,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -393,7 +390,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -481,7 +478,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -568,7 +565,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -577,15 +574,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 328,
+						"buffer_size": 107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								0,
+								0
 							]
 						],
 						"settings":
@@ -655,7 +652,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
