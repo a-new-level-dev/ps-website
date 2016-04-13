@@ -39,7 +39,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/henna.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/lightbox.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
 			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
@@ -68,25 +68,25 @@
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/booking">Appointment</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/booking#release">Release Info</a> </li> </ul> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li> </ul> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna" class="dropdown SELECTED">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Henna <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
+					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -102,16 +102,18 @@
 						<h1>Get Your Henna On</h1>
 						<ul>
 							<!-- Group #1 -->
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
-
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
+							
 							<!-- Group #2 -->
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
+
+							<!-- Group #3 -->
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
 						</ul> </section>
 					<section id="pricing">
 						<h1>Pricing &amp; Events</h1>
@@ -170,9 +172,9 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a></li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li> -->
 				</ul>
 			</nav>
 			<section id="legal">
@@ -185,6 +187,117 @@
 	<!-- VENDOR SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+		<!-- Adding the ImageLightbox jQuery Plug-In -->
+		<script src="<?php echo BASE_URL; ?>/scripts/vendor/imagelightbox.js"></script>
+		<script>
+			$( function() {
+					// ACTIVITY INDICATOR
+				var activityIndicatorOn = function() { $( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
+					},
+					activityIndicatorOff = function() { $( '#imagelightbox-loading' ).remove();
+					},
+
+
+					// OVERLAY
+					overlayOn = function() { $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
+					},
+					overlayOff = function() { $( '#imagelightbox-overlay' ).remove();
+					},
+
+
+					// CLOSE BUTTON
+					closeButtonOn = function( instance ) { $( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
+					},
+					closeButtonOff = function() { $( '#imagelightbox-close' ).remove();
+					},
+
+
+					// CAPTION
+					captionOn = function() {
+						var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
+						if( description.length > 0 )
+							$( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
+					},
+					captionOff = function() { $( '#imagelightbox-caption' ).remove();
+					},
+
+
+					// NAVIGATION
+					navigationOn = function( instance, selector ) {
+						var images = $( selector );
+						if( images.length ) {
+							var nav = $( '<div id="imagelightbox-nav"></div>' );
+							for( var i = 0; i < images.length; i++ )
+								nav.append( '<button type="button"></button>' );
+
+							nav.appendTo( 'body' );
+							nav.on( 'click touchend', function(){ return false; });
+
+							var navItems = nav.find( 'button' );
+							navItems.on( 'click touchend', function() {
+								var $this = $( this );
+								if( images.eq( $this.index() ).attr( 'href' ) != $( '#imagelightbox' ).attr( 'src' ) )
+									instance.switchImageLightbox( $this.index() );
+
+								navItems.removeClass( 'active' );
+								navItems.eq( $this.index() ).addClass( 'active' );
+
+								return false;
+							})
+							.on( 'touchend', function(){ return false; }); 
+						}
+					},
+					navigationUpdate = function( selector ) {
+						var items = $( '#imagelightbox-nav button' );
+						items.removeClass( 'active' );
+						items.eq( $( selector ).filter( '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
+					},
+					navigationOff = function() { $( '#imagelightbox-nav' ).remove();
+					},
+
+
+					// ARROWS
+					arrowsOn = function( instance, selector ) {
+						var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
+
+						$arrows.appendTo( 'body' );
+
+						$arrows.on( 'click touchend', function( e ) {
+							e.preventDefault();
+
+							var $this	= $( this ),
+								$target	= $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
+								index	= $target.index( selector );
+
+							if( $this.hasClass( 'imagelightbox-arrow-left' ) ) {
+								index = index - 1;
+								if( !$( selector ).eq( index ).length )
+									index = $( selector ).length;
+							} else {
+								index = index + 1;
+								if( !$( selector ).eq( index ).length )
+									index = 0;
+							}
+
+							instance.switchImageLightbox( index );
+							return false;
+						});
+					},
+					arrowsOff = function() { $( '.imagelightbox-arrow' ).remove(); };
+
+				//	ALL COMBINED
+				var selectorF = 'a[data-imagelightbox="f"]';
+				var instanceF = $( selectorF ).imageLightbox(
+				{
+					onStart:		function() { overlayOn(); closeButtonOn( instanceF ); arrowsOn( instanceF, selectorF ); },
+					onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
+					onLoadStart: 	function() { captionOff(); activityIndicatorOn(); },
+					onLoadEnd:	 	function() { captionOn(); activityIndicatorOff(); $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
+				});
+			});
+		</script>
+
 	<script src="<?php echo BASE_URL; ?>/scripts/vendor/modernizr-custom.js"></script>
 
 		<!-- Google Analytics Tracking ID/code -->
@@ -200,7 +313,6 @@
 
 	<!-- CUSTOM SCRIPTS -->
 	<script src="<?php echo BASE_URL; ?>/scripts/js/general.js"></script>
-		<script src="<?php echo BASE_URL; ?>/scripts/js/lightbox.js"></script>
 
 </BODY>
 

@@ -67,25 +67,25 @@
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/booking">Appointment</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/booking#release">Release Info</a> </li> </ul> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li> </ul> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Henna <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
+					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -170,9 +170,9 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a></li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li> -->
 				</ul>
 			</nav>
 			<section id="legal">

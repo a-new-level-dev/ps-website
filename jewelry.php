@@ -67,25 +67,25 @@
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/booking">Appointment</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/booking#release">Release Info</a> </li> </ul> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li> </ul> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Henna <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry" class="SELECTED"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
+					<div id="topNav-jewelry" class="SELECTED"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -101,13 +101,13 @@
 						<h1>Body Jewelry</h1>
 						<ul>
 							<!-- Group #1 -->
-							<a href="<?php echo BASE_URL; ?>/jewelry/belly#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/belly.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0008-bellyButton.jpg" title="Painted Siren Jewelry - Belly Button" alt="Painted Siren Jewelry - Belly Button">
 								<p>Belly Button</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/plugs#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/plugs.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0015-plugs.jpg" title="Painted Siren Jewelry - Plugs &amp; Tunnels" alt="Painted Siren Jewelry - Plugs &amp; Tunnels">
 								<p>Plugs &amp; Tunnels</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/tapers#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/tapers.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0091-tapers-large.jpg" title="Painted Siren Jewelry - Tapers &amp; Stretching Kits" alt="Painted Siren Jewelry - Tapers &amp; Stretching Kits">
 								<p>Tapers &amp; <br>Stretching Kits</p> </li> </a>
 							<li>
@@ -118,16 +118,16 @@
 								<p>Fake Body Jewelry</p> </li>
 
 							<!-- Group #2 -->
-							<a href="<?php echo BASE_URL; ?>/jewelry/nose#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/nose.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0109-nose-studs.jpg" title="Painted Siren Jewelry - Nose Rings &amp; Studs" alt="Painted Siren Jewelry - Nose Rings &amp; Studs">
 								<p>Nose Rings &amp; Studs</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/tongue#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/tongue.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0029-barbell.jpg" title="Painted Siren Jewelry - Barbells &amp; Tongue" alt="Painted Siren Jewelry - Barbells &amp; Tongue">
 								<p>Barbells &amp; Tongue</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/lip#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/lip.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0022-labret.jpg" title="Painted Siren Jewelry - Labret &amp; Lip" alt="Painted Siren Jewelry - Labret &amp; Lip">
 								<p>Labret &amp; Lip</p> </li> </a>
-							<a href="<?php echo BASE_URL; ?>/jewelry/bead#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/bead.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0043-hoop-sm.jpg" title="Painted Siren Jewelry - Captive Bead" alt="Painted Siren Jewelry - Captive Bead">
 								<p>Captive Bead</p> </li> </a>
 							<li>
@@ -141,13 +141,13 @@
 							<li>
 								<img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Nipple" alt="Painted Siren Jewelry - Nipple">
 								<p>Nipple</p> </li>
-							<a href="<?php echo BASE_URL; ?>/jewelry/eyebrow#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/eyebrow.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0030-eyebrow.jpg" title="Painted Siren Jewelry - Eyebrow" alt="Painted Siren Jewelry - Eyebrow">
 								<p>Eyebrow</p> </li> </a>
 							<li>
 								<img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Septum" alt="Painted Siren Jewelry - Septum">
 								<p>Septum</p> </li>
-							<a href="<?php echo BASE_URL; ?>/jewelry/retainers#gallery">
+							<a href="<?php echo BASE_URL; ?>/jewelry/retainers.php#gallery">
 								<li><img src="<?php echo BASE_URL; ?>/pics/jewelry/jewelry-0057-retainer.jpg" title="Painted Siren Jewelry - Retainers" alt="Painted Siren Jewelry - Retainers">
 								<p>Retainers</p> </li> </a>
 
@@ -178,7 +178,7 @@
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
 				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
-				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
+				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
 					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
 				</a>
 			</div>
@@ -190,9 +190,9 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a></li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li> -->
 				</ul>
 			</nav>
 			<section id="legal">

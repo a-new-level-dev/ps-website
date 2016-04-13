@@ -1,68 +1,64 @@
 /* ---------------------------------------------
-GENERAL
+				GENERAL
 --------------------------------------------- */
-
 @import "general.css";
 @import "profiles.css";
 
+/* Putting OUTLINES on everyting for testing/visibility */
 /* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-PAGE: HOME
+				PAGE: HOME
 --------------------------------------------- */
-
 #TOPICS { padding: 0 1.2em; }
-
 	.news-entry {}
-	
-		.news-img {
+		.news-img { 
 			border: 1px solid #595959; 
 			border-radius: 10%; 
 			width: 50%; 
 			float: left; 
 		}
-
-		.news-entry p {
+		.news-entry p { 
 			width: 48%; 
 			float: right; 
 		}
-
-	#social-feeds {
+	#social-feeds { 
 		text-align: center; 
 		width: 100%; 
 		clear: both; 
 		padding-top: 1em; 
 	}
-
-#PROFILES, #CONTACT, #INFO, #GUESTBOOK { padding: 0.1em 0.6em; }
-
-#CONTACT {
+#PROFILES,
+#CONTACT,
+#INFO,
+#GUESTBOOK { padding: 0.1em 0.6em; }
+#CONTACT { 
 	box-shadow: 0px -20px 3px -20px #595959; 
 	min-height: 15em; 
 }
-
+	#CONTACT :nth-child(3) { padding-top: 22em; }
 	#CONTACT img { width: 100%; }
-
-	#TOPICS, #PROFILES, #CONTACT, #INFO {
+	#TOPICS,
+	#PROFILES,
+	#CONTACT,
+	#INFO { 
 		color: #c5c5c5; 
 		font-size: 1.2em; 
 	}
-
-#INFO, #GUESTBOOK { box-shadow: 0px -20px 3px -20px #595959; }
-
-	#googleMap {
+#INFO,
+#GUESTBOOK { box-shadow: 0px -20px 3px -20px #595959; }
+	#googleMap { 
 		min-height: 300px; 
 			max-height: 400px; 
 	}
-
 #GUESTBOOK div { 
 	text-align: center; 
 	padding: 1em; 
 }
-
-	#GUESTBOOK form label input, #GUESTBOOK form label textarea {
+	#GUESTBOOK form label input,
+	#GUESTBOOK form label textarea { 
 		width: 100%; 
 		color: #000; 
 	}

@@ -1,10 +1,10 @@
 /* ---------------------------------------------
-GENERAL
+				GENERAL
 --------------------------------------------- */
-
 @import "general.css";
 @import "profiles.css";
 
+/* Putting OUTLINES on everyting for testing/visibility */
 /* * { outline: 1px dashed #f00; } */
 
 #wrapper { 
@@ -15,97 +15,83 @@ GENERAL
 
 
 /* ---------------------------------------------
-PAGE: JEWELRY
+				PAGE: JEWELRY
 --------------------------------------------- */
-
 #COLUMN { padding: 0 0 0 1.5em; }
-
 #TOPICS { padding: 0 1.2em; }
-
-	#gallery li {
-		background-color: #333;
-		margin-left: 0.2em;
-		margin-right: 0.2em;
-		padding-top: 0.75em;
-		border-radius: 3%;
+	#gallery li { 
+		background-color: #333; 
+		margin-left: 0.2em; 
+		margin-right: 0.2em; 
+		padding-top: 0.75em; 
+		border-radius: 3%; 
 	}
-
 		#gallery a li:hover { background-color: #df2375; }
-
 	#gallery ul li > img { height: 11em; }
-
 	/* These are the green bars/ribbons underneath the main pics on jewelry.html */
-	#gallery ul li p {
-		margin: 0 auto 0.6em;
-		width: 1%;
-		height: 3em;
-		border-radius: 3%;
-		padding: 0.1em;
-		display: table-cell;
-		vertical-align: middle;
-		font-size: 1.2em;
-		font-variant: small-caps;
-		font-weight: bold;
-		background-color: #42d172;
-		color: #000;
+	#gallery ul li p { 
+		margin: 0 auto 0.6em; 
+		width: 1%; 
+		height: 3em; 
+		border-radius: 3%; 
+		padding: 0.1em; 
+		display: table-cell; 
+		vertical-align: middle; 
+		font-size: 1.2em; 
+		font-variant: small-caps; 
+		font-weight: bold; 
+		background-color: #42d172; 
+		color: #000; 
 	}
-
-		#gallery ul a:hover li p {
-			background-color: #df2375;
-			color: #c6c6c6;
-			text-decoration: underline;
+		#gallery ul a:hover li p { 
+			background-color: #df2375; 
+			color: #c6c6c6; 
+			text-decoration: underline; 
 		}
-
 		/* Styling the images for the Jewelry group sub-pages */
 		#gallery li.jewelry-preview { 
+			position: relative; 
 			width: 93%; 
-			padding-bottom: 0.75em;
-			background-color: initial;
+			padding-bottom: 0.75em; 
+			background-color: initial; 
 		}
-
 		#gallery li.jewelry-preview img { height: 17em; }
-
 		/* Creating column widths for the links under the jewelry images */
 			.cols2 { width: 49.5%; }
-
 			.cols3 { width: 33.333%; }
-
 		/* Styling the arrows & div's that select the previous and next jewelry pages */
-		.jewelry-prev, .jewelry-home, .jewelry-next { margin-bottom: 0.5em; }
-
-			.jewelry-prev > a, .jewelry-next > a { 
+		.jewelry-prev,
+		.jewelry-home,
+		.jewelry-next { margin-bottom: 0.5em; }
+			.jewelry-prev > a,
+			.jewelry-next > a { 
 				border: 0.2em solid rgba(0,0,0,0); 
 					border-radius: 0.6em; 
 				background-color: #444; 
-				padding: 0.2em 0;
+				padding: 0.2em 0; 
 				text-decoration: none; 
 				font-family: "Slabo 27px", cursive; 
 					font-variant: small-caps; 
 					font-size: 1em; 
 				color: #c5c5c5; 
 			}
-
-				.jewelry-prev > a:hover, .jewelry-next > a:hover {
+				.jewelry-prev > a:hover,
+				.jewelry-next > a:hover { 
 					border-color: #c5c5c5; 
 					background-color: #131313; 
 					color: #e40074; 
 				}
-
 		.jewelry-prev { float: left; }
-
 			.jewelry-prev span.arrow-left::before { 
 				content: "\21a4"; 
 				vertical-align: 15%; 
 			}
-
 			.jewelry-prev > a { padding-right: 0.6em; }
-
 		.jewelry-home { 
 			float: left; 
 			text-align: center; 
 			font-size: 0.9em; 
 		}
-
 			/* Styling the Jewelry category navigation dropup list */
 			#jewelry-list .btn { 
 				height: 100%; 
@@ -115,9 +101,7 @@ PAGE: JEWELRY
 				font-size: 1em; 
 				color: #c5c5c5; 
 			}
-
 				#jewelry-list .btn:focus { background-color: #131313; }
-
 			#jewelry-list .dropdown-menu { 
 				height: 25em; 
 				overflow: scroll; 
@@ -126,13 +110,11 @@ PAGE: JEWELRY
 				border-color: #c5c5c5; 
 				background-color: #1a1a1a; 
 			}
-
 			#jewelry-list .dropdown-menu li { 
 				clear: left; 
-				width: 100%;
+				width: 100%; 
 				background-color: rgba(0,0,0,0); 
 			}
-
 			#jewelry-list .dropdown-menu li a { 
 				padding: 0 1em; 
 				font-variant: petite-caps; 
@@ -140,24 +122,19 @@ PAGE: JEWELRY
 				text-decoration: none; 
 				color: #c5c5c5; 
 			}
-
 			#jewelry-list .dropdown-menu li a:hover { 
 				background-color: #e40074; 
 				color: #fff; 
 			}
-
-		.jewelry-next {
-			float: right;
-			text-align: right;
+		.jewelry-next { 
+			float: right; 
+			text-align: right; 
 		}
-
 			.jewelry-next span.arrow-right::after { 
 				content: "\21a6"; 
 				vertical-align: 15%; 
 			}
-
 			.jewelry-next > a { padding-left: 0.6em; }
-
 			/* Changing the Arrows */
 			.arrow-left, .arrow-right { 
 				display: inline-block; 
@@ -170,7 +147,6 @@ PAGE: JEWELRY
 					-ms-transform: scale(0.9, 1.1); 
 					-o-transform: scale(0.9, 1.1); 
 			}
-
 			/* This flips the "left" arrow if the character code doesn't point in the right direction */
 			/* .arrow-left { 
 				transform: scale(0.9, 1.1); 
@@ -179,19 +155,17 @@ PAGE: JEWELRY
 					-ms-transform: scale(0.9, 1.1); 
 					-o-transform: scale(0.9, 1.1); 
 			} */
-
 #PROFILES { text-align: center; }
-
 	#PROFILES p { text-align: left; }
-
-#CONTACT {
-	box-shadow: 0px -20px 3px -20px #595959;
-	min-height: 15em;
+#CONTACT { 
+	box-shadow: 0px -20px 3px -20px #595959; 
+	min-height: 15em; 
 }
-
-#PROFILES, #CONTACT { padding: 0.1em 0.6em; }
-
-#TOPICS, #PROFILES, #CONTACT {
-	color: #c5c5c5;
-	font-size: 1.2em;
+#PROFILES,
+#CONTACT { padding: 0.1em 0.6em; }
+#TOPICS,
+#PROFILES,
+#CONTACT { 
+	color: #c5c5c5; 
+	font-size: 1.2em; 
 }

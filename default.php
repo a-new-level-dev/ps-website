@@ -46,7 +46,6 @@
 			background-color: #131313; 
 			text-align: center; 
 		}
-
 		#message, #social { 
 			background-color: rgba(1,1,1,0.75); 
 			margin: 0 auto; 
@@ -54,43 +53,35 @@
 			text-align: center; 
 			width: 100%; 
 		}
-
 		#message { 
 			margin-top: -1em; 
 			padding-bottom: 1em; 
 		}
-
 			h1 { 
 				color: #e40074; 
 				font-family: Garamond, Verdana, serif; 
 				font-size: 2.5em; 
 			}
-
 			p { 
 				color: #c5c5c5; 
 				font-size: 1.5em; 
 			}
-
 		#social { 
 			position: fixed; 
 				bottom: 0; 
 			padding-top: 1em; 
 		}
-
 			li { 
 				color: #c5c5c5; 
 				display: inline-block; 
 				list-style-type: none; 
 			}
-
 				li img { 
 					border-radius: 5px; 
 					border: 2px solid rgba(0,0,0,0); 
 					width: 75%; 
 				}
-
 				li img:hover { border: 2px solid white; }
-
 		@media screen and (max-width: 1024px) { 
 			body { background-size: 100% auto; }
 		}

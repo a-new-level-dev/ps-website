@@ -39,7 +39,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/crew.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/lightbox.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
 			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
@@ -68,25 +68,25 @@
 					<div id="topNav-portfolios" class="dropdown SELECTED">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/booking">Appointment</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/booking#release">Release Info</a> </li> </ul> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li> </ul> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Henna <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
+					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -101,81 +101,81 @@
 					<h1>Her Work</h1>
 					<ul id="gallery">
 						<!-- Group #1 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-01.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-02.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-03.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-04.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-05.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-01.jpg" title="Painted Siren Gallery - Portfolio Piece #1" alt="Painted Siren Gallery - Portfolio Piece #1"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-02.jpg" title="Painted Siren Gallery - Portfolio Piece #2" alt="Painted Siren Gallery - Portfolio Piece #2"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-03.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-03.jpg" title="Painted Siren Gallery - Portfolio Piece #3" alt="Painted Siren Gallery - Portfolio Piece #3"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-04.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-04.jpg" title="Painted Siren Gallery - Portfolio Piece #4" alt="Painted Siren Gallery - Portfolio Piece #4"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-05.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-05.jpg" title="Painted Siren Gallery - Portfolio Piece #5" alt="Painted Siren Gallery - Portfolio Piece #5"></a> </li>
 
 						<!-- Group #2 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-06.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-07.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-08.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-09.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-09.jpg" title="Painted Siren Gallery Picture #9" alt="Painted Siren Gallery Picture #9"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-10.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-10.jpg" title="Painted Siren Gallery Picture #10" alt="Painted Siren Gallery Picture #10"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-06.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-06.jpg" title="Painted Siren Gallery - Portfolio Piece #6" alt="Painted Siren Gallery - Portfolio Piece #6"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-07.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-07.jpg" title="Painted Siren Gallery - Portfolio Piece #7" alt="Painted Siren Gallery - Portfolio Piece #7"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-08.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-08.jpg" title="Painted Siren Gallery - Portfolio Piece #8" alt="Painted Siren Gallery - Portfolio Piece #8"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-09.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-09.jpg" title="Painted Siren Gallery - Portfolio Piece #9" alt="Painted Siren Gallery - Portfolio Piece #9"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-10.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-10.jpg" title="Painted Siren Gallery - Portfolio Piece #10" alt="Painted Siren Gallery - Portfolio Piece #10"></a> </li>
 
 						<!-- Group #3 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-11.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-11.jpg" title="Painted Siren Gallery Picture #11" alt="Painted Siren Gallery Picture #11"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-12.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-12.jpg" title="Painted Siren Gallery Picture #12" alt="Painted Siren Gallery Picture #12"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-13.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-13.jpg" title="Painted Siren Gallery Picture #13" alt="Painted Siren Gallery Picture #13"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-14.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-14.jpg" title="Painted Siren Gallery Picture #14" alt="Painted Siren Gallery Picture #14"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-15.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-15.jpg" title="Painted Siren Gallery Picture #15" alt="Painted Siren Gallery Picture #15"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-11.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-11.jpg" title="Painted Siren Gallery - Portfolio Piece #11" alt="Painted Siren Gallery - Portfolio Piece #11"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-12.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-12.jpg" title="Painted Siren Gallery - Portfolio Piece #12" alt="Painted Siren Gallery - Portfolio Piece #12"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-13.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-13.jpg" title="Painted Siren Gallery - Portfolio Piece #13" alt="Painted Siren Gallery - Portfolio Piece #13"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-14.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-14.jpg" title="Painted Siren Gallery - Portfolio Piece #14" alt="Painted Siren Gallery - Portfolio Piece #14"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-15.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-15.jpg" title="Painted Siren Gallery - Portfolio Piece #15" alt="Painted Siren Gallery - Portfolio Piece #15"></a> </li>
 
 						<!-- Group #4 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-16.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-16.jpg" title="Painted Siren Gallery Picture #16" alt="Painted Siren Gallery Picture #16"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-17.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-17.jpg" title="Painted Siren Gallery Picture #17" alt="Painted Siren Gallery Picture #17"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-18.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-18.jpg" title="Painted Siren Gallery Picture #18" alt="Painted Siren Gallery Picture #18"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-19.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-19.jpg" title="Painted Siren Gallery Picture #19" alt="Painted Siren Gallery Picture #19"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-20.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-20.jpg" title="Painted Siren Gallery Picture #20" alt="Painted Siren Gallery Picture #20"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-16.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-16.jpg" title="Painted Siren Gallery - Portfolio Piece #16" alt="Painted Siren Gallery - Portfolio Piece #16"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-17.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-17.jpg" title="Painted Siren Gallery - Portfolio Piece #17" alt="Painted Siren Gallery - Portfolio Piece #17"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-18.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-18.jpg" title="Painted Siren Gallery - Portfolio Piece #18" alt="Painted Siren Gallery - Portfolio Piece #18"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-19.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-19.jpg" title="Painted Siren Gallery - Portfolio Piece #19" alt="Painted Siren Gallery - Portfolio Piece #19"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-20.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-20.jpg" title="Painted Siren Gallery - Portfolio Piece #20" alt="Painted Siren Gallery - Portfolio Piece #20"></a> </li>
 
 						<!-- Group #5 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-21.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-21.jpg" title="Painted Siren Gallery Picture #21" alt="Painted Siren Gallery Picture #21"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-22.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-22.jpg" title="Painted Siren Gallery Picture #22" alt="Painted Siren Gallery Picture #22"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-23.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-23.jpg" title="Painted Siren Gallery Picture #23" alt="Painted Siren Gallery Picture #23"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-24.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-24.jpg" title="Painted Siren Gallery Picture #24" alt="Painted Siren Gallery Picture #24"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-25.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-25.jpg" title="Painted Siren Gallery Picture #25" alt="Painted Siren Gallery Picture #25"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-21.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-21.jpg" title="Painted Siren Gallery - Portfolio Piece #21" alt="Painted Siren Gallery - Portfolio Piece #21"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-22.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-22.jpg" title="Painted Siren Gallery - Portfolio Piece #22" alt="Painted Siren Gallery - Portfolio Piece #22"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-23.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-23.jpg" title="Painted Siren Gallery - Portfolio Piece #23" alt="Painted Siren Gallery - Portfolio Piece #23"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-24.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-24.jpg" title="Painted Siren Gallery - Portfolio Piece #24" alt="Painted Siren Gallery - Portfolio Piece #24"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-25.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-25.jpg" title="Painted Siren Gallery - Portfolio Piece #25" alt="Painted Siren Gallery - Portfolio Piece #25"></a> </li>
 
 						<!-- Group #6 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-26.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-26.jpg" title="Painted Siren Gallery Picture #26" alt="Painted Siren Gallery Picture #26"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-27.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-27.jpg" title="Painted Siren Gallery Picture #27" alt="Painted Siren Gallery Picture #27"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-28.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-28.jpg" title="Painted Siren Gallery Picture #28" alt="Painted Siren Gallery Picture #28"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-29.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-29.jpg" title="Painted Siren Gallery Picture #29" alt="Painted Siren Gallery Picture #29"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-30.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-30.jpg" title="Painted Siren Gallery Picture #30" alt="Painted Siren Gallery Picture #30"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-26.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-26.jpg" title="Painted Siren Gallery - Portfolio Piece #26" alt="Painted Siren Gallery - Portfolio Piece #26"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-27.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-27.jpg" title="Painted Siren Gallery - Portfolio Piece #27" alt="Painted Siren Gallery - Portfolio Piece #27"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-28.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-28.jpg" title="Painted Siren Gallery - Portfolio Piece #28" alt="Painted Siren Gallery - Portfolio Piece #28"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-29.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-29.jpg" title="Painted Siren Gallery - Portfolio Piece #29" alt="Painted Siren Gallery - Portfolio Piece #29"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-30.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-30.jpg" title="Painted Siren Gallery - Portfolio Piece #30" alt="Painted Siren Gallery - Portfolio Piece #30"></a> </li>
 
 						<!-- Group #7 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-31.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-31.jpg" title="Painted Siren Gallery Picture #31" alt="Painted Siren Gallery Picture #31"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-32.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-32.jpg" title="Painted Siren Gallery Picture #32" alt="Painted Siren Gallery Picture #32"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-33.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-33.jpg" title="Painted Siren Gallery Picture #33" alt="Painted Siren Gallery Picture #33"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-34.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-34.jpg" title="Painted Siren Gallery Picture #34" alt="Painted Siren Gallery Picture #34"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-35.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-35.jpg" title="Painted Siren Gallery Picture #35" alt="Painted Siren Gallery Picture #35"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-31.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-31.jpg" title="Painted Siren Gallery - Portfolio Piece #31" alt="Painted Siren Gallery - Portfolio Piece #31"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-32.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-32.jpg" title="Painted Siren Gallery - Portfolio Piece #32" alt="Painted Siren Gallery - Portfolio Piece #32"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-33.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-33.jpg" title="Painted Siren Gallery - Portfolio Piece #33" alt="Painted Siren Gallery - Portfolio Piece #33"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-34.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-34.jpg" title="Painted Siren Gallery - Portfolio Piece #34" alt="Painted Siren Gallery - Portfolio Piece #34"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-35.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-35.jpg" title="Painted Siren Gallery - Portfolio Piece #35" alt="Painted Siren Gallery - Portfolio Piece #35"></a> </li>
 
 						<!-- Group #8 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-36.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-36.jpg" title="Painted Siren Gallery Picture #36" alt="Painted Siren Gallery Picture #36"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-37.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-37.jpg" title="Painted Siren Gallery Picture #37" alt="Painted Siren Gallery Picture #37"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-38.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-38.jpg" title="Painted Siren Gallery Picture #38" alt="Painted Siren Gallery Picture #38"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-39.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-39.jpg" title="Painted Siren Gallery Picture #39" alt="Painted Siren Gallery Picture #39"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-40.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-40.jpg" title="Painted Siren Gallery Picture #40" alt="Painted Siren Gallery Picture #40"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-36.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-36.jpg" title="Painted Siren Gallery - Portfolio Piece #36" alt="Painted Siren Gallery - Portfolio Piece #36"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-37.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-37.jpg" title="Painted Siren Gallery - Portfolio Piece #37" alt="Painted Siren Gallery - Portfolio Piece #37"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-38.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-38.jpg" title="Painted Siren Gallery - Portfolio Piece #38" alt="Painted Siren Gallery - Portfolio Piece #38"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-39.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-39.jpg" title="Painted Siren Gallery - Portfolio Piece #39" alt="Painted Siren Gallery - Portfolio Piece #39"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-40.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-40.jpg" title="Painted Siren Gallery - Portfolio Piece #40" alt="Painted Siren Gallery - Portfolio Piece #40"></a> </li>
 
 						<!-- Group #9 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-41.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-41.jpg" title="Painted Siren Gallery Picture #41" alt="Painted Siren Gallery Picture #41"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-42.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-42.jpg" title="Painted Siren Gallery Picture #42" alt="Painted Siren Gallery Picture #42"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-43.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-43.jpg" title="Painted Siren Gallery Picture #43" alt="Painted Siren Gallery Picture #43"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-44.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-44.jpg" title="Painted Siren Gallery Picture #44" alt="Painted Siren Gallery Picture #44"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-45.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-45.jpg" title="Painted Siren Gallery Picture #45" alt="Painted Siren Gallery Picture #45"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-41.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-41.jpg" title="Painted Siren Gallery - Portfolio Piece #41" alt="Painted Siren Gallery - Portfolio Piece #41"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-42.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-42.jpg" title="Painted Siren Gallery - Portfolio Piece #42" alt="Painted Siren Gallery - Portfolio Piece #42"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-43.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-43.jpg" title="Painted Siren Gallery - Portfolio Piece #43" alt="Painted Siren Gallery - Portfolio Piece #43"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-44.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-44.jpg" title="Painted Siren Gallery - Portfolio Piece #44" alt="Painted Siren Gallery - Portfolio Piece #44"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-45.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-45.jpg" title="Painted Siren Gallery - Portfolio Piece #45" alt="Painted Siren Gallery - Portfolio Piece #45"></a> </li>
 
 						<!-- Group #10 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-46.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-46.jpg" title="Painted Siren Gallery Picture #46" alt="Painted Siren Gallery Picture #46"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-47.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-47.jpg" title="Painted Siren Gallery Picture #47" alt="Painted Siren Gallery Picture #47"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-48.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-48.jpg" title="Painted Siren Gallery Picture #48" alt="Painted Siren Gallery Picture #48"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-49.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-49.jpg" title="Painted Siren Gallery Picture #49" alt="Painted Siren Gallery Picture #49"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-50.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-50.jpg" title="Painted Siren Gallery Picture #50" alt="Painted Siren Gallery Picture #50"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-46.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-46.jpg" title="Painted Siren Gallery - Portfolio Piece #46" alt="Painted Siren Gallery - Portfolio Piece #46"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-47.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-47.jpg" title="Painted Siren Gallery - Portfolio Piece #47" alt="Painted Siren Gallery - Portfolio Piece #47"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-48.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-48.jpg" title="Painted Siren Gallery - Portfolio Piece #48" alt="Painted Siren Gallery - Portfolio Piece #48"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-49.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-49.jpg" title="Painted Siren Gallery - Portfolio Piece #49" alt="Painted Siren Gallery - Portfolio Piece #49"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-50.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-50.jpg" title="Painted Siren Gallery - Portfolio Piece #50" alt="Painted Siren Gallery - Portfolio Piece #50"></a> </li>
 
 						<!-- Group #11 -->
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-51.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-51.jpg" title="Painted Siren Gallery Picture #15" alt="Painted Siren Gallery Picture #15"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-52.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-52.jpg" title="Painted Siren Gallery Picture #52" alt="Painted Siren Gallery Picture #52"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-53.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-53.jpg" title="Painted Siren Gallery Picture #53" alt="Painted Siren Gallery Picture #53"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-54.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-54.jpg" title="Painted Siren Gallery Picture #54" alt="Painted Siren Gallery Picture #54"></a> </li>
-						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/h-port-55.jpg" class="lightboxTrigger"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumbs/h-port-55.jpg" title="Painted Siren Gallery Picture #55" alt="Painted Siren Gallery Picture #55"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-51.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-51.jpg" title="Painted Siren Gallery - Portfolio Piece #15" alt="Painted Siren Gallery - Portfolio Piece #15"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-52.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-52.jpg" title="Painted Siren Gallery - Portfolio Piece #52" alt="Painted Siren Gallery - Portfolio Piece #52"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-53.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-53.jpg" title="Painted Siren Gallery - Portfolio Piece #53" alt="Painted Siren Gallery - Portfolio Piece #53"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-54.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-54.jpg" title="Painted Siren Gallery - Portfolio Piece #54" alt="Painted Siren Gallery - Portfolio Piece #54"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/portfolios/heather/full/h-port-55.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/portfolios/heather/thumb/h-port-55.jpg" title="Painted Siren Gallery - Portfolio Piece #55" alt="Painted Siren Gallery - Portfolio Piece #55"></a> </li>
 					</ul>
 				</article>
 			</section>
@@ -194,27 +194,6 @@
 						<p class="email">Email: <a href="mailto:htarkman@paintedsiren.com">htarkman@paintedsiren.com</a> </p>
 						<p class="phone">Phone: <a href="tel:1-650-219-7343">(650) 219-7343</a> </p>
 				</aside>
-				<!-- <section id="INFO">
-					<h1>The Crew</h1>
-					<a href="crew.html">
-						<div class="teamRow">
-							<div id="britney"></div>
-							<div>
-								<p class="profileName2">Britney</p> </div> </div>
-						<div class="teamRow">
-							<div id="mark"></div>
-							<div>
-								<p class="profileName2">Mark</p> </div> </div>
-						<div class="teamRow">
-							<div id="crayone"></div>
-							<div>
-								<p class="profileName2">Crayone</p> </div> </div>
-						<div class="teamRow">
-							<div id="sean"></div>
-							<div>
-								<p class="profileName2">Sean</p> </div> </div>
-					</a>
-				</section> -->
 			</section>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
@@ -231,9 +210,9 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq">FAQ</a></li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li> -->
 				</ul>
 			</nav>
 			<section id="legal">
@@ -246,6 +225,117 @@
 	<!-- VENDOR SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- Adding the ImageLightbox jQuery Plug-In -->
+		<script src="<?php echo BASE_URL; ?>/scripts/vendor/imagelightbox.js"></script>
+		<script>
+			$( function() {
+					// ACTIVITY INDICATOR
+				var activityIndicatorOn = function() { $( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
+					},
+					activityIndicatorOff = function() { $( '#imagelightbox-loading' ).remove();
+					},
+
+
+					// OVERLAY
+					overlayOn = function() { $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
+					},
+					overlayOff = function() { $( '#imagelightbox-overlay' ).remove();
+					},
+
+
+					// CLOSE BUTTON
+					closeButtonOn = function( instance ) { $( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
+					},
+					closeButtonOff = function() { $( '#imagelightbox-close' ).remove();
+					},
+
+
+					// CAPTION
+					captionOn = function() {
+						var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
+						if( description.length > 0 )
+							$( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
+					},
+					captionOff = function() { $( '#imagelightbox-caption' ).remove();
+					},
+
+
+					// NAVIGATION
+					navigationOn = function( instance, selector ) {
+						var images = $( selector );
+						if( images.length ) {
+							var nav = $( '<div id="imagelightbox-nav"></div>' );
+							for( var i = 0; i < images.length; i++ )
+								nav.append( '<button type="button"></button>' );
+
+							nav.appendTo( 'body' );
+							nav.on( 'click touchend', function(){ return false; });
+
+							var navItems = nav.find( 'button' );
+							navItems.on( 'click touchend', function() {
+								var $this = $( this );
+								if( images.eq( $this.index() ).attr( 'href' ) != $( '#imagelightbox' ).attr( 'src' ) )
+									instance.switchImageLightbox( $this.index() );
+
+								navItems.removeClass( 'active' );
+								navItems.eq( $this.index() ).addClass( 'active' );
+
+								return false;
+							})
+							.on( 'touchend', function(){ return false; }); 
+						}
+					},
+					navigationUpdate = function( selector ) {
+						var items = $( '#imagelightbox-nav button' );
+						items.removeClass( 'active' );
+						items.eq( $( selector ).filter( '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
+					},
+					navigationOff = function() { $( '#imagelightbox-nav' ).remove();
+					},
+
+
+					// ARROWS
+					arrowsOn = function( instance, selector ) {
+						var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
+
+						$arrows.appendTo( 'body' );
+
+						$arrows.on( 'click touchend', function( e ) {
+							e.preventDefault();
+
+							var $this	= $( this ),
+								$target	= $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
+								index	= $target.index( selector );
+
+							if( $this.hasClass( 'imagelightbox-arrow-left' ) ) {
+								index = index - 1;
+								if( !$( selector ).eq( index ).length )
+									index = $( selector ).length;
+							} else {
+								index = index + 1;
+								if( !$( selector ).eq( index ).length )
+									index = 0;
+							}
+
+							instance.switchImageLightbox( index );
+							return false;
+						});
+					},
+					arrowsOff = function() { $( '.imagelightbox-arrow' ).remove(); };
+
+				//	ALL COMBINED
+				var selectorF = 'a[data-imagelightbox="f"]';
+				var instanceF = $( selectorF ).imageLightbox(
+				{
+					onStart:		function() { overlayOn(); closeButtonOn( instanceF ); arrowsOn( instanceF, selectorF ); },
+					onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
+					onLoadStart: 	function() { captionOff(); activityIndicatorOn(); },
+					onLoadEnd:	 	function() { captionOn(); activityIndicatorOff(); $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
+				});
+			});
+		</script>
+
 	<script src="<?php echo BASE_URL; ?>/scripts/vendor/modernizr-custom.js"></script>
 
 		<!-- Google Analytics Tracking ID/code -->
@@ -261,7 +351,6 @@
 
 	<!-- CUSTOM SCRIPTS -->
 	<script src="<?php echo BASE_URL; ?>/scripts/js/general.js"></script>
-		<script src="<?php echo BASE_URL; ?>/scripts/js/lightbox.js"></script>
 
 </BODY>
 
