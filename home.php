@@ -149,9 +149,9 @@
 					<p>Shop Hours: Tues - Sun, 11am to 8pm <br> (subject to change) <br>
 						<span class="note">* Hours can also be accommodated to fit client's schedule</span> </p>
 				</section>
-				<!-- <section id="GUESTBOOK">
+				<section id="GUESTBOOK">
 					<h1>Guestbook</h1>
-					<div>
+					<!-- <div>
 						<p>Please sign our guestbook and leave a message!</p>
 						<form action="">
 							<label for="guestName">Name: <br>
@@ -161,8 +161,29 @@
 							<label for="guestMessage">Message: <br>
 								<textarea required name="guestMessage" id="guestMessage" rows="5"></textarea> </label> <br> <br>
 							<button class="btn-cta">Get Some!</button>
-						</form> </div>
-				</section> -->
+						</form> </div> -->
+						<div id="wufoo-z1dhe0b81uneyla">
+							Fill out my <a href="https://anewlevel.wufoo.com/forms/z1dhe0b81uneyla">online form</a>.
+						</div>
+						<!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div> -->
+						<script type="text/javascript">var z1dhe0b81uneyla;(function(d, t) {
+							var s = d.createElement(t), options = {
+							'userName':'anewlevel',
+							'formHash':'z1dhe0b81uneyla',
+							'autoResize':true,
+							'height':'517',
+							'async':true,
+							'host':'wufoo.com',
+							'header':'show',
+							'ssl':true};
+							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+							s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { z1dhe0b81uneyla = new WufooForm();z1dhe0b81uneyla.initialize(options);z1dhe0b81uneyla.display(); } catch (e) {}};
+							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+							})(document, 'script');
+						</script>
+				</section>
 			</div>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
