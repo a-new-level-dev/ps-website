@@ -1,22 +1,23 @@
 /* ---------------------------------------------
-GENERAL
+				GENERAL
 --------------------------------------------- */
-
 /* This outlines everyting to see where the pieces are at */
 /* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-ALL PROFILES ACROSS THE SITE
+				ALL PROFILES ACROSS THE SITE
 --------------------------------------------- */
-
 #PROFILES { 
 	color: #c5c5c5; 
 	font-size: 1.2em; 
 }
-
-	#heather, #britney, #mark, #crayone, #sean { 
+	#heather,
+	#britney,
+	#mark,
+	#crayone,
+	#sean { 
 		background-position: center; 
 		background-repeat: no-repeat; 
 		background-size: cover; 
@@ -25,33 +26,27 @@ ALL PROFILES ACROSS THE SITE
 		height: 10em; 
 		width: 10em; 
 	}
-
-		#britney, #mark, #crayone, #sean { 
+		#britney,
+		#mark,
+		#crayone,
+		#sean { 
 			float: left; 
 			margin-bottom: 1em; 
 		}
-	
 	#heather { 
 		background-image: url(../../pics/shop/ppl/bioPic-heather.jpg); 
 		display: inline-block; 
 		margin: 0 0 0.75em 0.38em; 
 	}
-
 	#britney { background-image: url(../../pics/shop/ppl/bioPic-britney.jpg); }
-
 	#mark { background-image: url(../../pics/shop/ppl/bioPic-mark.jpg); }
-
 	#crayone { background-image: url(../../pics/shop/ppl/bioPic-crayone.jpg); }
-
 	#sean { 
 		background-image: url(../../pics/shop/ppl/bioPic-sean.jpg); 
 		background-position: top; 
 	}
-
 		#heather:hover { border-color: #e40074; }
-
 		.bioPic { text-align: center; }
-
 		.bioPic > img { 
 			border-radius: 10px; 
 			width: 80%; 
@@ -61,7 +56,6 @@ ALL PROFILES ACROSS THE SITE
 				-ms-box-shadow: 4px 4px 15px 0px rgba(89, 89, 89, 0.6); 
 				-o-box-shadow: 4px 4px 15px 0px rgba(89, 89, 89, 0.6); 
 		}
-		
 	.profileName { 
 		color: #c5c5c5; 
 		float: right; 
@@ -73,9 +67,7 @@ ALL PROFILES ACROSS THE SITE
 		text-align: left; 
 		text-transform: uppercase; 
 	}
-
 		.profileName:hover { color: #e40074; }
-
 	.profileName2 { 
 		position: relative; 
 			left: -6.5%; 
@@ -85,28 +77,27 @@ ALL PROFILES ACROSS THE SITE
 		font-size: 1.2em; 
 		text-transform: uppercase; 
 	}
-
 	.title { 
 		color: #c5c5c5; 
 		font-family: "script", serif; 
 		font-size: 1.25em; 
 	}
-
 #EVENTS { 
 	box-shadow: 0px -20px 3px -20px #595959; 
 	min-height: 650px; 
 }
-
-	#NEWS, #PROFILES, #EVENTS, #INFO { 
+	#NEWS,
+	#PROFILES,
+	#EVENTS,
+	#INFO { 
 		color: #c5c5c5; 
 		font-size: 1.2em; 
 	}
-
 #INFO { box-shadow: 0px -20px 3px -20px #595959; }
-
 	#googleMap { 
 		min-height: 300px; 
 			max-height: 400px; 
 	}
-
-#PROFILES, #EVENTS, #INFO { padding: 0.1em 0.6em; }
+#PROFILES,
+#EVENTS,
+#INFO { padding: 0.1em 0.6em; }

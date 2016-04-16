@@ -1,3 +1,4 @@
+<!-- Setting the BASE URL for the page -->
 <?php include('scripts/php/base-url.php'); ?>
 
 <!DOCTYPE html>
@@ -77,25 +78,25 @@
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather">Heather</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/crew">The Crew</a> </li> </ul> </div>
-					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash" class="ctrVert">Flash</a> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
+					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
 					<div id="topNav-booking" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/booking">Appointment</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/booking#release">Release Info</a> </li> </ul> </div>
+						 	<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li> </ul> </div>
 						<div id="ghost"></div>
 					<div id="topNav-henna" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Henna <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						 	<li><a href="<?php echo BASE_URL; ?>/henna">Gallery</a> </li>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
-						 	<li><a href="<?php echo BASE_URL; ?>/henna#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing" class="ctrVert">Healing</a> </div> </nav>
+						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
+					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -130,14 +131,14 @@
 			<div id="content-R">
 				<section id="PROFILES">
 					<h1>Meet The Owner</h1>
-						<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather">
+						<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather.php">
 							<div id="heather"></div>
 							<div class="profileName stroke-black">Heather Tarkman</div> </a>
 				</section>
 				<aside id="CONTACT">
 					<h1>Latest News</h1>
-						<p><a href="<?php echo BASE_URL; ?>/henna"><img class="news-img" src="<?php echo BASE_URL; ?>/pics/news/henna-hands.jpg" title="The Painted Siren Now Offers Henna Art" alt="The Painted Siren Now Offers Henna Art"></a> </p>
-						<p>The Painted Siren is now offering Henna Artwork! Check out <a href="<?php echo BASE_URL; ?>/henna">our page</a> to learn more.</p>
+						<p><a href="<?php echo BASE_URL; ?>/henna.php"><img class="news-img" src="<?php echo BASE_URL; ?>/pics/news/henna-hands.jpg" title="The Painted Siren Now Offers Henna Art" alt="The Painted Siren Now Offers Henna Art"></a> </p>
+						<p>The Painted Siren is now offering Henna Artwork! Check out <a href="<?php echo BASE_URL; ?>/henna.php">our page</a> to learn more.</p>
 				</aside>
 				<section id="INFO">
 					<h1>Shop Info</h1>
@@ -146,29 +147,41 @@
 						</address>
 						<p class="phone">Phone: <a href="tel:1-650-219-7343">(650) 219-7343</a> </p>
 					<div id="googleMap"></div>
-					<p>Shop Hours: Tues - Sun, 11am to 8pm <br> (subject to change) <br>
+					<p>Shop Hours: Tues - Sun, 11am to 8pm<sup>*</sup> <br>
+						(subject to change) <br>
 						<span class="note">* Hours can also be accommodated to fit client's schedule</span> </p>
 				</section>
-				<!-- <section id="GUESTBOOK">
+				<section id="GUESTBOOK">
 					<h1>Guestbook</h1>
-					<div>
-						<p>Please sign our guestbook and leave a message!</p>
-						<form action="">
-							<label for="guestName">Name: <br>
-								<input type="text" name="guestName" placeholder="Heather Tarkman" id="guestName"> </label> <br> <br>
-							<label for="guestEmail">Email: <br>
-								<input required type="text" name="guestEmail" placeholder="htarkman@paintedsiren.com" id="guestEmail"> </label> <br> <br>
-							<label for="guestMessage">Message: <br>
-								<textarea required name="guestMessage" id="guestMessage" rows="5"></textarea> </label> <br> <br>
-							<button class="btn-cta">Get Some!</button>
-						</form> </div>
-				</section> -->
+						<div id="wufoo-zvy717q19o3gkb">
+						Fill out my <a href="https://paintedsiren.wufoo.com/forms/zvy717q19o3gkb">online form</a>.
+						</div>
+						<!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div> -->
+						<script type="text/javascript">var zvy717q19o3gkb;(function(d, t) {
+							var s = d.createElement(t), options = {
+							'userName':'paintedsiren',
+							'formHash':'zvy717q19o3gkb',
+							'autoResize':true,
+							'height':'464',
+							'async':true,
+							'host':'wufoo.com',
+							'header':'show',
+							'ssl':true};
+							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+							s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { zvy717q19o3gkb = new WufooForm();zvy717q19o3gkb.initialize(options);zvy717q19o3gkb.display(); } catch (e) {}};
+							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+							})(document, 'script');
+						</script>
+						<p class="disclaimer">(By signing this guestbook, you are opting in to receive our newsletter.)</p>
+				</section>
 			</div>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
 				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
-					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
+					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
 				</a>
 			</div>
 		</section>
@@ -179,7 +192,7 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink">Home</li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
 						<!-- <li>|</li>
 					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.html">FAQ</a> </li> -->
 				</ul>

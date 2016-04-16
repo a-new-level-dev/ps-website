@@ -1,7 +1,6 @@
 /* ---------------------------------------------
-GENERAL
+				GENERAL
 --------------------------------------------- */
-
 /* Custom Fonts */
 @import url(../fonts/marquee/outstandingregular-webfontkit/stylesheet.css); /* marquee */
 @import url(../fonts/profiles/euphorigenic-webfontkit/stylesheet.css); /* profileName */
@@ -9,7 +8,8 @@ GENERAL
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script); /* Dancing Script */
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px); /* Slabo 27px */
 
-/* * { outline: 1px dotted #f00; } */
+/* Putting OUTLINES on everyting for testing/visibility */
+/* * { outline: 1px dashed #f00; } */
 
 body { 
 	color: #c5c5c5; 
@@ -20,32 +20,26 @@ body {
 	font-family: Garamond, serif; 
 	word-break: normal; 
 }
-
 blockquote, q { 
 	font-family: "Dancing Script", cursive; 
 	font-size: 1.2em; 
 }
-
-a {
+a { 
 	color: #e40074; 
 	text-decoration: none; 
 }
-
 	a:hover { 
 		color: #51cf72; 
 		text-decoration: underline; 
 	}
-
 	a:focus { color: inherit; }
-
 address { font-style: normal; }
 
 
 
 /* ---------------------------------------------
-MAIN CONTAINER
+				MAIN CONTAINER
 --------------------------------------------- */
-
 #container { 
 	background-color: #1a1a1a; 
  	box-shadow: 20px 0 25px -8px #1a1a1a, -20px 0 25px -8px #1a1a1a; 
@@ -53,11 +47,9 @@ MAIN CONTAINER
 	width: 64%; 
 	font-size: 1.15em; 
 }
-
 	/* ---------------------------------------------
-	HEADER
+					HEADER
 	--------------------------------------------- */
-
 	#logo { 
 		clear: none; 
 		height: 12em; 
@@ -66,22 +58,18 @@ MAIN CONTAINER
 		width: 10em; 
 		z-index: 2; 
 	}
-
 		#logo img { 
 			margin-left: -14em; 
 			margin-top: -4em; 
 			width: 300%; 
 		}
-
 		#logo:hover { border-color: #ff3399; }
-
 	#marquee { 
 		height: 5.1em; 
 		padding: 1em; 
 		position: relative; 
 		z-index: 3; 
 	}
-
 		#marquee p { 
 			margin-top: 0.1em; 
 			text-align: center; 
@@ -89,30 +77,24 @@ MAIN CONTAINER
 			font-size: 2.05em; 
 			color: #000; 
 		}
-	
 		#marquee a { 
 			color: inherit; 
 			text-decoration: none; 
 		}
-
 	#banner { 
 		height: 25em; 
 		margin-top: -3em; 
 		position: relative; 
 		z-index: 1; 
 	}
-
 		#banner img { 
 			height: 100%; 
 			width: 100%; 
 		}
-
 		/* ---------------------------------------------
-		TOP NAVIGATION AREA
+						TOP NAVIGATION AREA
 		--------------------------------------------- */
-
 		#topNav-wrapper { margin-bottom: 2em; }
-
 		#topNav { 
 			display: flex; 
 				display: -webkit-flex; 
@@ -121,13 +103,11 @@ MAIN CONTAINER
 			position: relative; 
 			z-index: 3; 
 		}
-
 			.topNavLink a { 
 				color: inherit; 
 				text-decoration: none; 
 				text-transform: uppercase; 
 			}
-
 			#topNav div { 
 				background-color: #e40074; 
 				display: inline-block; 
@@ -136,61 +116,51 @@ MAIN CONTAINER
 				text-align: center; 
 				width: 14.2857%; 
 			}
-
-				#topNav div, #topNav div section { 
+				#topNav div,
+				#topNav div section { 
 					border-bottom: 0.1em solid #ccc; 
 					border-top: 0.1em solid #ccc; 
 				}
-				
 				#topNav div a { 
 					color: #000; 
 					font-weight: bold; 
 					text-decoration: none; 
 				}
-
-				#topNav div.SELECTED .btn, #topNav div.SELECTED > a { 
+				#topNav div.SELECTED .btn,
+				#topNav div.SELECTED > a { 
 					border-radius: 0; 
 					background-color: #595959; 
 					color: #e40074; 
 					font-weight: bold; 
 				}
-
 				#topNav div:hover { 
 					background-color: #595959; 
 					font-weight: bold; 
 				}
-
-				#topNav div a:hover, #topNav .btn:hover { color: #e40074; }
-
-				#topNav .btn, #topNav .dropdown-menu { 
+				#topNav div a:hover,
+				#topNav .btn:hover { color: #e40074; }
+				#topNav .btn,
+				#topNav .dropdown-menu { 
 					border: 0; 
 					background-color: rgba(0,0,0,0); 
 					font-size: 1em; 
 					font-weight: bold; 
 				}
-
 				#topNav .btn { 
 					width: 100%; 
 					height: 100%; 
 				}
-
 				#topNav .dropdown-menu { 
 					background-color: #e40074; 
 					font-size: 75%; 
 				}
-
 				#topNav .dropdown-menu > li > a:hover { background-color: #595959; }
-
-			/* -------------------------
-			topNav Individual Links
-			------------------------- */
-
+			/* ---------------------------------------------
+							topNav Individual Links
+			--------------------------------------------- */
 			/*#topNav-portfolios {}*/ /*just in case*/
-
 			/*#topNav-flash {}*/ /*just in case*/
-
 			/*#topNav-henna {}*/ /*just in case*/
-	
 			#ghost { 
 				border-bottom: 0.1em solid #ccc; 
 				border-top: 0.1em solid #ccc;  
@@ -201,13 +171,9 @@ MAIN CONTAINER
 					-o-flex: initial; 
 				min-width: 15.5%; 
 			}
-
 			/*#topNav-booking {}*/ /*just in case*/
-
 			/*#topNav-jewelry {}*/ /*just in case*/
-
 			/*#topNav-healing {}*/ /*just in case*/
-	
 		#stickerTop { 
 			margin: 0 auto; 
 				margin-top: -9.5em; 
@@ -215,7 +181,6 @@ MAIN CONTAINER
 			width: 19%; 
 			z-index: 3; 
 		}
-
 		#stickerBtm { 
 			margin: 0 auto; 
 				margin-top: -15.5em; 
@@ -223,16 +188,14 @@ MAIN CONTAINER
 			width: 22%; 
 			z-index: 2; 
 		}
-
-			#stickerTop img, #stickerBtm img { 
+			#stickerTop img,
+			#stickerBtm img { 
 				height: 100%; 
 				width: 100%; 
 			}
-
 	/* ---------------------------------------------
-	MAIN CONTENT
+					MAIN CONTENT
 	--------------------------------------------- */
-
 	#content { 
 		background-color: #fdf8e8; 
 		clear: both; 
@@ -245,9 +208,9 @@ MAIN CONTAINER
 			box-shadow: 20px 0px 2px -20px #595959; 
 			padding-bottom: 2em; 
 		}
-
 			#gallery li { 
 				list-style: none; 
+				position: relative; 
 				float: left; 
 				display: inline; 
 				width: 31%; 
@@ -255,19 +218,16 @@ MAIN CONTAINER
 				padding: 0; 
 				text-align: center; 
 			}
-
 				#gallery li img { 
 					height: 7em; 
 					width: 90%; 
 				}
-	
 		#content-R { 
 			float: right; 
 			width: 35%; 
 				max-width: 35%; 
 			box-shadow: -20px 0px 1px -20px #595959; 
 		}
-
 		#content h1 { 
 			color: #c5c5c5; 
 			font-family: "script", sans serif; 
@@ -276,11 +236,9 @@ MAIN CONTAINER
 			text-transform: capitalize; 
 			width: 100%; 
 		}
-
 	/* ---------------------------------------------
-	FOOTER
+					FOOTER
 	--------------------------------------------- */
-
 	#btmNav { 
 		background-color: #1d1d1a; 
 		clear: both; 
@@ -289,29 +247,20 @@ MAIN CONTAINER
 		padding: 0.75em; 
 		text-align: center; 
 	}
-
 		#btmNav ul li { 
 			display: inline; 
 			list-style: none; 
 			padding: 0.5em; 
 		}
-
 		/* ---------------------------------------------
-		btmNav Individual Links
+						btmNav Individual Links
 		--------------------------------------------- */
-
 		/*#btmNav-home {}*/ /* just in case */
-	
 		/*#btmNav-about {}*/ /* just in case */
-
 		/*#btmNav-booking {}*/ /* just in case */
-
 		/*#btmNav-store {}*/ /* just in case */
-	
 		/*#btmNav-contact {}*/ /* just in case */
-
 		/*#btmNav-legal {}*/ /* just in case */
-
 	#legal { 
 		background-color: #595959; 
 		color: #000; 
@@ -320,15 +269,13 @@ MAIN CONTAINER
 		text-align: right; 
 		font-size: 1.1em; 
 	}
-
 	#ANL a { color: #81d0ed; }
 
 
 
 /* ---------------------------------------------
-BADGES, BUTTONS & STICKERS
+				BADGES, BUTTONS & STICKERS
 --------------------------------------------- */
-
 #social-badges { 
 	float: right; 
 	margin-bottom: -8em; 
@@ -336,21 +283,13 @@ BADGES, BUTTONS & STICKERS
 	margin-top: 5em; 
 	position: relative; 
 }
-
 	#sb-face { background-image: url(../img/social-badges/sb-face.png); }
-
 	#sb-goog { background-image: url(../img/social-badges/sb-goog.png); }
-
 	#sb-inst { background-image: url(../img/social-badges/sb-inst.png); }
-
 	#sb-lnkd { background-image: url(../img/social-badges/sb-lnkd.png); }
-
 	#sb-pint { background-image: url(../img/social-badges/sb-pint.png); }
-
 	#sb-twit { background-image: url(../img/social-badges/sb-twit.png); }
-
 	#sb-yelp { background-image: url(../img/social-badges/sb-yelp.png); }
-
 .social-badge { 
 	background-position: center; 
 	background-size: 100% 100%; 
@@ -361,9 +300,7 @@ BADGES, BUTTONS & STICKERS
 	padding-bottom: 3px; 
 	width: 32px; 
 }
-
 	.social-badge:hover { border-color: #fff; }
-
 #sidebar #Setmore_button_iframe img { 
 	transform: scale(0.5) translateX(38px); 
 		-webkit-transform: scale(0.5) translateX(38px); 
@@ -371,7 +308,6 @@ BADGES, BUTTONS & STICKERS
 		-ms-transform: scale(0.5) translateX(38px); 
 		-o-transform: scale(0.5) translateX(38px); 
 }
-
 /* Styling for Elements that will act as a pseudo button with a CTA */
 .btn-cta { 
 	display: flex; 
@@ -385,9 +321,7 @@ BADGES, BUTTONS & STICKERS
 	font-family: "Dancing Script", serif; 
 	font-size: 1.2em; 
 }
-
 	.btn-cta > span { margin: auto; }
-
 	.btn-cta:hover { 
 		background-color: #67ccea; 
 		border-color: #fffe9c; 
@@ -398,23 +332,18 @@ BADGES, BUTTONS & STICKERS
 
 
 /* ---------------------------------------------
-DEFINE GENERAL {classes} HERE
+				DEFINE GENERAL {classes} HERE
 --------------------------------------------- */
-
 .btmNavLink { 
 	font-style: italic; 
 	text-transform: capitalize; 
 }
-
 .btn { color: #000; }
-
 .clrLink { 
 	text-decoration: none; 
 	color: #c5c5c5; 
 }
-
 .ctrText { text-align: center; }
-
 .ctrVert { 
 	height: 100%; 
 	display: flex; 
@@ -430,30 +359,26 @@ DEFINE GENERAL {classes} HERE
 		-ms-justify-content: center; 
 		-o-justify-content: center; 
 }
-
 .date { 
 	font-size: 1.4em; 
 	text-decoration: underline; 
 }
-
 .disclaimer { 
 	font-size: 1.3em; 
 	font-style: italic; 
 }
-
 .email {}
-
-.hashtag { color: #6387af; }
-
+.hashtag { 
+	color: #6387af; 
+	font-size: 1.1em; 
+	font-style: italic; 
+}
 .note { 
 	font-style: italic; 
 	padding-left: 1em; 
 }
-
 .phone {}
-
 .quote {}
-
 .stroke-black { 
 	text-shadow: 
 		-1px -1px 0 #000, 
@@ -461,7 +386,6 @@ DEFINE GENERAL {classes} HERE
 		-1px 1px 0 #000, 
 		1px 1px 0 #000; 
 }
-
 .stroke-pink { 
 	text-shadow: 
 		-1px -1px 0 #e40074, 
@@ -469,7 +393,6 @@ DEFINE GENERAL {classes} HERE
 		-1px 1px 0 #e40074, 
 		1px 1px 0 #e40074; 
 }
-
 .stroke-white { 
 	text-shadow: 
 		-1px -1px 0 #fff, 
@@ -477,7 +400,6 @@ DEFINE GENERAL {classes} HERE
 		-1px 1px 0 #fff, 
 		1px 1px 0 #fff; 
 }
-
 .time {}
 
 

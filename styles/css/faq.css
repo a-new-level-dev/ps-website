@@ -1,32 +1,30 @@
 /* ---------------------------------------------
-GENERAL
+				GENERAL
 --------------------------------------------- */
-
 @import "general.css";
 @import "profiles.css";
 
+/* Putting OUTLINES on everyting for testing/visibility */
 /* * { outline: 1px dashed #f00; } */
 
 
 
 /* ---------------------------------------------
-PAGE: FAQ
+				PAGE: FAQ
 --------------------------------------------- */
-
 #TOPICS { padding: 0 1.2em; }
-
 	#faq ol { list-style: none; }
-	#faq li:nth-child(2n+1):before { content: "Q: "; }
-	#faq li:nth-child(2n+2):before { content: "A: "; } 
-		
+	#faq li:nth-child(2n+1)::before { content: "Q: "; }
+	#faq li:nth-child(2n+2)::before { content: "A: "; } 
 #CONTACT {
-	box-shadow: 0px -20px 3px -20px #595959;
-	min-height: 15em;
+	box-shadow: 0px -20px 3px -20px #595959; 
+	min-height: 15em; 
 }
-
-	#TOPICS, #PROFILES, #CONTACT {
-		color: #c5c5c5;
-		font-size: 1.2em;
+	#TOPICS,
+	#PROFILES,
+	#CONTACT { 
+		color: #c5c5c5; 
+		font-size: 1.2em; 
 	}
-
-#PROFILES, #CONTACT { padding: 0.1em 0.6em; }
+#PROFILES,
+#CONTACT { padding: 0.1em 0.6em; }
