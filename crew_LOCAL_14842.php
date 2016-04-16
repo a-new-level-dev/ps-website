@@ -5,7 +5,7 @@
 <HTML lang="en">
 
 
-<!-- Pg. 07, Painted Siren: Healing Info -->
+<!-- Pg. 02, Painted Siren: Portfolios -->
 <!-- ********************************************* HEAD: START ********************************************** -->
 <HEAD>
 
@@ -14,7 +14,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="painted, siren, tattoo, shop, artist, art, graffiti, ink">
 	
-	<title>PS.com: Healing Info</title>
+	<title>PS.com: Meet The Team</title>
 
 	<!-- WEBSITE FAVICON CODE -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/pics/icons/logo-tooth-favicon.ico/apple-icon-57x57.png">
@@ -37,9 +37,9 @@
 
 	<!-- VENDOR STYLES -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
+
 	<!-- CUSTOM STYLES -->
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/healing.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/crew.css">
 		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
@@ -65,7 +65,7 @@
 			</section>
 			<section id="topNav-wrapper">
 				<nav id="topNav">
-					<div id="topNav-portfolios" class="dropdown">
+					<div id="topNav-portfolios" class="dropdown SELECTED">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
@@ -86,7 +86,7 @@
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
 					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing" class="SELECTED"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -96,46 +96,45 @@
 		
 		<!-- ********************************************* SECTION: CONTENT ********************************************** -->
 		<section id="content">
-			<section id="wrapper">
-				<article id="COLUMN">
-					<h1>Healing &amp; Care Instructions</h1>
-					<p>
-						<strong>The First Day</strong>
-						<p>Upon completion of your tattoo, it will be wrapped with a covering which you will leave on for one (1) hour.</p>
-							<br>
-						<p>* After one (1) hour you will remove the covering and gently but thoroughly wash your tattoo with a clean washcloth and antibacterial soap. BE SURE to wash it well and remove any remaining fluids, Vasoline, or other debris.  After rinsing the soap off of your tattoo, pat it dry and LEAVE IT ALONE FOR THE REMAINDER OF THE DAY. (During this time your tattoo needs to air out and start naturally healing.) YOU WILL NOT PUT ANYTHING ON THE TATTOO DURING THIS TIME.</p>
-					</p>
-					<br>
-					<p>
-						<strong>The Second Day</strong>
-						<p>You will start applying a small amount of Lubriderm Unscented Lotion (the one with the light blue cap) twice (2 times) a day for the next two (2) weeks. Be sure when applying lotion that you spread it across fingers before applying so you don't over-saturate and can spread evenly across your tattoo.</p>
-							<br>
-						<p>*For the remainder of your healing process DO NOT EXPOSE TATTOO TO DIRECT SUNLIGHT OR SOAK TATTOO(swimming, hot tubs, bathtubs) DO NOT SLEEP ON YOUR TATTOO, DO NOT LET WATER BEAT DIRECTLY ON IT IN THE SHOWER and make sure to be careful of CHAFFING/RUBBING against clothing, sheets, and accessories.</p>
-					</p> <br>
-					<p>
-						<p>DO NOT SCRATCH OR PICK AT YOUR TATTOO during the healing process. Itchiness is natural and is something that you must tolerate. IF THE SCAB COMES OFF PREMATURELY, THE INK WILL COME OFF WITH IT. (Avoid this by not allowing your scab to become too dry and cracking or by over-moisturizing it and causing the scab to become gooey and come off)</p>
-							<br>
-						<p>*Free touch ups are given with all tattoos (within 30 days of original tattoo) if all directions have been followed and damage is minimal. If you have additional questions please call the number at the top of this page.</p>
-					</p>
-				</article>
+			<section id="content-L">
+				<section id="TOPICS">
+					<h1>The Crew</h1>
+					<div class="teamRow">
+						<div id="britney"></div>
+						<div>
+							<p class="profileName2 stroke-black">Britney</p>
+							<p class="blurb">Tattoo enthusiast &amp; shop vet for 5+ years, Britney is our shop girl extraordinaire! Energetic and professional, she's here to make sure your questions are answered and you have all the information you need to feel confident, well taken care of and have an enjoyable experience when visiting The Painted Siren.</p> </div> </div>
+					<div class="teamRow">
+						<div id="mark"></div>
+						<div>
+							<p class="profileName2 stroke-black">Mark</p>
+							<p class="blurb">Collector of tattoos, Mark is our shop associate, administrator and an invaluable part of our shop team. Enthusiastic and friendly, he is a passionate listener who is knowledgeable and dedicated to helping each client achieve their vision.</p> </div> </div>
+					<div class="teamRow">
+						<div id="crayone"></div>
+						<div>
+							<p class="profileName2 stroke-black">Crayone</p>
+							<p class="blurb">(pronounced: Cray-Own) is considered to be a Bay Area Graffiti Art Pioneer. He has been filmed and published many times, but his seminal exposure was a book called "Spray Can Art", "Freight Train Graffiti", "Graffito", a video documentary called "Piece By Piece" and "The History of American Graffiti". To his peers he is known as a person who brought the use of intricate colors and skillful technique to his graffiti pieces. His legendary crew called TWS (Together With Style) has brought world wide recognition. <cite>(<a href="http://www.crayone.com/about.html">Crayone.com</a>) </cite> </p> </div> </div>
+					<div class="teamRow">
+						<div id="sean"></div>
+						<div>
+							<p class="profileName2 stroke-black">Sean</p>
+							<p class="blurb"><em>Bio Coming Soon</em> </p> </div> </div>
+				</section>
 			</section>
-			<!-- <section id="content-R">
+			<section id="content-R">
 				<section id="PROFILES">
-					<h1>Helpful Items</h1>
-					<p>Coming Soon</p> </section>
-				<aside id="CONTACT">
-					<h1>Learn More</h1>
-					<p>Coming Soon</p> </aside>
-			</section> -->
+					<h1>The Painted Siren</h1>
+					<div class="bioPic"><img src="<?php echo BASE_URL; ?>/pics/shop/bldg/bldg-front.jpg" title="The Painted Siren" alt="The Painted Siren"></div>
+					<!-- <p>Stuff can go here</p> --> </section>
+				<!-- <aside id="CONTACT">
+					<h1>Contact Us</h1>
+					<p>put stuff in here</p> </aside> -->
+			</section>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
 				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
-<<<<<<< HEAD
 					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
-=======
-					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
 				</a>
 			</div>
 		</section>

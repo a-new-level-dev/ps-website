@@ -102,6 +102,7 @@
 					<h1>Original Flash &amp; Ideas</h1>
 					<ul id="gallery">
 						<!-- Group #1 -->
+<<<<<<< HEAD
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" title="Painted Siren Flash - Piece #1" alt="Painted Siren Flash - Piece #1"></a> </li>
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" title="Painted Siren Flash - Piece #1" alt="Painted Siren Flash - Piece #1"></a> </li>
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" title="Painted Siren Flash - Piece #2" alt="Painted Siren Flash - Piece #2"></a> </li>
@@ -120,6 +121,26 @@
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" title="Painted Siren Flash - Piece #11" alt="Painted Siren Flash - Piece #11"></a> </li>
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" title="Painted Siren Flash - Piece #12" alt="Painted Siren Flash - Piece #12"></a> </li>
 						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" title="Painted Siren Flash - Piece #13" alt="Painted Siren Flash - Piece #13"></a> </li>
+=======
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-00.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-03.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-04.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
+
+						<!-- Group #2 -->
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-05.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-06.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-07.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-08.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-09.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-09.jpg" title="Painted Siren Gallery Picture #9" alt="Painted Siren Gallery Picture #9"></a> </li>
+
+						<!-- Group #3 -->
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-10.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-10.jpg" title="Painted Siren Gallery Picture #10" alt="Painted Siren Gallery Picture #10"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-11.jpg" title="Painted Siren Gallery Picture #11" alt="Painted Siren Gallery Picture #11"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-12.jpg" title="Painted Siren Gallery Picture #12" alt="Painted Siren Gallery Picture #12"></a> </li>
+						<li><a href="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/flash/flash-for-sale-13.jpg" title="Painted Siren Gallery Picture #13" alt="Painted Siren Gallery Picture #13"></a> </li>
+>>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
 					</ul>
 				</article>
 			</section>
@@ -136,7 +157,11 @@
 			<div id="sidebar">
 				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
+<<<<<<< HEAD
 					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
+=======
+					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
+>>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
 				</a>
 			</div>
 		</section>

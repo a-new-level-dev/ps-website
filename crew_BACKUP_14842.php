@@ -1,20 +1,20 @@
 <!-- Setting the BASE URL for the page -->
-<?php include('../scripts/php/base-url.php'); ?>
+<?php include('scripts/php/base-url.php'); ?>
 
 <!DOCTYPE html>
 <HTML lang="en">
 
 
-<!-- Pg. 06e, Painted Siren: Piercings & Jewelry - Fake Body Jewelry -->
+<!-- Pg. 02, Painted Siren: Portfolios -->
 <!-- ********************************************* HEAD: START ********************************************** -->
 <HEAD>
 
 	<meta charset="UTF-8">
-	<meta name="author" content="Gabriel F. Lujan @ ANewLevelMedia.com">
+	<meta name="author" content="Gabriel F. Lujan @ A New Level Media">
 	<meta name="description" content="">
 	<meta name="keywords" content="painted, siren, tattoo, shop, artist, art, graffiti, ink">
 	
-	<title>PS.com: Fake Body Jewelry</title>
+	<title>PS.com: Meet The Team</title>
 
 	<!-- WEBSITE FAVICON CODE -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/pics/icons/logo-tooth-favicon.ico/apple-icon-57x57.png">
@@ -37,11 +37,10 @@
 
 	<!-- VENDOR STYLES -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
+
 	<!-- CUSTOM STYLES -->
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/jewelry.css">
-			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
-				<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/crew.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
 
@@ -66,7 +65,7 @@
 			</section>
 			<section id="topNav-wrapper">
 				<nav id="topNav">
-					<div id="topNav-portfolios" class="dropdown">
+					<div id="topNav-portfolios" class="dropdown SELECTED">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 						 	<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Heather</a> </li>
@@ -86,7 +85,7 @@
 						 	<li><a href="<?php echo BASE_URL; ?>/henna.php">Gallery</a> </li>
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
-					<div id="topNav-jewelry" class="SELECTED"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
+					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
 					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
@@ -98,48 +97,38 @@
 		<!-- ********************************************* SECTION: CONTENT ********************************************** -->
 		<section id="content">
 			<section id="content-L">
-				<article id="TOPICS">
-					<section id="gallery">
-						<h1>Fake Body Jewelry</h1>
-						<ul>
-							<!-- Group #1 --> <!-- REPLACE "gallery-thumb.png" WITH THE CORRECT PICTURE WHEN AVAILABLE" -->
-							<li class="jewelry-preview"><!-- <a href="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" data-imagelightbox="f"> --><img src="<?php echo BASE_URL; ?>/pics/jewelry/gallery-thumb.png" title="Painted Siren Jewelry - Fake Body Jewelry" alt="Painted Siren Jewelry - Fake Body Jewelry"><!-- </a> --> </li>
-						</ul>
-						<div class="jewelry-prev cols3"><a href="<?php echo BASE_URL; ?>/jewelry/spirals.php#gallery"> <span class="arrow-left"></span>Spirals</a> </div>
-						<div class="jewelry-home cols3"><a href="<?php echo BASE_URL; ?>/jewelry.php#gallery">Back to Jewelry</a> <br>
-							<br>
-							<div id="jewelry-list" class="dropup">
-								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Select a Category <span class="caret"></span> </button>
-								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/belly.php#gallery">Belly Button</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/plugs.php#gallery">Plugs &amp; Tunnels</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tapers.php#gallery">Tapers &amp; Stretching Kits</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/spirals.php#gallery">Spirals &amp; Pinchers</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/nose.php#gallery">Nose Rings &amp; Studs</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tongue.php#gallery">Barbells &amp; Tongue</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/lip.php#gallery">Labret &amp; Lip</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/bead.php#gallery">Captive Bead</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/horseshoe.php#gallery">Circular Horseshoe</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/tragus.php#gallery">Cartilage &amp; Tragus</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/nipple.php#gallery">Nipple</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/eyebrow.php#gallery">Eyebrow</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/septum.php#gallery">Septum</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/retainers.php#gallery">Retainers</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/organics.php#gallery">Organics</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/sports.php#gallery">Sports</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/intimate.php#gallery">Intimate Body Jewelry</a> </li>
-								 	<li><a href="<?php echo BASE_URL; ?>/jewelry/aftercare.php#gallery">Piercing Aftercare</a></li> </ul> </div> </div>
-						<div class="jewelry-next cols3"><a href="<?php echo BASE_URL; ?>/jewelry/nose.php#gallery">Nose Rings<span class="arrow-right"></span> </a> </div> </section>
-				</article>
+				<section id="TOPICS">
+					<h1>The Crew</h1>
+					<div class="teamRow">
+						<div id="britney"></div>
+						<div>
+							<p class="profileName2 stroke-black">Britney</p>
+							<p class="blurb">Tattoo enthusiast &amp; shop vet for 5+ years, Britney is our shop girl extraordinaire! Energetic and professional, she's here to make sure your questions are answered and you have all the information you need to feel confident, well taken care of and have an enjoyable experience when visiting The Painted Siren.</p> </div> </div>
+					<div class="teamRow">
+						<div id="mark"></div>
+						<div>
+							<p class="profileName2 stroke-black">Mark</p>
+							<p class="blurb">Collector of tattoos, Mark is our shop associate, administrator and an invaluable part of our shop team. Enthusiastic and friendly, he is a passionate listener who is knowledgeable and dedicated to helping each client achieve their vision.</p> </div> </div>
+					<div class="teamRow">
+						<div id="crayone"></div>
+						<div>
+							<p class="profileName2 stroke-black">Crayone</p>
+							<p class="blurb">(pronounced: Cray-Own) is considered to be a Bay Area Graffiti Art Pioneer. He has been filmed and published many times, but his seminal exposure was a book called "Spray Can Art", "Freight Train Graffiti", "Graffito", a video documentary called "Piece By Piece" and "The History of American Graffiti". To his peers he is known as a person who brought the use of intricate colors and skillful technique to his graffiti pieces. His legendary crew called TWS (Together With Style) has brought world wide recognition. <cite>(<a href="http://www.crayone.com/about.html">Crayone.com</a>) </cite> </p> </div> </div>
+					<div class="teamRow">
+						<div id="sean"></div>
+						<div>
+							<p class="profileName2 stroke-black">Sean</p>
+							<p class="blurb"><em>Bio Coming Soon</em> </p> </div> </div>
+				</section>
 			</section>
 			<section id="content-R">
 				<section id="PROFILES">
-					<h1>Details</h1>
-					<p>Price: TBD</p>
-					<p>Size: TBD</p>
-					<p>Colors: TBD</p>
-					<!-- <p>Made from Stainless Steel</p> -->
-					<!-- <a href="tel:1-650-219-7343"><div class="btn-cta"><span>Call to Order</span> </div> </a> --> </section>
+					<h1>The Painted Siren</h1>
+					<div class="bioPic"><img src="<?php echo BASE_URL; ?>/pics/shop/bldg/bldg-front.jpg" title="The Painted Siren" alt="The Painted Siren"></div>
+					<!-- <p>Stuff can go here</p> --> </section>
+				<!-- <aside id="CONTACT">
+					<h1>Contact Us</h1>
+					<p>put stuff in here</p> </aside> -->
 			</section>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
@@ -175,118 +164,18 @@
 	<!-- VENDOR SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-		<!-- Adding the ImageLightbox jQuery Plug-In -->
-		<script src="<?php echo BASE_URL; ?>/scripts/vendor/imagelightbox.js"></script>
-		<script>
-			$( function() {
-					// ACTIVITY INDICATOR
-				var activityIndicatorOn = function() { $( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
-					},
-					activityIndicatorOff = function() { $( '#imagelightbox-loading' ).remove();
-					},
-
-
-					// OVERLAY
-					overlayOn = function() { $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
-					},
-					overlayOff = function() { $( '#imagelightbox-overlay' ).remove();
-					},
-
-
-					// CLOSE BUTTON
-					closeButtonOn = function( instance ) { $( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
-					},
-					closeButtonOff = function() { $( '#imagelightbox-close' ).remove();
-					},
-
-
-					// CAPTION
-					captionOn = function() {
-						var description = $( 'a[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"] img' ).attr( 'alt' );
-						if( description.length > 0 )
-							$( '<div id="imagelightbox-caption">' + description + '</div>' ).appendTo( 'body' );
-					},
-					captionOff = function() { $( '#imagelightbox-caption' ).remove();
-					},
-
-
-					// NAVIGATION
-					navigationOn = function( instance, selector ) {
-						var images = $( selector );
-						if( images.length ) {
-							var nav = $( '<div id="imagelightbox-nav"></div>' );
-							for( var i = 0; i < images.length; i++ )
-								nav.append( '<button type="button"></button>' );
-
-							nav.appendTo( 'body' );
-							nav.on( 'click touchend', function(){ return false; });
-
-							var navItems = nav.find( 'button' );
-							navItems.on( 'click touchend', function() {
-								var $this = $( this );
-								if( images.eq( $this.index() ).attr( 'href' ) != $( '#imagelightbox' ).attr( 'src' ) )
-									instance.switchImageLightbox( $this.index() );
-
-								navItems.removeClass( 'active' );
-								navItems.eq( $this.index() ).addClass( 'active' );
-
-								return false;
-							})
-							.on( 'touchend', function(){ return false; }); 
-						}
-					},
-					navigationUpdate = function( selector ) {
-						var items = $( '#imagelightbox-nav button' );
-						items.removeClass( 'active' );
-						items.eq( $( selector ).filter( '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ).index( selector ) ).addClass( 'active' );
-					},
-					navigationOff = function() { $( '#imagelightbox-nav' ).remove();
-					},
-
-
-					// ARROWS
-					arrowsOn = function( instance, selector ) {
-						var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
-
-						$arrows.appendTo( 'body' );
-
-						$arrows.on( 'click touchend', function( e ) {
-							e.preventDefault();
-
-							var $this	= $( this ),
-								$target	= $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
-								index	= $target.index( selector );
-
-							if( $this.hasClass( 'imagelightbox-arrow-left' ) ) {
-								index = index - 1;
-								if( !$( selector ).eq( index ).length )
-									index = $( selector ).length;
-							} else {
-								index = index + 1;
-								if( !$( selector ).eq( index ).length )
-									index = 0;
-							}
-
-							instance.switchImageLightbox( index );
-							return false;
-						});
-					},
-					arrowsOff = function() { $( '.imagelightbox-arrow' ).remove(); };
-
-				//	ALL COMBINED
-				var selectorF = 'a[data-imagelightbox="f"]';
-				var instanceF = $( selectorF ).imageLightbox(
-				{
-					onStart:		function() { overlayOn(); closeButtonOn( instanceF ); arrowsOn( instanceF, selectorF ); },
-					onEnd:			function() { overlayOff(); captionOff(); closeButtonOff(); arrowsOff(); activityIndicatorOff(); },
-					onLoadStart: 	function() { captionOff(); activityIndicatorOn(); },
-					onLoadEnd:	 	function() { captionOn(); activityIndicatorOff(); $( '.imagelightbox-arrow' ).css( 'display', 'block' ); }
-				});
-			});
-		</script>
-
 	<script src="<?php echo BASE_URL; ?>/scripts/vendor/modernizr-custom.js"></script>
+
+		<!-- Google Analytics Tracking ID/code -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-74943527-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 
 	<!-- CUSTOM SCRIPTS -->
 	<script src="<?php echo BASE_URL; ?>/scripts/js/general.js"></script>

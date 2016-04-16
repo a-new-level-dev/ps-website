@@ -5,7 +5,7 @@
 <HTML lang="en">
 
 
-<!-- Pg. 07, Painted Siren: Healing Info -->
+<!-- Pg. 04, Painted Siren: Booking Page -->
 <!-- ********************************************* HEAD: START ********************************************** -->
 <HEAD>
 
@@ -14,7 +14,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="painted, siren, tattoo, shop, artist, art, graffiti, ink">
 	
-	<title>PS.com: Healing Info</title>
+	<title>PS.com: Booking</title>
 
 	<!-- WEBSITE FAVICON CODE -->
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL; ?>/pics/icons/logo-tooth-favicon.ico/apple-icon-57x57.png">
@@ -37,9 +37,9 @@
 
 	<!-- VENDOR STYLES -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	
+
 	<!-- CUSTOM STYLES -->
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/healing.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/booking.css">
 		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
 
 </HEAD>
@@ -72,7 +72,7 @@
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li> </ul> </div>
 					<div id="topNav-flash"><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </div>
-					<div id="topNav-booking" class="dropdown">
+					<div id="topNav-booking" class="dropdown SELECTED">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Booking <span class="caret"></span> </button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 						 	<li><a href="<?php echo BASE_URL; ?>/booking.php">Appointment</a> </li>
@@ -86,7 +86,7 @@
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
 					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing" class="SELECTED"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
+					<div id="topNav-healing"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">
@@ -98,34 +98,41 @@
 		<section id="content">
 			<section id="wrapper">
 				<article id="COLUMN">
-					<h1>Healing &amp; Care Instructions</h1>
-					<p>
-						<strong>The First Day</strong>
-						<p>Upon completion of your tattoo, it will be wrapped with a covering which you will leave on for one (1) hour.</p>
-							<br>
-						<p>* After one (1) hour you will remove the covering and gently but thoroughly wash your tattoo with a clean washcloth and antibacterial soap. BE SURE to wash it well and remove any remaining fluids, Vasoline, or other debris.  After rinsing the soap off of your tattoo, pat it dry and LEAVE IT ALONE FOR THE REMAINDER OF THE DAY. (During this time your tattoo needs to air out and start naturally healing.) YOU WILL NOT PUT ANYTHING ON THE TATTOO DURING THIS TIME.</p>
-					</p>
-					<br>
-					<p>
-						<strong>The Second Day</strong>
-						<p>You will start applying a small amount of Lubriderm Unscented Lotion (the one with the light blue cap) twice (2 times) a day for the next two (2) weeks. Be sure when applying lotion that you spread it across fingers before applying so you don't over-saturate and can spread evenly across your tattoo.</p>
-							<br>
-						<p>*For the remainder of your healing process DO NOT EXPOSE TATTOO TO DIRECT SUNLIGHT OR SOAK TATTOO(swimming, hot tubs, bathtubs) DO NOT SLEEP ON YOUR TATTOO, DO NOT LET WATER BEAT DIRECTLY ON IT IN THE SHOWER and make sure to be careful of CHAFFING/RUBBING against clothing, sheets, and accessories.</p>
-					</p> <br>
-					<p>
-						<p>DO NOT SCRATCH OR PICK AT YOUR TATTOO during the healing process. Itchiness is natural and is something that you must tolerate. IF THE SCAB COMES OFF PREMATURELY, THE INK WILL COME OFF WITH IT. (Avoid this by not allowing your scab to become too dry and cracking or by over-moisturizing it and causing the scab to become gooey and come off)</p>
-							<br>
-						<p>*Free touch ups are given with all tattoos (within 30 days of original tattoo) if all directions have been followed and damage is minimal. If you have additional questions please call the number at the top of this page.</p>
-					</p>
+					<h1 id="appointment">Book An Appointment</h1>
+					<div>
+						<iframe id="setmore" src="http://paintedsiren.setmore.com/" frameborder="0" scrolling="no"></iframe>
+						<p class="disclaimer ctrText">The $40 booking deposit will be forfeit if a 24hr notice is not given for a reschedule or cancellation</p> </div>
+					<h1 id="release">Release Information</h1>
+					<div>
+						<p class="justify">In consideration of its doing, I hereby release The Painted Siren Tattoo Co. or any of its agents from all manners of liabilities, actions and demands by reason of complying with my request to be tattooed.</p>
+							<ul class="release">
+								<li>I understand that I will be tattooed using the appropriate instruments and techniques.</li>
+								<li>I understand that I may have a reaction or allergy to the ink that is used in my tattoo.</li>
+								<li>I understand that a tattoo is a permanent change to my physical appearance.</li>
+								<li>I understand that variations in color and design may exist between the actual tattoo and the art that I have selected when it is applied to my body. I am also aware that over time the color and clarity of my tattoo might change due to natural dispersion of ink in the skin, normal wear and sun exposure.</li>
+								<li>The artist has given me full opportunity to ask questions regarding artwork, application of the tattoo, healing and cleanliness and all of my questions have been answered to my satisfaction.</li>
+								<li>I have been given verbal and printed instructions on how to care for my tattoo while it is healing and after. I understand these instructions and will follow them to the best of my ability while acknowledging that my tattoo may become infected if it is not properly cared for.</li> </ul>
+						<p class="announcement">It is illegal in the state of California to tattoo anyone under the age of 18</p>
+						<p class="announcement">No Exceptions!!!!!!!!</p>
+						<p>For the safety of you and your artist, please answer the following questions honestly and to the best of your knowledge.</p>
+							<ul class="release">
+								<li>Have you tested positive for HIV/AIDS?</li>
+								<li>Have you tested positive for Hepatitis?</li>
+								<li>Have you ever had heart problems?</li>
+								<li>Do you have diabetes?</li>
+								<li>Are you pregnant or nursing?</li>
+								<li>Do you have any other pre-existing medical conditions?</li>
+							</ul>
+					</div>
 				</article>
 			</section>
 			<!-- <section id="content-R">
 				<section id="PROFILES">
-					<h1>Helpful Items</h1>
-					<p>Coming Soon</p> </section>
+					<h1>what should this be?</h1>
+					<p>stuff and things</p> </section>
 				<aside id="CONTACT">
-					<h1>Learn More</h1>
-					<p>Coming Soon</p> </aside>
+					<h1>and what about this?</h1>
+					<p>stuff and things</p> </aside>
 			</section> -->
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">
@@ -146,9 +153,9 @@
 				<ul>
 					<li id="btmNav-home" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
 						<li>|</li>
-					<li id="btmNav-booking" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
+					<li id="btmNav-booking" class="btmNavLink">Booking</li>
 						<!-- <li>|</li>
-					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a></li> -->
+					<li id="btmNav-faq" class="btmNavLink"><a href="<?php echo BASE_URL; ?>/faq.php">FAQ</a> </li> -->
 				</ul>
 			</nav>
 			<section id="legal">
