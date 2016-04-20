@@ -41,7 +41,7 @@
 	<!-- CUSTOM STYLES -->
 		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/jewelry.css">
 			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
-				<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
+				<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
 
 </HEAD>
 
@@ -65,6 +65,7 @@
 					<!-- <a href="" title="Follow us on Pinterest"><div id="sb-pint" class="social-badge"></div> </a> --> </div>
 			</section>
 			<section id="topNav-wrapper">
+				<!-- This is the Nav Bar for desktops and wider screens/devices -->
 				<nav id="topNav">
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>
@@ -145,11 +146,7 @@
 			<div id="sidebar">
 				<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
 				<a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 10000" href="https://my.setmore.com/shortBookingPage/9b574aac-e907-4b96-a947-545c21b6b27a">
-<<<<<<< HEAD
 					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
-=======
-					<img border="none" src="<?php echo BASE_URL; ?>/pics/icons/setmore-book-now-pink.png" alt="Book an appointment with Painted Siren Tattoo Co. using SetMore" />
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
 				</a>
 			</div>
 		</section>

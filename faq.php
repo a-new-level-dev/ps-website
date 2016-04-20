@@ -40,7 +40,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/faq.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
 
 </HEAD>
 
@@ -64,6 +64,7 @@
 					<!-- <a href="" title="Follow us on Pinterest"><div id="sb-pint" class="social-badge"></div> </a> --> </div>
 			</section>
 			<section id="topNav-wrapper">
+				<!-- This is the Nav Bar for desktops and wider screens/devices -->
 				<nav id="topNav">
 					<div id="topNav-portfolios" class="dropdown">
 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span> </button>

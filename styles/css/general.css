@@ -174,25 +174,6 @@ address { font-style: normal; }
 			/*#topNav-booking {}*/ /*just in case*/
 			/*#topNav-jewelry {}*/ /*just in case*/
 			/*#topNav-healing {}*/ /*just in case*/
-		#stickerTop { 
-			margin: 0 auto; 
-				margin-top: -9.5em; 
-			position: relative; 
-			width: 19%; 
-			z-index: 3; 
-		}
-		#stickerBtm { 
-			margin: 0 auto; 
-				margin-top: -15.5em; 
-			position: relative; 
-			width: 22%; 
-			z-index: 2; 
-		}
-			#stickerTop img,
-			#stickerBtm img { 
-				height: 100%; 
-				width: 100%; 
-			}
 	/* ---------------------------------------------
 					MAIN CONTENT
 	--------------------------------------------- */
@@ -308,6 +289,26 @@ address { font-style: normal; }
 		-ms-transform: scale(0.5) translateX(38px); 
 		-o-transform: scale(0.5) translateX(38px); 
 }
+/* Styling and Positioning for the Top Nav Bar Sticker */
+#stickerTop { 
+	margin: 0 auto; 
+		margin-top: -9.5em; 
+	position: relative; 
+	width: 19%; 
+	z-index: 3; 
+}
+#stickerBtm { 
+	margin: 0 auto; 
+		margin-top: -15.5em; 
+	position: relative; 
+	width: 22%; 
+	z-index: 2; 
+}
+	#stickerTop img,
+	#stickerBtm img { 
+		height: 100%; 
+		width: 100%; 
+	}
 /* Styling for Elements that will act as a pseudo button with a CTA */
 .btn-cta { 
 	display: flex; 
