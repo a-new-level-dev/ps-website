@@ -1,85 +1,76 @@
 /* ---------------------------------------------
+				GENERAL
+--------------------------------------------- */
+/* Putting OUTLINES on everything for testing/visibility */
+/* * { outline: 1px dashed #f00; } */
+
+
+
+/* ---------------------------------------------
 				RESPONSIVE: MAIN
 --------------------------------------------- */
 
-/* Breakpoint for Smart Phones */
-@media screen and (max-width: 1000px) {
+/* ---------- Breakpoint for 1366x768 resolution screens ---------- */
+@media screen and ( max-width: 1366px ) {}
+
+/* ---------- Breakpoint for 1280x1024 resolution screens ---------- */
+@media screen and ( max-width: 1280px ) {}
+
+/* ---------- Breakpoint for 1024x768 resolution screens ---------- */
+@media screen and ( max-width: 1024px ) { 
 	/* GENERAL (general.css) ADJUSTMENTS */
-	#container {width: 100%;}
-	#logo img {
-		margin-left: -7em;
-		margin-top: 0;
-		width: 250%;
+	#container { width: 100%; }
+	#logo img { 
+		margin-left: -7em; 
+		margin-top: 0; 
+		width: 250%; 
 	}
 	#marquee p { font-size: 1.55em; }
-	#socialBadges {display: none;}
-	#topNav {
-		font-size: 1.25em;
-		transform: scale(1,2); /* W3C */
-			-webkit-transform: scale(1,1.5); /* Safari and Chrome */
-			-moz-transform: scale(1,2); /* Firefox */
-			-ms-transform: scale(1,2); /* IE 9 */
-			-o-transform: scale(1,2); /* Opera */
-		letter-spacing: 0.05em;
+	#social-badges { 
+		margin-right: 0; 
+		z-index: 4; 
 	}
-	#stickerTop {margin-top: -8.15em;}
-	#stickerBtm {margin-top: -12.8em;}
-	#content-L {
-		clear: right;
-		width: 100%;
-			max-width: 100%;
+	#social-badges > a { 
+		float: left; 
+		margin-top: -10em; 
+		margin-right: 1.25em; 
 	}
-	#content-R {
-		float: left;
-		width: 100%;
-			max-width: 100%;
+	.social-badge { 
+		width: 3.5em; 
+		height: 3.5em; 
 	}
-	#content h1 {font-size: 2.75em;}
-	#Setmore_button_iframe img {display: none;}
-	address, .phone, #INFO p {font-size: 1.5em;}
+	#topNav { 
+		font-size: 1.25em; 
+		transform: scale(1,2); 
+			-webkit-transform: scale(1,1.5); 
+			-moz-transform: scale(1,2); 
+			-ms-transform: scale(1,2); 
+			-o-transform: scale(1,2); 
+		letter-spacing: 0.05em; 
+	}
+	#stickerTop { margin-top: -8.15em; }
+	#stickerBtm { margin-top: -12.8em; }
+	#content-L { 
+		clear: right; 
+		width: 100%; 
+			max-width: 100%; 
+	}
+	#content-R { 
+		float: left; 
+		width: 100%; 
+			max-width: 100%; 
+	}
+	#content h1 { font-size: 2.75em; }
+	#Setmore_button_iframe img { display: none; }
+	address,
+	.phone,
+	#INFO p,
 	#btmNav { font-size: 1.5em; }
-	#legal {
-		font-size: 1.6em;
-		padding-bottom: 0.5em;
+	#legal { 
+		font-size: 1em; 
+		padding-bottom: 0.5em; 
 	}
-	
-	/* HOME PAGE (home.css) ADJUSTMENTS */
-	#TOPICS p {font-size: 1.5em;}
-		#raffle img {
-			display: initial;
-			left: 0;
-			position: relative;
-			width: 50%;
-		}
-	#PROFILES { text-align: center; }
-		#heather, #gabriel {
-			height: 350px;
-			width: 350px;
-		}
-		.profileName {
-			font-size: 2.3em;
-			right: 24.5%;
-			margin-top: 6.3em;
-		}
-	#CONTACT { text-align: center; }
-
-	/* PORTFOLIOS PAGE (profiles.css) ADJUSTMENTS */
-	.title { font-size: 1.7em; }
-	button.btn-appt { 
-		font-size: 2em;
-		width: 50%; 
-	}
-	.email { font-size: 1.5em; }
-
-	/* BOOKING PAGE (booking.css) ADJUSTMENTS */	
-	#COLUMN div:first-of-type { text-align: center; }
-	
-	#COLUMN div iframe { width: 88%; }
-	
-	#COLUMN div { font-size: 1.4em; }
 }
 
-/* Breakpoint for Tablets */
-@media screen and (min-width: 660px) {
-	/* HOME PAGE ADJUSTMENTS */
-}
+/* ---------- Breakpoint for 800x600 resolution screens ---------- */
+@media screen and ( max-width: 800px ) {}

@@ -1,8 +1,8 @@
 /* ---------------------------------------------
 				GENERAL
 --------------------------------------------- */
-@import "general.css";
-@import "profiles.css";
+@import url(main.css);
+@import url(profiles.css);
 
 /* Putting OUTLINES on everyting for testing/visibility */
 /* * { outline: 1px dashed #f00; } */

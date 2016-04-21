@@ -40,7 +40,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/faq.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-faq.css">
 
 </HEAD>
 

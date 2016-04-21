@@ -40,8 +40,8 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/henna.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
-			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-henna.css">
 
 </HEAD>
 
@@ -104,7 +104,6 @@
 						<h1>Get Your Henna On</h1>
 						<ul>
 							<!-- Group #1 -->
-<<<<<<< HEAD
 							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" title="Painted Siren Henna - Example #1" alt="Painted Siren Henna - Example #1"></a> </li>
 							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" title="Painted Siren Henna - Example #2" alt="Painted Siren Henna - Example #2"></a> </li>
 							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" title="Painted Siren Henna - Example #3" alt="Painted Siren Henna - Example #3"></a> </li>
@@ -117,21 +116,8 @@
 							<!-- Group #3 -->
 							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" title="Painted Siren Henna - Example #7" alt="Painted Siren Henna - Example #7"></a> </li>
 							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" title="Painted Siren Henna - Example #8" alt="Painted Siren Henna - Example #8"></a> </li>
-=======
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-01.jpg" title="Painted Siren Gallery Picture #1" alt="Painted Siren Gallery Picture #1"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-02.jpg" title="Painted Siren Gallery Picture #2" alt="Painted Siren Gallery Picture #2"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-03.jpg" title="Painted Siren Gallery Picture #3" alt="Painted Siren Gallery Picture #3"></a> </li>
-							
-							<!-- Group #2 -->
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-04.jpg" title="Painted Siren Gallery Picture #4" alt="Painted Siren Gallery Picture #4"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-05.jpg" title="Painted Siren Gallery Picture #5" alt="Painted Siren Gallery Picture #5"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-06.jpg" title="Painted Siren Gallery Picture #6" alt="Painted Siren Gallery Picture #6"></a> </li>
-
-							<!-- Group #3 -->
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-07.jpg" title="Painted Siren Gallery Picture #7" alt="Painted Siren Gallery Picture #7"></a> </li>
-							<li><a href="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" data-imagelightbox="f"><img src="<?php echo BASE_URL; ?>/pics/henna/henna-08.jpg" title="Painted Siren Gallery Picture #8" alt="Painted Siren Gallery Picture #8"></a> </li>
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
-						</ul> </section>
+						</ul>
+					</section>
 					<section id="pricing">
 						<h1>Pricing &amp; Events</h1>
 							<div id="shop-visits">

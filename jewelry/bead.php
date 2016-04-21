@@ -40,8 +40,8 @@
 	
 	<!-- CUSTOM STYLES -->
 		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/jewelry.css">
-			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
-				<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
+			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-jewelry.css">
 
 </HEAD>
 

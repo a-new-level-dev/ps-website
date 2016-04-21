@@ -1,8 +1,8 @@
 /* ---------------------------------------------
 				GENERAL
 --------------------------------------------- */
-@import "general.css";
-@import "profiles.css";
+@import url(main.css);
+@import url(profiles.css);
 
 /* Putting OUTLINES on everyting for testing/visibility */
 /* * { outline: 1px dashed #f00; } */
@@ -102,13 +102,10 @@
 				color: #c5c5c5; 
 			}
 				#jewelry-list .btn:focus { background-color: #131313; }
-<<<<<<< HEAD
 				#jewelry-list .btn:hover { 
 					border-color: #fff; 
 					color: #fff; 
 				}
-=======
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
 			#jewelry-list .dropdown-menu { 
 				height: 25em; 
 				overflow: scroll; 

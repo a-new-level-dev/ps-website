@@ -10,7 +10,7 @@
 
 
 /* ---------------------------------------------
-				RESPONSIVE: HOME PAGE
+				RESPONSIVE: FAQ PAGE
 --------------------------------------------- */
 
 /* ---------- Breakpoint for 1366x768 resolution screens ---------- */
@@ -20,26 +20,7 @@
 @media screen and ( max-width: 1280px ) {}
 
 /* ---------- Breakpoint for 1024x768 resolution screens ---------- */
-@media screen and ( max-width: 1024px ) {
-	#TOPICS p { font-size: 1.5em; }
-		#raffle img { 
-			display: initial; 
-			left: 0; 
-			position: relative; 
-			width: 50%; 
-		}
-	#PROFILES { text-align: center; }
-		#heather { 
-			height: 350px; 
-			width: 350px; 
-		}
-		.profileName { 
-			font-size: 2.3em; 
-			right: 24.5%; 
-			margin-top: 6.3em; 
-		}
-	#CONTACT { text-align: center; }
-}
+@media screen and ( max-width: 1024px ) {}
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */
 @media screen and ( max-width: 800px ) {}

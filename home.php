@@ -40,7 +40,7 @@
 
 	<!-- CUSTOM STYLES -->
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/home.css">
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-home.css">
 
 </HEAD>
 
@@ -154,59 +154,28 @@
 				</section>
 				<section id="GUESTBOOK">
 					<h1>Guestbook</h1>
-<<<<<<< HEAD
-						<div id="wufoo-zvy717q19o3gkb">
-						Fill out my <a href="https://paintedsiren.wufoo.com/forms/zvy717q19o3gkb">online form</a>.
-						</div>
-						<!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div> -->
-						<script type="text/javascript">var zvy717q19o3gkb;(function(d, t) {
-							var s = d.createElement(t), options = {
-							'userName':'paintedsiren',
-							'formHash':'zvy717q19o3gkb',
-							'autoResize':true,
-							'height':'464',
-=======
-					<!-- <div>
-						<p>Please sign our guestbook and leave a message!</p>
-						<form action="">
-							<label for="guestName">Name: <br>
-								<input type="text" name="guestName" placeholder="Heather Tarkman" id="guestName"> </label> <br> <br>
-							<label for="guestEmail">Email: <br>
-								<input required type="text" name="guestEmail" placeholder="htarkman@paintedsiren.com" id="guestEmail"> </label> <br> <br>
-							<label for="guestMessage">Message: <br>
-								<textarea required name="guestMessage" id="guestMessage" rows="5"></textarea> </label> <br> <br>
-							<button class="btn-cta">Get Some!</button>
-						</form> </div> -->
-						<div id="wufoo-z1dhe0b81uneyla">
-							Fill out my <a href="https://anewlevel.wufoo.com/forms/z1dhe0b81uneyla">online form</a>.
-						</div>
-						<!-- <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div> -->
-						<script type="text/javascript">var z1dhe0b81uneyla;(function(d, t) {
-							var s = d.createElement(t), options = {
-							'userName':'anewlevel',
-							'formHash':'z1dhe0b81uneyla',
-							'autoResize':true,
-							'height':'517',
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
-							'async':true,
-							'host':'wufoo.com',
-							'header':'show',
-							'ssl':true};
-							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-							s.onload = s.onreadystatechange = function() {
-							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-<<<<<<< HEAD
-							try { zvy717q19o3gkb = new WufooForm();zvy717q19o3gkb.initialize(options);zvy717q19o3gkb.display(); } catch (e) {}};
-							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-							})(document, 'script');
-						</script>
-						<p class="disclaimer">(By signing this guestbook, you are opting in to receive our newsletter.)</p>
-=======
-							try { z1dhe0b81uneyla = new WufooForm();z1dhe0b81uneyla.initialize(options);z1dhe0b81uneyla.display(); } catch (e) {}};
-							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-							})(document, 'script');
-						</script>
->>>>>>> efe41608a2ac4abe76fb8803cb23f825c8d40947
+					<div id="wufoo-zvy717q19o3gkb">
+						<a href="https://paintedsiren.wufoo.com/forms/zvy717q19o3gkb">Sign our guestbook</a> and leave us a message!
+					</div>
+					<script type="text/javascript">
+						var zvy717q19o3gkb;(function(d, t) {
+						var s = d.createElement(t), options = {
+						'userName':'paintedsiren',
+						'formHash':'zvy717q19o3gkb',
+						'autoResize':true,
+						'height':'517',
+						'async':true,
+						'host':'wufoo.com',
+						'header':'show',
+						'ssl':true};
+						s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+						s.onload = s.onreadystatechange = function() {
+						var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+						try { zvy717q19o3gkb = new WufooForm();zvy717q19o3gkb.initialize(options);zvy717q19o3gkb.display(); } catch (e) {}};
+						var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+						})(document, 'script');
+					</script>
+					<p class="disclaimer">(By signing this guestbook, you are opting in to receive our newsletter.)</p>
 				</section>
 			</div>
 			<!-- Book Now sidebar tab -->

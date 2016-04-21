@@ -40,8 +40,8 @@
 	
 	<!-- CUSTOM STYLES -->
 		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/jewelry.css">
-			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
-				<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-main.css">
+		<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/imagelightbox.css">
+			<link rel="stylesheet" href="<?php echo BASE_URL; ?>/styles/css/responsive/resp-jewelry.css">
 
 </HEAD>
 
@@ -171,7 +171,7 @@
 
 	<!-- VENDOR SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>\
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<!-- Adding the ImageLightbox jQuery Plug-In -->
 		<script src="<?php echo BASE_URL; ?>/scripts/vendor/imagelightbox.js"></script>
