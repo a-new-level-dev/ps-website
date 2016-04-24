@@ -28,6 +28,7 @@
 			-ms-transform: scale(0.8); 
 			-o-transform: scale(0.8); 
 	}
+	#PROFILES p { margin-left: 14em; }
 }
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */

@@ -192,7 +192,7 @@
 				<aside id="CONTACT">
 					<h1>How To Reach Her</h1>
 						<script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
-						<div class="ctrText"><a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/shortBookingPage/f78dda9c-fd43-451f-ab49-974339120342"><button class="btn-cta">Book an Appointment</button> </a> </div>
+						<a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/shortBookingPage/f78dda9c-fd43-451f-ab49-974339120342"><button class="btn-cta"><span>Book an Appointment</span></button> </a>
 						<p class="email">Email: <a href="mailto:htarkman@paintedsiren.com">htarkman@paintedsiren.com</a> </p>
 						<p class="phone">Phone: <a href="tel:1-650-219-7343">(650) 219-7343</a> </p>
 				</aside>

@@ -14,16 +14,17 @@
 @media screen and ( max-width: 1366px ) {}
 
 /* ---------- Breakpoint for 1280x1024 resolution screens ---------- */
-@media screen and ( max-width: 1280px ) {}
+@media screen and ( max-width: 1280px ) {
+	.profileName { 
+		margin-top: -19%; 
+		right: 11%; 
+	}
+}
 
 /* ---------- Breakpoint for 1024x768 resolution screens ---------- */
 @media screen and ( max-width: 1024px ) {
-	/* PORTFOLIOS PAGE */
+	/* HEATHER'S PORTFOLIO PAGE */
 	.title { font-size: 1.7em; }
-	button.btn-appt { 
-		font-size: 2em; 
-		width: 50%; 
-	}
 	.email { font-size: 1.5em; }
 }
 

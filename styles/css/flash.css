@@ -17,6 +17,7 @@
 	box-shadow: 0px -20px 3px -20px #595959; 
 	min-height: 15em; 
 }
+#PROFILES .email { font-size: inherit; }
 	#TOPICS,
 	#PROFILES,
 	#CONTACT { 

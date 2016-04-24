@@ -21,9 +21,13 @@
 
 /* ---------- Breakpoint for 1024x768 resolution screens ---------- */
 @media screen and ( max-width: 1024px ) {
+	#COLUMN { padding: 0; }
 	#COLUMN div:first-of-type { text-align: center; }
-	#COLUMN div iframe { width: 88%; }
-	#COLUMN div { font-size: 1.4em; }
+	#COLUMN div iframe { width: 100%; }
+	#COLUMN div:nth-of-type(2) { 
+		padding: 0 1.2em; 
+		font-size: 1.2em; 
+	}
 }
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */

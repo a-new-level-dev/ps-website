@@ -120,45 +120,45 @@
 					</section>
 					<section id="pricing">
 						<h1>Pricing &amp; Events</h1>
-							<div id="shop-visits">
-								<h2>You Come To Us</h2>
-									<h3>Individual Designs</h3>
-										<p><span>Hands &amp; Feet</span> <span class="price"><span class="introductory">$65 &amp; up <sup>***</sup> </span> | $85 &amp; up</span> </p>
-										<p><span>Small &amp; Medium</span> <span class="price"><span class="introductory">$15 - $30 <sup>***</sup> </span> | $25 - $50</span> </p>
-										<p><span>Large Designs</span> <span class="price"><span class="introductory">$45 &amp; up <sup>***</sup> </span> | $65 &amp; up</span> </p>
-										<p class="note introductory"><sup>***</sup> These indtroductory prices are for a limited time only</p>
-							</div>
-							<div id="onsite-visits">
-								<h2>We Go To You</h2>
-									<h3>Private Parties, Corporate Events &amp; Holiday Occasions</h3>
-										<p class="price">$100 first hour / $60 per additional hour</p>
-									<h3>Bridal Parties</h3>
-										<p class="price">$100 first hour / $60 per additional hour</p>
-									<h3>Children's Events / Bar &amp; Bat Mitzvah's</h3>
-										<p class="price">$140 first hour / $75 per additional hour</p>
-									<h3>Baby Showers</h3>
-										<p class="price">$100 first hour / $60 per additional hour</p>
-										<ul>
-											<li><span>Belly Art - Small &amp; Medium </span> <span>$45 - $70</span> </li>
-											<li><span>Belly Art - Large &amp; Full</span> <span>$85 &amp; up</span> </li>
-										</ul>
-							</div>
-							<a href="tel:1-650-219-7343"><div class="btn-cta"><span>Call to Book an Event</span> </div> </a>
+						<div id="shop-visits">
+							<h2>You Come To Us</h2>
+								<h3>Individual Designs</h3>
+									<p><span>Hands &amp; Feet</span> <span class="price"><span class="introductory">$65 &amp; up <sup>***</sup> </span> | $85 &amp; up</span></p>
+									<p><span>Small &amp; Medium</span> <span class="price"><span class="introductory">$15 - $30 <sup>***</sup> </span> | $25 - $50</span></p>
+									<p><span>Large Designs</span> <span class="price"><span class="introductory">$45 &amp; up <sup>***</sup> </span> | $65 &amp; up</span></p>
+									<p class="note introductory"><sup>***</sup> These indtroductory prices are for a limited time only</p>
+						</div>
+						<div id="onsite-visits">
+							<h2>We Go To You</h2>
+								<h3>Private Parties, Corporate Events &amp; Holiday Occasions</h3>
+									<p class="price">$100 first hour / $60 per additional hour</p>
+								<h3>Bridal Parties</h3>
+									<p class="price">$100 first hour / $60 per additional hour</p>
+								<h3>Children's Events / Bar &amp; Bat Mitzvah's</h3>
+									<p class="price">$140 first hour / $75 per additional hour</p>
+								<h3>Baby Showers</h3>
+									<p class="price">$100 first hour / $60 per additional hour</p>
+									<ul>
+										<li><span>Belly Art - Small &amp; Medium </span> <span>$45 - $70</span></li>
+										<li><span>Belly Art - Large &amp; Full</span> <span>$85 &amp; up</span></li>
+									</ul>
+						</div>
+						<a href="tel:1-650-219-7343"><div class="btn-cta"><span>Call to Book an Event</span></div> </a>
 					</section>
 				</article>
 			</section>
 			<section id="content-R">
 				<section id="PROFILES">
 					<h1>About Henna</h1>
-						<p>"Henna (<a href="https://en.wikipedia.org/wiki/Henna">Lawsonia Inermis</a>) is a woody shrub that thrives in hot and arid climates. The henna plant produces extremely fragrant and delicate flowers, which have been used in perfumes since ancient times. The leaves of the henna plant are harvested, dried, and then ground into a fine powder. This lovely silken green powder is made into a paste using safe and natural ingredients. The paste is applied to the skin using a fine tipped applicator, and produces the familiar burgundy stains that have adorned the hands and feet of women for thousands of years." (source: <a href="http://heartfirehenna.com/about/what-is-henna.html">HeartfireHenna.com</a>)</p> </section>
+					<p>"Henna (<a href="https://en.wikipedia.org/wiki/Henna">Lawsonia Inermis</a>) is a woody shrub that thrives in hot and arid climates. The henna plant produces extremely fragrant and delicate flowers, which have been used in perfumes since ancient times. The leaves of the henna plant are harvested, dried, and then ground into a fine powder. This lovely silken green powder is made into a paste using safe and natural ingredients. The paste is applied to the skin using a fine tipped applicator, and produces the familiar burgundy stains that have adorned the hands and feet of women for thousands of years." (source: <a href="http://heartfirehenna.com/about/what-is-henna.html">HeartfireHenna.com</a>)</p> </section>
 				<aside id="CONTACT">
 					<h1>Helpful Info</h1>
-						<ul id="henna-links">
-						 	<li><a href="http://www.fda.gov/cosmetics/productsingredients/products/ucm108569.htm">FDA Fact Sheet</a> </li>
-						 	<li><a href="http://www.britannica.com/plant/henna">Encyclop&aelig;dia Brittanica</a> </li>
-						 	<li><a href="http://www.tattooideashub.com/henna-tattoos/">"What You Need to Know About Henna Tattoos"</a> </li>
-						 	<li><a href="http://hairandskincaretips.blogspot.com/2013/01/all-you-need-to-know-about-henna.html">Hair &amp; Skin Care Tips: Henna</a> </li>
-						 </ul> </aside>
+					<ul id="henna-links">
+						<li><a href="http://www.fda.gov/cosmetics/productsingredients/products/ucm108569.htm">FDA Fact Sheet</a> </li>
+						<li><a href="http://www.britannica.com/plant/henna">Encyclop&aelig;dia Brittanica</a> </li>
+						<li><a href="http://www.tattooideashub.com/henna-tattoos/">"What You Need to Know About Henna Tattoos"</a> </li>
+						<li><a href="http://hairandskincaretips.blogspot.com/2013/01/all-you-need-to-know-about-henna.html">Hair &amp; Skin Care Tips: Henna</a> </li>
+					</ul> </aside>
 			</section>
 			<!-- Book Now sidebar tab -->
 			<div id="sidebar">

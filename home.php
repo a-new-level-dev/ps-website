@@ -111,7 +111,8 @@
 				<article id="TOPICS">
 					<div id="about">
 						<h1>About Us</h1>
-						<p>A local landmark with its purple exterior, The Painted Siren Tattoo Company is the oldest and most established tattoo shop in Pacifica. Located one block from Pacifica Beach &amp; Pier in Sharp Park, the shop is a premier destination in one of the Peninsula's most scenic communities. Focused on high quality tattoos and excellent client services, we are committed to providing incredible art, in a clean environment at a great price! <span class="hashtag">#comeandgetsome</span> </p>
+						<p>A local landmark with its purple exterior, The Painted Siren Tattoo Company is the oldest and most established tattoo shop in Pacifica. Located one block from Pacifica Beach &amp; Pier in Sharp Park, the shop is a premier destination in one of the Peninsula's most scenic communities.</p>
+						<p>Focused on high quality tattoos and excellent client services, we are committed to providing incredible art, in a clean environment at a great price! <span class="hashtag">#comeandgetsome</span> </p></p>
 					</div>
 					<article class="news-entry">
 						<h1>Highlights</h1>
@@ -120,33 +121,33 @@
 					</article>
 					<section id="social-feeds">
 						<h1>Follow Us!</h1>
-							<h3>Facebook</h3>
-								<div class="fb-page" data-href="https://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/" data-width="500" data-height="775" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
-							<h3>Instagram</h3>
-								<!-- SnapWidget -->
-								<script src="http://snapwidget.com/js/snapwidget.js"></script>
-								<iframe src="http://snapwidget.com/in/?u=dGhlcGFpbnRlZHNpcmVufGlufDEyNXw0fDR8fHllc3w2fGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=281015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+						<h3>Facebook</h3>
+						<div class="fb-page" data-href="https://www.facebook.com/The-Painted-Siren-Tattoo-Company-228768640541810/" data-width="500" data-height="775" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
+						<h3>Instagram</h3>
+						<!-- SnapWidget -->
+						<script src="http://snapwidget.com/js/snapwidget.js"></script>
+						<iframe src="http://snapwidget.com/in/?u=dGhlcGFpbnRlZHNpcmVufGlufDEyNXw0fDR8fHllc3w2fGZhZGVPdXR8b25TdGFydHx5ZXN8eWVz&ve=281015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
 					</section>
 				</article>
 			</div>
 			<div id="content-R">
 				<section id="PROFILES">
 					<h1>Meet The Owner</h1>
-						<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather.php">
-							<div id="heather"></div>
-							<div class="profileName stroke-black">Heather Tarkman</div> </a>
+					<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather.php">
+						<div id="heather"></div>
+						<div class="profileName stroke-black">Heather Tarkman</div> </a>
 				</section>
 				<aside id="CONTACT">
 					<h1>Latest News</h1>
-						<p><a href="<?php echo BASE_URL; ?>/henna.php"><img class="news-img" src="<?php echo BASE_URL; ?>/pics/news/henna-hands.jpg" title="The Painted Siren Now Offers Henna Art" alt="The Painted Siren Now Offers Henna Art"></a> </p>
-						<p>The Painted Siren is now offering Henna Artwork! Check out <a href="<?php echo BASE_URL; ?>/henna.php">our page</a> to learn more.</p>
+					<p><a href="<?php echo BASE_URL; ?>/henna.php"><img class="news-img" src="<?php echo BASE_URL; ?>/pics/news/henna-hands.jpg" title="The Painted Siren Now Offers Henna Art" alt="The Painted Siren Now Offers Henna Art"></a> </p>
+					<p>The Painted Siren is now offering Henna Artwork! Check out <a href="<?php echo BASE_URL; ?>/henna.php">our page</a> to learn more.</p>
 				</aside>
 				<section id="INFO">
 					<h1>Shop Info</h1>
-						<address>Address:
-							<a href="https://www.google.com/maps/place/1714+Palmetto+Ave,+Pacifica,+CA+94044/@37.635642,-122.492385,19z/data=!4m2!3m1!1s0x808f7b00042c0847:0x1db22b1200c544d8" class="address">1714 Palmetto Ave, Pacifica, CA 94044</a>
-						</address>
-						<p class="phone">Phone: <a href="tel:1-650-219-7343">(650) 219-7343</a> </p>
+					<address>Address:
+						<a href="https://www.google.com/maps/place/1714+Palmetto+Ave,+Pacifica,+CA+94044/@37.635642,-122.492385,19z/data=!4m2!3m1!1s0x808f7b00042c0847:0x1db22b1200c544d8" class="address">1714 Palmetto Ave, Pacifica, CA 94044</a>
+					</address>
+					<p class="phone">Phone: <a href="tel:1-650-219-7343">(650) 219-7343</a> </p>
 					<div id="googleMap"></div>
 					<p>Shop Hours: Tues - Sun, 11am to 8pm<sup>*</sup> <br>
 						(subject to change) <br>
@@ -157,6 +158,7 @@
 					<div id="wufoo-zvy717q19o3gkb">
 						<a href="https://paintedsiren.wufoo.com/forms/zvy717q19o3gkb">Sign our guestbook</a> and leave us a message!
 					</div>
+					<!-- Wufoo Form Plug-In for Guestbook -->
 					<script type="text/javascript">
 						var zvy717q19o3gkb;(function(d, t) {
 						var s = d.createElement(t), options = {
@@ -216,9 +218,10 @@
 				var myLatLng = {lat: 37.635658, lng: -122.492335};
 
 				var map = new google.maps.Map(document.getElementById("googleMap"), {
-					zoom: 9,
+					zoom: 11,
 					center: myLatLng,
-					draggable: true,
+					draggable: false,
+					scrollwheel: false,
 					disableDoubleClickZoom: true,
 					zoomControl: false,
 

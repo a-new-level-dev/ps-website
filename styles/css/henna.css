@@ -32,6 +32,8 @@
 			}
 		#shop-visits p span:nth-child(2) { float: right; }
 		#onsite-visits p span:nth-child(2) { float: right; }
+		#pricing a { text-decoration: none; }
+#PROFILES p { padding-bottom: 2em; }
 #CONTACT { 
 	box-shadow: 0px -20px 3px -20px #595959; 
 	min-height: 15em; 

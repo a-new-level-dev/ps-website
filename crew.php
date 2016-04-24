@@ -123,7 +123,7 @@
 				</section>
 			</section>
 			<section id="content-R">
-				<section id="PROFILES">
+				<section id="PROFILES" class="shop">
 					<h1>The Painted Siren</h1>
 					<div class="bioPic"><img src="<?php echo BASE_URL; ?>/pics/shop/bldg/bldg-front.jpg" title="The Painted Siren" alt="The Painted Siren"></div>
 					<!-- <p>Stuff can go here</p> --> </section>
