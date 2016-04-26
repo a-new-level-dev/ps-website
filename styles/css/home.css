@@ -12,7 +12,9 @@
 /* ---------------------------------------------
 				PAGE: HOME
 --------------------------------------------- */
-#TOPICS { padding: 0 1.2em; }
+#TOPICS { 
+	padding: 0 1.2em; 
+}
 	.news-entry {}
 		.news-img { 
 			border: 1px solid #595959; 
@@ -30,38 +32,14 @@
 		clear: both; 
 		padding-top: 1em; 
 	}
-#PROFILES,
-#CONTACT,
-#INFO,
-#GUESTBOOK { padding: 0.1em 0.6em; }
-#CONTACT { 
-	box-shadow: 0px -20px 3px -20px #595959; 
-	min-height: 15em; 
+#CONTACT p:nth-of-type(2) { 
+	clear: left; 
+	padding: 1em 0; 
 }
-	#CONTACT p:nth-of-type(2) { 
-		clear: left; 
-		padding: 1em 0; 
-	}
-	#CONTACT img { width: 100%; }
-	#TOPICS,
-	#PROFILES,
-	#CONTACT,
-	#INFO { 
-		color: #c5c5c5; 
-		font-size: 1.2em; 
-	}
-#INFO,
-#GUESTBOOK { box-shadow: 0px -20px 3px -20px #595959; }
-	#googleMap { 
-		min-height: 300px; 
-			max-height: 400px; 
-	}
-#GUESTBOOK div { 
-	text-align: center; 
-	padding: 1em; 
+#CONTACT img { 
+	width: 100%; 
 }
-	#GUESTBOOK form label input,
-	#GUESTBOOK form label textarea { 
-		width: 100%; 
-		color: #000; 
-	}
+#INFO #googleMap { 
+	min-height: 300px; 
+	max-height: 400px; 
+}

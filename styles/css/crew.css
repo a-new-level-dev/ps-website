@@ -12,7 +12,9 @@
 /* ---------------------------------------------
 				PAGE: CREW
 --------------------------------------------- */
-#TOPICS { text-align: center; }
+#TOPICS { 
+	text-align: center; 
+}
 	.teamRow { 
 		margin: 0 auto; 
 		padding: 2em 0; 
@@ -20,25 +22,18 @@
 		width: 90%; 
 		font-kerning: none; 
 	}
-		.teamRow:nth-of-type(n+2) { box-shadow: 0px -20px 3px -20px #595959; }
+		.teamRow:nth-of-type(n+2) { 
+			box-shadow: 0px -20px 3px -20px #595959; 
+		}
 		.blurb { 
 			clear: right; 
 			float: right; 
 			text-align: right; 
 			width: 60%; 
 		}
-#PROFILES > p { margin-top: 1.5em; }
-#CONTACT { 
-	box-shadow: 0px -20px 3px -20px #595959; 
-	min-height: 15em; 
+#PROFILES > p { 
+	margin-top: 1.5em; 
 }
-	#CONTACT #Setmore_button_iframe { text-decoration: none; }
-#INFO { box-shadow: 0px -20px 3px -20px #595959; }
-#TOPICS,
-#PROFILES,
-#CONTACT,
-#INFO { 
-	color: #c5c5c5; 
-	font-size: 1.2em; 
-	padding: 0.1em 0.6em; 
+#CONTACT #Setmore_button_iframe { 
+	text-decoration: none; 
 }

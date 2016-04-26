@@ -32,8 +32,12 @@ a {
 		color: #51cf72; 
 		text-decoration: underline; 
 	}
-	a:focus { color: inherit; }
-address { font-style: normal; }
+	a:focus { 
+		color: inherit; 
+	}
+address { 
+	font-style: normal; 
+}
 
 
 
@@ -47,9 +51,7 @@ address { font-style: normal; }
 	width: 64%; 
 	font-size: 1.15em; 
 }
-	/* ---------------------------------------------
-					HEADER
-	--------------------------------------------- */
+	/* ---------- HEADER ---------- */
 	#logo { 
 		clear: none; 
 		height: 12em; 
@@ -63,7 +65,9 @@ address { font-style: normal; }
 			margin-top: -4em; 
 			width: 300%; 
 		}
-		#logo:hover { border-color: #ff3399; }
+		#logo:hover { 
+			border-color: #ff3399; 
+		}
 	#marquee { 
 		height: 5.1em; 
 		padding: 1em; 
@@ -91,9 +95,7 @@ address { font-style: normal; }
 			height: 100%; 
 			width: 100%; 
 		}
-		/* ---------------------------------------------
-						TOP NAVIGATION AREA
-		--------------------------------------------- */
+		/* ---------- TOP NAVIGATION AREA ---------- */
 		#topNav-wrapper { margin-bottom: 2em; }
 		#topNav { 
 			display: flex; 
@@ -155,9 +157,7 @@ address { font-style: normal; }
 					font-size: 75%; 
 				}
 				#topNav .dropdown-menu > li > a:hover { background-color: #595959; }
-			/* ---------------------------------------------
-							topNav Individual Links
-			--------------------------------------------- */
+			/* ---------- topNav Individual Links ---------- */
 			/*#topNav-portfolios {}*/ /*just in case*/
 			/*#topNav-flash {}*/ /*just in case*/
 			/*#topNav-henna {}*/ /*just in case*/
@@ -189,7 +189,9 @@ address { font-style: normal; }
 			box-shadow: 20px 0px 2px -20px #595959; 
 			padding-bottom: 2em; 
 		}
-			#about > p { text-align: justify; }
+			#about > p { 
+				text-align: justify; 
+			}
 			#gallery li { 
 				list-style: none; 
 				position: relative; 
@@ -210,6 +212,9 @@ address { font-style: normal; }
 				max-width: 35%; 
 			box-shadow: -20px 0px 1px -20px #595959; 
 		}
+			#CONTACT { 
+				min-height: 15em; 
+			}
 		#content h1 { 
 			color: #c5c5c5; 
 			font-family: "script", sans serif; 
@@ -217,6 +222,21 @@ address { font-style: normal; }
 			text-align: center; 
 			text-transform: capitalize; 
 			width: 100%; 
+		}
+		/* ---------- Group Styling for the Major Content Sections ---------- */
+		#TOPICS,
+		#PROFILES,
+		#CONTACT,
+		#INFO,
+		#GUESTBOOK { 
+			color: #c5c5c5; 
+			font-size: 1.2em; 
+			padding: 0.1em 0.6em; 
+		}
+		#CONTACT,
+		#INFO,
+		#GUESTBOOK { 
+			box-shadow: 0px -20px 3px -20px #595959; 
 		}
 	/* ---------------------------------------------
 					FOOTER
@@ -234,9 +254,7 @@ address { font-style: normal; }
 			list-style: none; 
 			padding: 0.5em; 
 		}
-		/* ---------------------------------------------
-						btmNav Individual Links
-		--------------------------------------------- */
+		/* ---------- btmNav Individual Links ---------- */
 		/*#btmNav-home {}*/ /* just in case */
 		/*#btmNav-about {}*/ /* just in case */
 		/*#btmNav-booking {}*/ /* just in case */
@@ -282,7 +300,9 @@ address { font-style: normal; }
 		margin-bottom: 0.1em; 
 		padding-bottom: 3px; 
 	}
-		.social-badge:hover { border-color: #fff; }
+		.social-badge:hover { 
+			border-color: #fff; 
+		}
 #sidebar #Setmore_button_iframe img { 
 	transform: scale(0.5) translateX(38px); 
 		-webkit-transform: scale(0.5) translateX(38px); 
@@ -311,7 +331,9 @@ address { font-style: normal; }
 		width: 100%; 
 	}
 /* Styling for Elements that will act as a pseudo button with a CTA */
-.btn { color: #000; }
+.btn { 
+	color: #000; 
+}
 .btn-cta { 
 	display: flex; 
 	margin: 2em auto; 
@@ -324,7 +346,9 @@ address { font-style: normal; }
 	font-family: "Dancing Script", serif; 
 	font-size: 1.5em; 
 }
-	.btn-cta > span { margin: auto; }
+	.btn-cta > span { 
+		margin: auto; 
+	}
 	.btn-cta:hover { 
 		background-color: #67ccea; 
 		border-color: #fffe9c; 
@@ -345,7 +369,9 @@ address { font-style: normal; }
 	text-decoration: none; 
 	color: #c5c5c5; 
 }
-.ctrText { text-align: center; }
+.ctrText { 
+	text-align: center; 
+}
 .ctrVert { 
 	height: 100%; 
 	display: flex; 
@@ -403,12 +429,3 @@ address { font-style: normal; }
 		1px 1px 0 #fff; 
 }
 .time {}
-
-
-
-
-
-
-
-
-

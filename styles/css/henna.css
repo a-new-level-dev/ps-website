@@ -12,7 +12,9 @@
 /* ---------------------------------------------
 				PAGE: HENNA
 --------------------------------------------- */
-#TOPICS { padding: 0 1.2em; }
+#TOPICS { 
+	padding: 0 1.2em; 
+}
 	#pricing { 
 		clear: left; 
 		padding-top: 0.1em; 
@@ -22,27 +24,31 @@
 			clear: both; 
 			text-decoration: underline; 
 		}
-			#pricing h2 { text-align: center; }
-		#pricing p { clear: both; }
-		#pricing p.price { text-align: right; }
-			#pricing .introductory { color: #ff61b3; }
+			#pricing h2 { 
+				text-align: center; 
+			}
+		#pricing p { 
+			clear: both; 
+		}
+		#pricing p.price { 
+			text-align: right; 
+		}
+			#pricing .introductory { 
+				color: #ff61b3; 
+			}
 			#pricing p.introductory { 
 				font-size: 1.1em; 
 				letter-spacing: 0.1em; 
 			}
-		#shop-visits p span:nth-child(2) { float: right; }
-		#onsite-visits p span:nth-child(2) { float: right; }
-		#pricing a { text-decoration: none; }
-#PROFILES p { padding-bottom: 2em; }
-#CONTACT { 
-	box-shadow: 0px -20px 3px -20px #595959; 
-	min-height: 15em; 
+		#shop-visits p span:nth-child(2) { 
+			float: right; 
+		}
+		#onsite-visits p span:nth-child(2) { 
+			float: right; 
+		}
+		#pricing a { 
+			text-decoration: none; 
+		}
+#PROFILES p { 
+	padding-bottom: 2em; 
 }
-	#TOPICS,
-	#PROFILES,
-	#CONTACT { 
-		color: #c5c5c5; 
-		font-size: 1.2em; 
-	}
-#PROFILES,
-#CONTACT { padding: 0.1em 0.6em; }

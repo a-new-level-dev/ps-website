@@ -134,8 +134,10 @@
 				<section id="PROFILES">
 					<h1>Meet The Owner</h1>
 					<a class="clrLink" href="<?php echo BASE_URL; ?>/crew/heather.php">
-						<div id="heather"></div>
-						<div class="profileName stroke-black">Heather Tarkman</div> </a>
+						<div class="profile-container">
+							<div id="heather"></div>
+							<div class="profileName stroke-black">Heather Tarkman</div>
+						</div> </a>
 				</section>
 				<aside id="CONTACT">
 					<h1>Latest News</h1>

@@ -26,9 +26,15 @@
 		height: 800px;
 		width: 100%;
 	}
-	.disclaimer { text-transform: uppercase; }
-	.justify { text-align: justify; }
-	.release { list-style-image: url(../img/icons/icon-ps-list.png); }
+	.disclaimer { 
+		text-transform: uppercase; 
+	}
+	.justify { 
+		text-align: justify; 
+	}
+	.release { 
+		list-style-image: url(../img/icons/icon-ps-list.png); 
+	}
 	.announcement { 
 		background-color: rgba(255,255,255,0.075); 
 		border-radius: 2em; 
@@ -37,5 +43,7 @@
 		text-align: center; 
 		text-transform: uppercase; 
 	}
-/* Setmore Sidebar Tab */
-#sidebar #Setmore_button_iframe img { display: none; }
+/* Hiding the Setmore Sidebar Tab */
+#sidebar #Setmore_button_iframe img { 
+	display: none; 
+}
