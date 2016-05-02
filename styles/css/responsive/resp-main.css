@@ -12,8 +12,12 @@
 
 /* ---------- Breakpoint for 1366x768 resolution screens ---------- */
 @media screen and ( max-width: 1366px ) {
-	#container { width: 90%; }
-	#logo { margin-left: 0; }
+	#container { 
+		width: 90%; 
+	}
+	#logo { 
+		margin-left: 0; 
+	}
 	#social-badges {
 		position: fixed; 
 		top: -2.5%; 
@@ -26,17 +30,34 @@
 }
 
 /* ---------- Breakpoint for 1280x1024 resolution screens ---------- */
-@media screen and ( max-width: 1280px ) {}
+@media screen and ( max-width: 1280px ) {
+	#topNav { 
+		font-size: 1.4em; 
+	}
+	#stickerTop { 
+		margin-top: -9.05em; 
+	}
+	#stickerBtm { 
+		margin-top: -14.55em; 
+	}
+	#legal { 
+		font-size: 1em; 
+	}
+}
 
 /* ---------- Breakpoint for 1024x768 resolution screens ---------- */
 @media screen and ( max-width: 1024px ) { 
-	#container { width: 100%; }
+	#container { 
+		width: 100%; 
+	}
 	#logo img { 
 		margin-left: -7em; 
 		margin-top: 0; 
 		width: 250%; 
 	}
-	#marquee p { font-size: 1.85em; }
+	#marquee p { 
+		font-size: 1.85em; 
+	}
 	#social-badges { 
 		position: relative; 
 		margin-right: 0; 
@@ -51,10 +72,18 @@
 			width: 3.75em; 
 			height: 3.75em; 
 		}
-			#sb-face { right: 300%; }
-			#sb-inst { right: 200%; }
-			#sb-yelp { right: 100%; }
-			#sb-twit { right: 0; }
+			#sb-face { 
+				right: 300%; 
+			}
+			#sb-inst { 
+				right: 200%; 
+			}
+			#sb-yelp { 
+				right: 100%; 
+			}
+			#sb-twit { 
+				right: 0; 
+			}
 	#topNav { 
 		font-size: 1.25em; 
 		transform: scale(1,1.25); 
@@ -64,8 +93,12 @@
 			-o-transform: scale(1,1.25); 
 		letter-spacing: 0.05em; 
 	}
-	#stickerTop { margin-top: -8.15em; }
-	#stickerBtm { margin-top: -12.8em; }
+	#stickerTop { 
+		margin-top: -8.15em; 
+	}
+	#stickerBtm { 
+		margin-top: -12.8em; 
+	}
 	#content-L { 
 		clear: right; 
 		width: 100%; 
@@ -76,12 +109,18 @@
 		width: 100%; 
 			max-width: 100%; 
 	}
-	#content h1 { font-size: 2.75em; }
-	#Setmore_button_iframe img { display: none; }
+	#content h1 { 
+		font-size: 2.75em; 
+	}
+	#Setmore_button_iframe img { 
+		display: none; 
+	}
 	address,
 	.phone,
 	#INFO p,
-	#btmNav { font-size: 1.5em; }
+	#btmNav { 
+		font-size: 1.5em; 
+	}
 	#legal { 
 		font-size: 1em; 
 		padding-bottom: 0.5em; 
@@ -99,7 +138,9 @@
 		width: 10.25em; 
 		font-size: 2em; 
 	}
-	#legal { font-size: 1.5em; }
+	#legal { 
+		font-size: 1.5em; 
+	}
 }
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */

@@ -164,7 +164,8 @@
 				padding-left: 0.6em; 
 			}
 			/* Changing the Arrows */
-			.arrow-left, .arrow-right { 
+			.arrow-left,
+			.arrow-right { 
 				display: inline-block; 
 				vertical-align: middle; 
 				height: 100%; 
@@ -188,4 +189,7 @@
 }
 	#PROFILES p { 
 		text-align: left; 
+	}
+	#PROFILES a {
+		text-decoration: none;
 	}

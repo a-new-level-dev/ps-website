@@ -153,7 +153,8 @@
 					<div id="googleMap"></div>
 					<p>Shop Hours: Tues - Sun, 11am to 8pm<sup>*</sup> <br>
 						(subject to change) <br>
-						<span class="note">* Hours can also be accommodated to fit client's schedule</span> </p>
+						<span class="note">* Hours can also be accommodated to fit client's schedule</span>
+					</p>
 				</section>
 				<section id="GUESTBOOK">
 					<h1>Guestbook</h1>

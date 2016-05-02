@@ -2,13 +2,16 @@
 	"folders":
 	[
 		{
-			"path": "U:sers\\fr3ak\\Cloud\\Dropbox\\Clients-Prospects\\Web Design\\painted-siren\\jewelry"
-		},
-		{
-			"path": "U:sers\\fr3ak\\Documents\\Repositories\\WebDesign\\painted-siren\\jewelry"
-		},
-		{
+			// PATH FOR JUGG-WD
 			"path": "C:\\Users\\fr3ak\\Documents\\GitHub\\WebDesign\\painted-siren\\jewelry"
-		}
+		},
+		{
+			// PATH FOR HULK-MD
+			"path": "/Users/fr3ak/Documents/Repositories/WebDesign/painted-siren/jewelry"
+		},
+		{
+			// PATH FOR GALV-MD
+			"path": "/Users/Gambit/Documents/Repositories/WebDesign/painted-siren/jewelry"
+		},
 	]
 }

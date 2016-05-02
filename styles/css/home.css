@@ -36,10 +36,13 @@
 	clear: left; 
 	padding: 1em 0; 
 }
-#CONTACT img { 
-	width: 100%; 
-}
+	#CONTACT img { 
+		width: 100%; 
+	}
 #INFO #googleMap { 
 	min-height: 300px; 
 	max-height: 400px; 
 }
+	#INFO p:nth-of-type(2) { 
+		padding: 1em 0 0.25em; 
+	}

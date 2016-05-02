@@ -17,7 +17,20 @@
 @media screen and ( max-width: 1366px ) {}
 
 /* ---------- Breakpoint for 1280x1024 resolution screens ---------- */
-@media screen and ( max-width: 1280px ) {}
+@media screen and ( max-width: 1280px ) {
+	#jewelry-list > .dropdown-menu { 
+		left: -4%; 
+	}
+	.jewelry-prev span.arrow-left::before,
+	.jewelry-next span.arrow-right::after { 
+		vertical-align: 5%; 
+	}
+	.arrow-left,
+	.arrow-right { 
+		font-size: 1.7em; 
+		padding: 0 0.1em; 
+	}
+}
 
 /* ---------- Breakpoint for 1024x768 resolution screens ---------- */
 @media screen and ( max-width: 1024px ) {
@@ -28,7 +41,21 @@
 			-ms-transform: scale(0.8); 
 			-o-transform: scale(0.8); 
 	}
-	#PROFILES p { margin-left: 14em; }
+		#jewelry-list > .dropdown-menu { 
+			left: 7%; 
+		}
+		.jewelry-prev span.arrow-left::before,
+		.jewelry-next span.arrow-right::after { 
+			vertical-align: 0; 
+		}
+		.arrow-left,
+		.arrow-right { 
+			font-size: 1.7em; 
+			padding: 0 0.1em; 
+		}
+	#PROFILES p { 
+		margin-left: 14em; 
+	}
 }
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */
