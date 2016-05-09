@@ -2,16 +2,13 @@
 	"folders":
 	[
 		{
-			// PATH FOR JUGG-WD
 			"path": "C:\\Users\\fr3ak\\Documents\\GitHub\\WebDesign\\painted-siren\\styles"
 		},
 		{
-			// PATH FOR HULK-MD
-			"path": "/Users/fr3ak/Documents/Repositories/WebDesign/painted-siren/styles"
+			"path": "/Users/fr3ak/Documents/Repositories/WebDev/painted-siren/styles"
 		},
 		{
-			// PATH FOR GALV-MD
 			"path": "/Users/Gambit/Documents/Repositories/WebDev/painted-siren/styles"
-		},
+		}
 	]
 }
