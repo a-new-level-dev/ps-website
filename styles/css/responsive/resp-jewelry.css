@@ -59,4 +59,14 @@
 }
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */
-@media screen and ( max-width: 800px ) {}
+@media screen and ( max-width: 800px ) {
+	#gallery { 
+		width: 100%; 
+	}
+		#gallery ul { 
+			padding: 0; 
+		}
+		#gallery ul li > img { 
+			height: 8em; 
+		}
+}

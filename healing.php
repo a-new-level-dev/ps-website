@@ -87,7 +87,31 @@
 						 	<li role="separator" class="divider"></li>
 						 	<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li> </ul> </div>
 					<div id="topNav-jewelry"><a href="<?php echo BASE_URL; ?>/jewelry.php" class="ctrVert">Jewelry</a> </div>
-					<div id="topNav-healing" class="SELECTED"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div> </nav>
+					<div id="topNav-healing" class="SELECTED"><a href="<?php echo BASE_URL; ?>/healing.php" class="ctrVert">Healing</a> </div>
+				</nav>
+				<!-- This is the Nav Bar for Mobile devices and screens smaller than 800px wide -->
+				<nav id="topNav-mobile">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Menu <span class="caret"></span> </button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="<?php echo BASE_URL; ?>/">Home</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/crew/heather.php">Portfolio</a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/crew.php">The Crew</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/flash.php" class="ctrVert">Flash</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/booking.php">Booking</a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/booking.php#release">Release Info</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/henna.php">Henna</a> </li>
+							<li><a href="<?php echo BASE_URL; ?>/henna.php#pricing">Pricing &amp; Events</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/jewelry.php">Jewelry</a> </li>
+							<li role="separator" class="divider"></li>
+							<li><a href="<?php echo BASE_URL; ?>/healing.php">Healing</a> </li> </ul> </div>
+				</nav>
+				<!-- This is the sticker/badge in the center of the Top Nav Bar -->
 				<div id="stickerTop">
 					<a href="<?php echo BASE_URL; ?>/"><img src="<?php echo BASE_URL; ?>/pics/backgrounds/sticker/sticker-top.png" title="The Painted Siren Tattoo Company" alt="The Painted Siren Tattoo Company"> </a> </div>
 				<div id="stickerBtm">

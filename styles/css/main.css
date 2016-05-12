@@ -97,83 +97,106 @@ address {
 		}
 		/* ---------- TOP NAVIGATION AREA ---------- */
 		#topNav-wrapper { margin-bottom: 2em; }
-		#topNav { 
-			display: flex; 
-				display: -webkit-flex; 
-			font-family: "script", serif; 
-			font-size: 1.55em; 
-			position: relative; 
-			z-index: 3; 
-		}
-			.topNavLink a { 
-				color: inherit; 
-				text-decoration: none; 
-				text-transform: uppercase; 
+			#topNav,
+			#topNav-mobile { 
+				display: flex; 
+					display: -webkit-flex; 
+				font-family: "script", serif; 
+				font-size: 1.55em; 
+				position: relative; 
+				z-index: 3; 
 			}
-			#topNav div { 
-				background-color: #e40074; 
-				display: inline-block; 
-				height: 3em; 
-				list-style: none; 
-				text-align: center; 
-				width: 14.2857%; 
-			}
-				#topNav div,
-				#topNav div section { 
-					border-bottom: 0.1em solid #ccc; 
-					border-top: 0.1em solid #ccc; 
-				}
-				#topNav div a { 
-					color: #000; 
-					font-weight: bold; 
+				.topNavLink a { 
+					color: inherit; 
 					text-decoration: none; 
+					text-transform: uppercase; 
 				}
-				#topNav div.SELECTED .btn,
-				#topNav div.SELECTED > a { 
-					border-radius: 0; 
-					background-color: #595959; 
-					color: #e40074; 
-					font-weight: bold; 
-				}
-				#topNav div:hover { 
-					background-color: #595959; 
-					font-weight: bold; 
-				}
-				#topNav div a:hover,
-				#topNav .btn:hover { color: #e40074; }
-				#topNav .btn,
-				#topNav .dropdown-menu { 
-					border: 0; 
-					background-color: rgba(0,0,0,0); 
-					font-size: 1em; 
-					font-weight: bold; 
-				}
-				#topNav .btn { 
-					width: 100%; 
-					height: 100%; 
-				}
-				#topNav .dropdown-menu { 
+				#topNav div,
+				#topNav-mobile div { 
 					background-color: #e40074; 
-					font-size: 75%; 
+					display: inline-block; 
+					height: 3em; 
+					list-style: none; 
+					text-align: center; 
+					width: 14.2857%; 
 				}
-				#topNav .dropdown-menu > li > a:hover { background-color: #595959; }
-			/* ---------- topNav Individual Links ---------- */
-			/*#topNav-portfolios {}*/ /*just in case*/
-			/*#topNav-flash {}*/ /*just in case*/
-			/*#topNav-henna {}*/ /*just in case*/
-			#ghost { 
-				border-bottom: 0.1em solid #ccc; 
-				border-top: 0.1em solid #ccc;  
-				flex: initial; 
-					-webkit-flex: initial; 
-					-moz-flex: initial; 
-					-ms-flex: initial; 
-					-o-flex: initial; 
-				min-width: 15.5%; 
+					#topNav div,
+					#topNav div section,
+					#topNav-mobile div,
+					#topNav-mobile section { 
+						border-bottom: 0.1em solid #ccc; 
+						border-top: 0.1em solid #ccc; 
+					}
+					#topNav div a,
+					#topNav-mobile div a { 
+						color: #000; 
+						font-weight: bold; 
+						text-decoration: none; 
+					}
+					#topNav div.SELECTED .btn,
+					#topNav div.SELECTED > a,
+					#topNav-mobile div.SELECTED .btn,
+					#topNav-mobile div.SELECTED > a { 
+						border-radius: 0; 
+						background-color: #595959; 
+						color: #e40074; 
+						font-weight: bold; 
+					}
+					#topNav div:hover,
+					#topNav-mobile div:hover { 
+						background-color: #595959; 
+						font-weight: bold; 
+					}
+					#topNav div a:hover,
+					#topNav .btn:hover,
+					#topNav-mobile div a:hover,
+					#topNav-mobile .btn:hover { 
+						color: #e40074; 
+					}
+					#topNav .btn,
+					#topNav .dropdown-menu,
+					#topNav-mobile .btn,
+					#topNav-mobile .dropdown-menu { 
+						border: 0; 
+						background-color: rgba(0,0,0,0); 
+						font-size: 1em; 
+						font-weight: bold; 
+					}
+					#topNav .btn,
+					#topNav-mobile .btn { 
+						width: 100%; 
+						height: 100%; 
+					}
+					#topNav .dropdown-menu,
+					#topNav-mobile .dropdown-menu { 
+						background-color: #e40074; 
+						font-size: 75%; 
+					}
+					#topNav .dropdown-menu > li > a:hover,
+					#topNav-mobile .dropdown-menu > li > a:hover { 
+						background-color: #595959; 
+					}
+				/* ---------- topNav Individual Links ---------- */
+				/*#topNav-portfolios {}*/ /*just in case*/
+				/*#topNav-flash {}*/ /*just in case*/
+				/*#topNav-henna {}*/ /*just in case*/
+				#ghost { 
+					border-bottom: 0.1em solid #ccc; 
+					border-top: 0.1em solid #ccc;  
+					flex: initial; 
+						-webkit-flex: initial; 
+						-moz-flex: initial; 
+						-ms-flex: initial; 
+						-o-flex: initial; 
+					min-width: 15.5%; 
+				}
+				/*#topNav-booking {}*/ /*just in case*/
+				/*#topNav-jewelry {}*/ /*just in case*/
+				/*#topNav-healing {}*/ /*just in case*/
+			/* Hiding the mobile version of the Top Nav Bar until it's called for by the appropriate screens/devices */
+			#topNav-mobile {
+				display: none; 
 			}
-			/*#topNav-booking {}*/ /*just in case*/
-			/*#topNav-jewelry {}*/ /*just in case*/
-			/*#topNav-healing {}*/ /*just in case*/
 	/* ---------------------------------------------
 					MAIN CONTENT
 	--------------------------------------------- */
@@ -217,7 +240,7 @@ address {
 			}
 		#content h1 { 
 			color: #c5c5c5; 
-			font-family: "script", sans serif; 
+			font-family: "script", sans-serif; 
 			font-size: 1.8em; 
 			text-align: center; 
 			text-transform: capitalize; 
