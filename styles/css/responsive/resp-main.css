@@ -145,8 +145,53 @@
 
 /* ---------- Breakpoint for 800x600 resolution screens ---------- */
 @media screen and ( max-width: 800px ) {
-	#marquee p { 
-		text-align: center; 
-		font-size: 1.45em; 
+	#logo img { 
+		margin-left: -7em; 
+		margin-top: 5em; 
+		width: 200%; 
 	}
+	#marquee { 
+		z-index: 4; 
+	}
+		#marquee p { 
+			text-align: left; 
+			font-size: 1.225em; 
+		}
+	#social-badges > a { 
+		float: left; 
+		margin-top: -8.75em; 
+		margin-right: 1em; 
+	}
+		.social-badge { 
+			width: 3.2em; 
+			height: 3.2em; 
+		}
+	#banner {
+		margin-top: -4em; 
+	}
+	#stickerTop { 
+		position: absolute; 
+		top: 17.25%; 
+		right: -7.75%; 
+		width: 30%; 
+	}
+	#stickerBtm { 
+		position: absolute; 
+		top: 28.75%; 
+		right: -10.3%; 
+		width: 35%; 
+	}
+	#topNav { 
+		display: none; 
+	}
+	#topNav-mobile { 
+		display: block; 
+	}
+		#topNav-mobile div {
+			width: 100%; 
+		}
+		#topNav-mobile .dropdown-menu { 
+			width: 100%; 
+			text-align: center; 
+		}
 }
