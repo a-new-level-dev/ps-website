@@ -13,7 +13,7 @@
 	<meta name="author" content="Gabriel F. Lujan @ A New Level Media">
 	<meta name="description" content="">
 	<meta name="keywords" content="painted, siren, tattoo, shop, artist, art, graffiti, ink">
-	
+
 	<title>The Painted Siren</title>
 
 	<!-- WEBSITE FAVICON CODE -->
@@ -283,12 +283,3 @@
 
 
 </HTML>
-
-
-
-
-
-
-
-
-
