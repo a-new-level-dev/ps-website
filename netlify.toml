@@ -1,0 +1,6 @@
+[[redirects]]
+# update these to have proper paths once I set up the sub-domain on GFL.com
+from = ""
+to = ""
+status = 301
+force = true
