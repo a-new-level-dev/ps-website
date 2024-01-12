@@ -1,6 +1,10 @@
+[build]
+base = "/"
+command = "echo 'no command needed'"
+
 [[redirects]]
-# update these to have proper paths once I set up the sub-domain on GFL.com
-from = ""
-to = ""
+from = "https://anl-ps.netlify.app/*"
+to = "https://psw.gflujan.com/:splat"
 status = 301
 force = true
+
